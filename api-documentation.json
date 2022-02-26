@@ -1,11 +1,20 @@
 {
   "/old/": {
-    "/posts": {
-      "/all": "Get all posts in one request"
+    "/posts/": {
+      "/": "Get all posts in one request",
+      "/[id]": "Get by [id]"
+    },
+    "/categories/": {
+      "/": "Get all posts in one request",
+      "/[id]": {
+        "/": "Get by [id]",
+        "/posts": "Get all posts with given category id"
+      }
     }
   },
   "/new/": {
-    "/posts": {
+    "/posts/": {
+      "/": "Get all posts",
       "/[id]": "Get by [id]"
     }
   },

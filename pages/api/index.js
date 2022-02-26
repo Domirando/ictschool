@@ -1,13 +1,8 @@
 import DOC from "../../api-documentation.json";
+import apiHandler from "../../util/api-handler";
 
 const posts = async (req, res) => {
-  res.setHeader(`Cache-Control`, [
-    `maxage=86400`,
-    `s-maxage=86400`,
-    `state-if-error=1`,
-  ]);
-  res.status(200);
-  res.json(DOC);
+  await apiHandler(req, res, DOC);
 };
 
 export default posts;
