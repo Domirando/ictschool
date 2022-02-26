@@ -1,8 +1,6 @@
-<p align="center"><h1>ICTSchool Project</h1></p>
+<p align="center"><h1 align="center">ICTSchool Project</h1></p>
 
-<hr>
-
-The website was created using Next.js, Tailwind and Vercel API binds.
+**The website was created using Next.js, Tailwind and Vercel API binds.**
 
 ## Development
 
