@@ -2,6 +2,11 @@
 
 **The website was created using Next.js, Tailwind and Vercel API binds.**
 
+## Roadmap
+
+Keep track of our progress
+[over there](https://github.com/Domirando/ictschool/blob/main/TODO).
+
 ## Development
 
 First, install all required packages to proceed with development (we prefer
