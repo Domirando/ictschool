@@ -1,0 +1,8 @@
+[x] initialize project with all required assets
+[x] create old binds for server over wp-json
+[x] create an api documentation for binds
+[ ] create new binds for server over supabase [HIGH]
+[ ] re-create the ui of existing solution [HIGH]
+[ ] optimize tailwind to use jit on local and compress on prod [HIGH]
+[ ] adopt and  merge all binds into single bind [LOW]
+[ ] apply preact patch in case slow speed usage [LOW]
