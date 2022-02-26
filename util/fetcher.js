@@ -1,7 +1,8 @@
 /**
  * Fetcher script that should be combined with
  * the SWR Vercel library like in the example provided below.
- * @example  const { data, error } = useSWR('/api/user', fetcher)
+ * @example const { data, error } = useSWR('/api/user', fetcher)
+ * @example https://swr.vercel.app/examples/basic
  * @param url
  * @return {Promise<any>}
  */
