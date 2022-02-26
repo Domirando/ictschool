@@ -1,13 +1,14 @@
 {
   "name": "ictschool",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "fmt": "prettier --check --write ."
+    "fmt": "prettier --check --write .",
+    "check": "pnpm lint && pnpm fmt"
   },
   "dependencies": {
     "@supabase/supabase-js": "^1.30.6",
