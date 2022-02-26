@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export default function Home() {
+export default function About() {
   return (
     <div>
       <Head>
@@ -11,7 +11,7 @@ export default function Home() {
 
       <main>
         <h1 className="text-3xl font-bold underline">Hello world!</h1>
-        <Link href="/about">To About page</Link>
+        <Link href="/">To Home page</Link>
       </main>
     </div>
   );
