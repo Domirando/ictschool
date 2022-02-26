@@ -1,13 +1,13 @@
-import DOC from "../../api-documentation.json";
-
-const posts = async (req, res) => {
+const newPosts = async (req, res) => {
   res.setHeader(`Cache-Control`, [
     `maxage=86400`,
     `s-maxage=86400`,
     `state-if-error=1`,
   ]);
   res.status(200);
-  res.json(DOC);
+  res.json({
+    hello: "world",
+  });
 };
 
-export default posts;
+export default newPosts;

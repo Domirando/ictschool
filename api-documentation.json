@@ -1,0 +1,13 @@
+{
+  "/old/": {
+    "/posts": {
+      "/all": "Get all posts in one request"
+    }
+  },
+  "/new/": {
+    "/posts": {
+      "/[id]": "Get by [id]"
+    }
+  },
+  "/": "This documentation of Web APIs"
+}

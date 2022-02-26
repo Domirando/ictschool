@@ -1,4 +1,4 @@
-const posts = async (req, res) => {
+const oldPosts = async (req, res) => {
   res.setHeader(`Cache-Control`, [
     `maxage=86400`,
     `s-maxage=86400`,
@@ -10,4 +10,4 @@ const posts = async (req, res) => {
   });
 };
 
-export default posts;
+export default oldPosts;
