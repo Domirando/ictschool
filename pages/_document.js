@@ -44,7 +44,7 @@ export default function Document() {
         <meta name="msapplication-TileColor" content="#FFFFFF" />
         <meta
           name="msapplication-TileImage"
-          content="/favicon/favicon-144.png"
+          content="/favicon/favicon-144-precomposed.png"
         />
         <meta name="theme-color" content="#ffffff" />
         <link rel="manifest" href={"/favicon/manifest.json"} />
