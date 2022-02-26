@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "fmt": "prettier --check --write .",
-    "check": "pnpm lint && pnpm fmt"
+    "fmt:check": "prettier --check .",
+    "fix": "pnpm lint && pnpm fmt",
+    "check": "pnpm lint && pnpm fmt:check"
   },
   "dependencies": {
     "@supabase/supabase-js": "^1.30.6",
