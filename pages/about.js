@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <Page>
+    <Page title="this is about page">
       <article>
         <h1>Hello World</h1>
 

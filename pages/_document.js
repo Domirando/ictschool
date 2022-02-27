@@ -49,6 +49,7 @@ export default function Document() {
         <meta name="theme-color" content="#ffffff" />
         <link rel="manifest" href={"/favicon/manifest.json"} />
         <link rel="icon" sizes="192x192" href={"/favicon/favicon-192.png"} />
+        <link rel="icon" sizes="192x192" href={"/favicon/favicon-192.png"} />
       </Head>
       <body>
         <Main />

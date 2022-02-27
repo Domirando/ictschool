@@ -7,6 +7,7 @@ specifiers:
   eslint: 8.10.0
   eslint-config-next: 12.1.0
   next: 12.1.0
+  nprogress: ^0.2.0
   postcss: ^8.4.7
   prettier: ^2.5.1
   react: 17.0.2
@@ -19,6 +20,7 @@ dependencies:
   '@supabase/supabase-js': 1.30.6
   '@tanem/react-nprogress': 4.0.8_react-dom@17.0.2+react@17.0.2
   next: 12.1.0_react-dom@17.0.2+react@17.0.2
+  nprogress: 0.2.0
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   swr: 1.2.2_react@17.0.2
@@ -1656,6 +1658,10 @@ packages:
     resolution: {integrity: sha1-LRDAa9/TEuqXd2laTShDlFa3WUI=}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /nprogress/0.2.0:
+    resolution: {integrity: sha1-y480xTIT2JVyP8urkH6UIq28r7E=}
+    dev: false
 
   /object-assign/4.1.1:
     resolution: {integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=}
