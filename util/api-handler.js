@@ -9,7 +9,7 @@
  */
 
 const apiHandler = async (req, res, data) => {
-  await res.setHeader     (`Cache-Control`, [
+  await res.setHeader(`Cache-Control`, [
     `maxage=86400`,
     `s-maxage=86400`,
     `state-if-error=1`,

@@ -32,7 +32,6 @@ const ICT = ({ Component, pageProps }) => {
       }));
     };
 
-    console.log("router events: ", router.events)
     router.events.on("routeChangeStart", handleRouteChangeStart);
     router.events.on("routeChangeComplete", handleRouteChangeEnd);
     router.events.on("routeChangeError", handleRouteChangeEnd);
