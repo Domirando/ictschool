@@ -1,4 +1,4 @@
-import Page from "../components/Page";
+import Page from "../components/page/index";
 import Button from "../components/Button";
 import Link from "next/link";
 const oldPosts = require('./api/old/posts/')

@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@fortawesome/fontawesome-free': ^6.0.0
   '@supabase/supabase-js': ^1.30.6
   '@tanem/react-nprogress': ^4.0.8
   autoprefixer: ^10.4.2
@@ -17,6 +18,7 @@ specifiers:
   typescript: ^4.5.5
 
 dependencies:
+  '@fortawesome/fontawesome-free': 6.0.0
   '@supabase/supabase-js': 1.30.6
   '@tanem/react-nprogress': 4.0.8_react-dom@17.0.2+react@17.0.2
   next: 12.1.0_react-dom@17.0.2+react@17.0.2
@@ -87,6 +89,12 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@fortawesome/fontawesome-free/6.0.0:
+    resolution: {integrity: sha512-6LB4PYBST1Rx40klypw1SmSDArjFOcfBf2LeX9Zg5EKJT2eXiyiJq+CyBYKeXyK0sXS2FsCJWSPr/luyhuvh0Q==}
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dev: false
 
   /@humanwhocodes/config-array/0.9.5:
     resolution: {integrity: sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw==}

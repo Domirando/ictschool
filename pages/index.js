@@ -1,4 +1,4 @@
-import Page from "../components/Page";
+import Page from "../components/page/index";
 import Link from "next/link";
 
 const Index = () => {
