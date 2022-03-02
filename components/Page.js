@@ -1,4 +1,6 @@
 import Head from "./Head";
+import Footer from './Footer'
+import Header from './Header'
 
 const Page = ({
   header = true,
@@ -12,13 +14,11 @@ const Page = ({
     <div className="">
       <Head title={title} description={description} image={image} />
 
-      {/* Header  */}
-      {/* {header && <Header />} */}
+      <Header />
 
       <main className="">{children}</main>
 
-      {/* Footer  */}
-      {/* {footer && <Footer />} */}
+      <Footer/>
     </div>
   );
 };
