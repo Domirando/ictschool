@@ -3,9 +3,11 @@ import FooterColumn from './FooterColumn'
 import footerState from '../../util/state'
 
 const Footer = () => {
-    let footerItems = footerState.footerColumnData.map((items, index) =>
-        <FooterColumn heading={items.title}/>
+    let footerItems = footerState.footerColumnData.map((item, index) =>
+        <FooterColumn item={item}/>
     )
+    let lang = ["O'zbek", "Rus"]
+    let listLang = lang.map((item, index) => <li type="disc" key={index}>{item}</li>)
     return (
         <footer>
             <div className={styles.container}>
@@ -22,10 +24,9 @@ const Footer = () => {
                                 <p className={styles.textWhite}>info@ictschool.uz</p>
                             </div>
                         </div>
-                        <hr className={styles.straight}/>
+                        <hr className={styles.straight+" "+styles.straightM}/>
                         <ul>
-                            <li type="disc">O'zbek</li>
-                            <li type="disc">Русский</li>
+                            {listLang}
                         </ul>
                     </div>
                     {footerItems}

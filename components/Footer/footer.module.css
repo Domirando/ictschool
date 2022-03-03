@@ -27,6 +27,12 @@
    @apply text-white
 }
 .straight{
-   @apply border-[#5c64c4] mt-[-45px]
+   @apply border-[#5c64c4]
+}
+.straightM{
+   @apply mt-[-45px]
+}
+.list{
+   @apply text-white
 }
 

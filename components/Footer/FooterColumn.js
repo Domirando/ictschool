@@ -1,10 +1,13 @@
 import styles from './footer.module.css'
-
-const FooterColumn = ({heading}) => {
+import Link from 'next/link'
+const FooterColumn = ({item}) => {
     return (
         <div>
-            {heading}
+            {item.title}
             <hr className={styles.straight}/>
+            {item.items.map((el, index) => {
+                <Link href={el.url} className={styles.list}>{el.title}</Link>
+            })}
         </div>
     )
 }
