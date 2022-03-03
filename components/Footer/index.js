@@ -5,7 +5,7 @@ import footerState from '../../util/state'
 const Footer = () => {
     let footerItems = footerState.footerColumnData.map((index, items) =>
         <FooterColumn heading={items.title}/>
-    )
+    ))
     return (
         <footer>
             <div className={styles.container}>
