@@ -1,6 +1,11 @@
 import styles from './footer.module.css'
+import FooterColumn from './FooterColumn'
+import footerState from '../../util/state'
 
 const Footer = () => {
+    let footerItems = footerState.footerColumnData.map((index, items) =>
+        <FooterColumn heading={items.title}/>
+    )
     return (
         <footer>
             <div className={styles.container}>
@@ -17,16 +22,13 @@ const Footer = () => {
                                 <p className={styles.textWhite}>info@ictschool.uz</p>
                             </div>
                         </div>
+                        <hr className={styles.straight}/>
+                        <ul>
+                            <li type="disc">O'zbek</li>
+                            <li type="disc">Русский</li>
+                        </ul>
                     </div>
-                    <div className={styles.footerColumn}>
-                        <div>asf</div>
-                    </div>
-                    <div className={styles.footerColumn}>
-                        <div>afdsaf</div>
-                    </div>
-                    <div className={styles.footerColumn}>
-                        <div>afsafa</div>
-                    </div>
+                    {footerItems}
                 </div>
             </div>
         </footer>
