@@ -1,3 +1,15 @@
-.nav{
-    @apply bg-[#1c1b3b] h-[70px] w-full
+.topBarBg{
+    @apply bg-[#1c1b3b] h-[70px] relative w-screen flex;
+    line-height: 1.7;
+    font-family: 'Poppins', sans-serif;
+}
+.barContainer{
+    @apply flex relative h-full items-center overflow-hidden justify-between mx-16 w-full;
+}
+.left{
+    @apply flex gap-5
+}
+.right{
+    @apply text-white h-full bg-[#3a3a7c] w-[100px] flex items-center justify-center;
+    /*height: fit-content;*/
 }
