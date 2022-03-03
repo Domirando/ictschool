@@ -2,7 +2,22 @@ import styles from './footer.module.css'
 const Footer = () => {
     return (
         <footer>
-            there should be a footer
+            <div className={styles.container}>
+                <div className={styles.rowsContainer}>
+                <div>
+                    <p>afasfs</p>
+                </div>
+                <div>
+                    <p>asf</p>
+                </div>
+                <div>
+                    <p>afdsaf</p>
+                </div>
+                <div>
+                    <p>afsafa</p>
+                </div>
+                </div>
+            </div>
         </footer>
     )
 }

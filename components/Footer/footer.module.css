@@ -1,0 +1,9 @@
+.container{
+   @apply h-auto bg-[#181818] text-[#ababab] p-12
+}
+.rowsContainer{
+   @apply flex gap-10 justify-between
+}
+.rowsContainer h2{
+   @apply text-white
+}
