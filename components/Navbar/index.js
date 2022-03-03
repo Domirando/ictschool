@@ -16,10 +16,10 @@ const Navbar = () => {
                              src="https://ictschool.uz/wp-content/plugins/polylang/flags/ru.png" width="18"
                              height="12"/>
                         <FontAwesomeIcon className={styles.icon} icon={faEnvelopeOpen}
-                                         font-size={"15px"}
+                                         fontSize={"15px"}
                                          color="white"/>
                         <p>info@ictschool.uz</p>
-                        <FontAwesomeIcon className={styles.icon} icon={faPhone} font-size={"15px"} color="white"/>
+                        <FontAwesomeIcon className={styles.icon} icon={faPhone} fontSize={"15px"} color="white"/>
                         <p className={styles.num}><a>1206</a></p>
                     </div>
                     <div className={styles.right}><p>E-CLASS</p></div>

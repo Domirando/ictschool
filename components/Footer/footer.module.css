@@ -1,8 +1,23 @@
 .container{
-   @apply h-auto bg-[#181818] text-[#ababab] p-12
+   @apply h-auto bg-[#181818] text-[#ababab] p-12;
+   font-size: 16px;
 }
 .rowsContainer{
    @apply flex gap-10 justify-between
+}
+.footerColumn{
+   @apply float-left w-[25%]
+}
+.footerText{
+   @apply mb-[60px]
+}
+.textWidget p{
+   font-size: 16px;
+   line-height: 1.7;
+   @apply mt-8
+}
+.textWhite{
+   @apply text-white
 }
 .rowsContainer h2{
    @apply text-white
