@@ -1,5 +1,5 @@
 .topBarBg{
-    @apply bg-[#1c1b3b] h-[75px] relative w-screen flex;
+    @apply bg-[#1c1b3b] h-[75px] relative flex;
     line-height: 1.7;
     font-family: "Poppins", sans-serif;
     font-size: 17px;
