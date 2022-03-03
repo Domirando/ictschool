@@ -6,7 +6,7 @@ const Footer = () => {
     let footerItems = footerState.footerColumnData.map((item, index) =>
         <FooterColumn item={item}/>
     )
-    let lang = ["O'zbek", "Rus"]
+    let lang = ["O'zbek", "Русский"]
     let listLang = lang.map((item, index) => <li type="disc" key={index}>{item}</li>)
     return (
         <footer>

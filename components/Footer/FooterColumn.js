@@ -5,9 +5,11 @@ const FooterColumn = ({item}) => {
         <div>
             {item.title}
             <hr className={styles.straight}/>
-            {item.items.map((el, index) => {
-                <Link href={el.url} className={styles.list}>{el.title}</Link>
-            })}
+            <div className={styles.listItems}>
+            {item.items.map((el, index) =>
+                <Link href={el.url}><a className={styles.list}>{el.title}</a></Link>
+            )}
+            </div>
         </div>
     )
 }

@@ -10,7 +10,7 @@
    @apply float-left w-[25%]
 }
 .footerColumn ul{
-   @apply ml-9 mt-14
+   @apply ml-9 mt-14 flex flex-col gap-2
 }
 .footerText{
    @apply mb-[60px]
@@ -27,12 +27,15 @@
    @apply text-white
 }
 .straight{
-   @apply border-[#5c64c4]
+   @apply border-[#5c64c4] mt-3 mb-6
 }
 .straightM{
    @apply mt-[-45px]
 }
+.listItems{
+   @apply flex flex-col gap-2
+}
 .list{
-   @apply text-white
+   line-height: 1.7;
 }
 
