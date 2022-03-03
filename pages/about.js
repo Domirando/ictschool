@@ -1,6 +1,9 @@
-import Page from "../components/Page";
+import Page from "../components/page/index";
+import Button from "../components/Button";
 import Link from "next/link";
-
+const oldPosts = require('./api/old/posts/')
+let date = oldPosts.slug;
+console.log(date)
 const About = () => {
   return (
     <Page>
@@ -11,6 +14,7 @@ const About = () => {
         <p>
           <Link href="/">Go to home</Link>
         </p>
+          <Button text={'kirish'} bgcolor='bg-slate-700'/>
       </article>
     </Page>
   );

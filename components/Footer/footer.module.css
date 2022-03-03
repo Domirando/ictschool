@@ -1,0 +1,32 @@
+.container{
+   @apply h-auto bg-[#181818] text-[#ababab] p-16;
+   font-size: 16px;
+
+}
+.rowsContainer{
+   @apply flex gap-10 justify-between
+}
+.footerColumn{
+   @apply float-left w-[25%]
+}
+.footerColumn ul{
+   @apply ml-9 mt-14
+}
+.footerText{
+   @apply mb-[60px]
+}
+.textWidget p{
+   font-size: 16px;
+   line-height: 1.7;
+   @apply mt-8
+}
+.textWhite{
+   @apply text-white
+}
+.rowsContainer h2{
+   @apply text-white
+}
+.straight{
+   @apply border-[#5c64c4] mt-[-45px]
+}
+

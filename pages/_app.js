@@ -1,4 +1,6 @@
 import "../styles/globals.css";
+import "nprogress/nprogress.css"
+import NProgress from 'nprogress'
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
@@ -14,6 +16,7 @@ const ICT = ({ Component, pageProps }) => {
 
   useEffect(() => {
     const handleRouteChangeStart = () => {
+      NProgress.start()
       setState((prevState) => ({
         ...prevState,
         isRouteChanging: true,
@@ -22,6 +25,7 @@ const ICT = ({ Component, pageProps }) => {
     };
 
     const handleRouteChangeEnd = () => {
+      NProgress.done()
       setState((prevState) => ({
         ...prevState,
         isRouteChanging: false,

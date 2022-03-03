@@ -8,7 +8,6 @@ const Head = ({
 }) => {
   return (
     <NextHead>
-      {/* Title */}
       <title>{title}</title>
       <meta name="og:title" content={title} />
 
@@ -29,7 +28,7 @@ const Head = ({
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@ictschool" />
       <meta name="apple-mobile-web-app-title" content="ICTSchool" />
-      <meta name="author" content="Maftuna Vohidjonovna" />
+      <meta name="author" content="Maftuna Vohidjonovna & UwUssimo Robinson" />
       {children}
     </NextHead>
   );

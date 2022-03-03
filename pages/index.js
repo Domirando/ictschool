@@ -1,9 +1,9 @@
-import Page from "../components/Page";
+import Page from "../components/page/index";
 import Link from "next/link";
 
 const Index = () => {
   return (
-    <Page>
+      <Page footer={<p>hi there it is footer</p>}>
       <article>
         <h1>Hello World</h1>
 
