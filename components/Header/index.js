@@ -1,15 +1,17 @@
 import styles from "./header.module.css";
-const Header = ({title, text, gradient, btn, image}) => {
-  return <div>
-    {/*logo-image*/}
+const Header = ({ title, text, gradient, btn, image }) => {
+  return (
+    <div>
+      {/*logo-image*/}
 
-    {/*nav*/}
+      {/*nav*/}
 
-    {/*title*/}
+      {/*title*/}
 
-    {/*text*/}
+      {/*text*/}
 
-    {/*btn*/}
-  </div>;
+      {/*btn*/}
+    </div>
+  );
 };
 export default Header;
