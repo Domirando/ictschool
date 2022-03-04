@@ -1,10 +1,10 @@
 .container{
-   @apply h-auto bg-[#181818] text-[#ababab] p-16;
+   @apply h-auto bg-[#181818] text-[#ababab] ;
    font-size: 16px;
 
 }
 .rowsContainer{
-   @apply flex gap-10 justify-between
+   @apply flex gap-10 justify-between p-16
 }
 .footerColumn{
    @apply float-left w-[25%]
@@ -37,5 +37,8 @@
 }
 .list{
    line-height: 1.7;
+}
+.bottomContainer{
+   @apply bg-[#202020] text-[#838383] p-9
 }
 
