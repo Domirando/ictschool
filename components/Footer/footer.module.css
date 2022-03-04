@@ -1,32 +1,46 @@
-.container{
-   @apply h-auto bg-[#181818] text-[#ababab] p-16;
-   font-size: 16px;
+.container {
+  @apply h-auto bg-[#181818] text-[#ababab];
+  font-size: 16px;
+}
+.rowsContainer {
+  @apply flex gap-10 justify-between p-16;
+}
+.footerColumn {
+  @apply float-left w-[25%];
+}
+.footerColumn ul {
+  @apply ml-9 mt-14 flex flex-col gap-2;
+}
+.footerText {
+  @apply mb-[60px];
+}
+.textWidget p {
+  font-size: 16px;
+  line-height: 1.7;
+  @apply mt-8;
+}
+.textWhite {
+  @apply text-white;
+}
+.rowsContainer h2 {
+  @apply text-white;
+}
+.straight {
+  @apply border-[#5c64c4] mt-3 mb-6;
+}
+.straightM {
+  @apply mt-[-45px];
+}
+.listItems {
+  @apply flex flex-col gap-2;
+}
+.list {
+  line-height: 1.7;
+}
+.bottomContainer {
+  @apply bg-[#202020] text-[15px] text-[#838383] p-9 flex justify-between items-center;
+}
 
+.icons {
+  @apply text-[#5c64c4] flex gap-4 text-xl;
 }
-.rowsContainer{
-   @apply flex gap-10 justify-between
-}
-.footerColumn{
-   @apply float-left w-[25%]
-}
-.footerColumn ul{
-   @apply ml-9 mt-14
-}
-.footerText{
-   @apply mb-[60px]
-}
-.textWidget p{
-   font-size: 16px;
-   line-height: 1.7;
-   @apply mt-8
-}
-.textWhite{
-   @apply text-white
-}
-.rowsContainer h2{
-   @apply text-white
-}
-.straight{
-   @apply border-[#5c64c4] mt-[-45px]
-}
-

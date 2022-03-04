@@ -1,18 +1,18 @@
-.topBarBg{
-    @apply bg-[#1c1b3b] h-[75px] relative w-screen flex;
-    line-height: 1.7;
-    font-family: "Poppins", sans-serif;
-    font-size: 17px;
+.topBarBg {
+  @apply bg-[#1c1b3b] h-[75px] relative flex;
+  line-height: 1.7;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
 }
-.barContainer{
-    @apply flex h-full items-center justify-between px-[70px] w-full;
+.barContainer {
+  @apply flex h-full items-center justify-between px-[70px] w-full;
 }
-.left{
-    @apply flex gap-5 text-white items-center
+.left {
+  @apply flex gap-5 text-white items-center;
 }
-.right{
-    @apply text-white h-full bg-[#3a3a7c] w-[100px] flex items-center justify-center;
+.right {
+  @apply text-white h-full bg-[#3a3a7c] w-[100px] flex items-center justify-center;
 }
-.icon{
-    margin-right: -12px;
+.icon {
+  margin-right: -12px;
 }
