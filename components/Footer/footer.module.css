@@ -3,7 +3,7 @@
   font-size: 16px;
 }
 .rowsContainer {
-  @apply flex gap-10 justify-between p-16;
+  @apply flex gap-10 justify-between px-16 py-14;
 }
 .footerColumn {
   @apply float-left w-[25%];
@@ -38,7 +38,7 @@
   line-height: 1.7;
 }
 .bottomContainer {
-  @apply bg-[#202020] text-[15px] text-[#838383] p-9 flex justify-between items-center;
+  @apply bg-[#202020] text-[15px] text-[#838383] px-16 py-12 flex justify-between items-center;
 }
 
 .icons {
