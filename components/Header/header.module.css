@@ -1,0 +1,6 @@
+.headerContainer{
+    @apply bg-blue-600 min-h-[60vh]
+}
+.logo{
+    @apply flex justify-center
+}
