@@ -1,4 +1,5 @@
 import styles from "./navbar.module.css";
+import Image from "next/image";
 import { faEnvelopeOpen, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -9,17 +10,17 @@ const Navbar = () => {
       <div className={styles.topBarBg}>
         <div className={styles.barContainer}>
           <div className={styles.left}>
-            <img
-              className={styles.flag}
+            <Image
               src="https://ictschool.uz/wp-content/plugins/polylang/flags/uz.png"
               width="18"
               height="12"
+              alt={"uzb flag"}
             />
-            <img
-              className={styles.flag}
+            <Image
               src="https://ictschool.uz/wp-content/plugins/polylang/flags/ru.png"
               width="18"
               height="12"
+              alt={"ru flag"}
             />
             <FontAwesomeIcon
               className={styles.icon}
