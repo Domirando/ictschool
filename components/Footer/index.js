@@ -1,8 +1,8 @@
 import styles from './footer.module.css'
 import FooterColumn from './FooterColumn'
 import footerState from '../../util/state'
-import {faEnvelopeOpen, faPhone} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faFacebook, faInstagram} from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
     let footerItems = footerState.footerColumnData.map((item, index) =>
@@ -35,8 +35,9 @@ const Footer = () => {
                 </div>
                 <div className={styles.bottomContainer}>
                     <div><p>ICTSchool.uz © 2017-2020. Barcha huquqlar himoyalangan.</p></div>
-                    <div className="contactIcons icons">
-
+                    <div className={styles.icons}>
+                        <FontAwesomeIcon icon={faFacebook}/>
+                        <FontAwesomeIcon icon={faInstagram}/>
                     </div>
                 </div>
             </div>

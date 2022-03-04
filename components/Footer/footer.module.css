@@ -39,6 +39,9 @@
    line-height: 1.7;
 }
 .bottomContainer{
-   @apply bg-[#202020] text-[#838383] p-9
+   @apply bg-[#202020] text-[15px] text-[#838383] p-9 flex justify-between items-center
 }
 
+.icons{
+   @apply text-[#5c64c4] flex gap-4 text-xl
+}
