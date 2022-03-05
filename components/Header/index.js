@@ -32,7 +32,7 @@ const Header = ({title, text, image, gradient, btn, headerBg, headerHeight}) => 
             {/*nav*/}
             <ul className={styles.navListTitles}>
                 {
-                    navTitles.map((items, index) => <li>{items}</li>)
+                    navTitles.map((items, index) => <li key={index}>{items}</li>)
                 }
             </ul>
             {/*title*/}
