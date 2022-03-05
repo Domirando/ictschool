@@ -54,8 +54,8 @@ let state = {
           items: null
         },
         {
-          title: "Maktab bilan a'loqa",
-          items: null
+          title: "Bog'lanish",
+          items: ["Maktab bilan a'loqa"]
         }
     ],
     footerColumnData: [

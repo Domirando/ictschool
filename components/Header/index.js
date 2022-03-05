@@ -1,7 +1,9 @@
 import styles from "./header.module.css";
 import Image from 'next/image'
+import state from '../../util/state'
 
 const Header = ({title, text, image, gradient, btn, headerBg, headerHeight}) => {
+    let navTitles = state.navbar.map((items, index) => items.title)
     return (
         <div className="headerContainer">
             <style jsx>{`
@@ -28,8 +30,10 @@ const Header = ({title, text, image, gradient, btn, headerBg, headerHeight}) => 
                 />
             </div>
             {/*nav*/}
-            <ul>
-                <li></li>
+            <ul className={styles.navListTitles}>
+                {
+                    navTitles.map((items, index) => <li>{items}</li>)
+                }
             </ul>
             {/*title*/}
 
