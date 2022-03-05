@@ -1,12 +1,12 @@
 import styles from "./footer.module.css";
 import FooterColumn from "./FooterColumn";
-import footerState from "../../util/state";
+import state from "../../util/state";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
-  let footerItems = footerState.footerColumnData.map((item, index) => (
+  let footerItems = state.footerColumnData.map((item, index) => (
     <FooterColumn item={item} key={index} />
   ));
   let lang = ["O'zbek", "Русский"];

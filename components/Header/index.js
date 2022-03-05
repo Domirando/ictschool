@@ -6,11 +6,14 @@ const Header = ({title, text, image, gradient, btn, headerBg, headerHeight}) => 
         <div className="headerContainer">
             <style jsx>{`
               .headerContainer {
-                background-image: url("${headerBg}");
+                background: ${gradient},
+                url("${headerBg}") no-repeat center center / cover;
                 min-height: ${headerHeight};
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center center;
+                padding: 50px 100px;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
               }
             `}</style>
             {/*logo-image*/}
@@ -24,9 +27,10 @@ const Header = ({title, text, image, gradient, btn, headerBg, headerHeight}) => 
                     width="300px"
                 />
             </div>
-
             {/*nav*/}
-
+            <ul>
+                <li></li>
+            </ul>
             {/*title*/}
 
             {/*text*/}

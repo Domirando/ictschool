@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Index = () => {
   return (
-    <Page footer={<p>hi there it is footer</p>}>
+    <Page headerBg={"/schoolImage.png"} headerHeight={"100vh"} gradient={"none"}>
       <article>
         <h1>Hello World</h1>
 

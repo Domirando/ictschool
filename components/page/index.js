@@ -11,7 +11,7 @@ const Page = ({
                   description,
                   headerBg,
                   gradient,
-                    headerHeight,
+                  headerHeight,
                   image,
                   children,
               }) => {
@@ -19,7 +19,7 @@ const Page = ({
         <div>
             <Head title={title} description={description} image={image}/>
             <Navbar/>
-            <Header headerHeight={"100vh"} headerBg={"/schoolImage.png"}/>
+            <Header headerHeight={headerHeight} headerBg={headerBg} gradient={gradient}/>
 
             <main className={styles.mainItems}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad
