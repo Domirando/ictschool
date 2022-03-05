@@ -1,26 +1,26 @@
-.logo{
-    @apply flex justify-center
+.logo {
+  @apply flex justify-center;
 }
-.navListTitles{
-    @apply flex gap-4 items-center justify-center self-center
+.navListTitles {
+  @apply flex gap-4 items-center justify-center self-center;
 }
-.items{
-    @apply flex gap-3 text-[17px] items-center text-[#ababab] font-bold hover:text-white cursor-pointer
+.items {
+  @apply flex gap-3 text-[17px] items-center text-[#ababab] font-bold hover:text-white cursor-pointer;
 }
-.content{
-    @apply w-[500px]
+.content {
+  @apply w-[500px];
 }
-.content h1{
-    @apply text-[24px] mb-14;
-    line-height: 1.5;
+.content h1 {
+  @apply text-[24px] mb-14;
+  line-height: 1.5;
 }
-.content p{
-    @apply uppercase text-[32px] mb-4 w-[50%];
-    line-height: 1;
+.content p {
+  @apply uppercase text-[32px] mb-4 w-[50%];
+  line-height: 1;
 }
-.icon{
-    @apply text-[15px]
+.icon {
+  @apply text-[15px];
 }
-.active{
-    @apply text-white
+.active {
+  @apply text-white;
 }
