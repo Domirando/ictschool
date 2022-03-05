@@ -2,5 +2,14 @@
     @apply flex justify-center
 }
 .navListTitles{
-    @apply flex gap-5 self-center
+    @apply flex gap-5 items-center justify-center self-center
+}
+.items{
+    @apply flex gap-3 items-center text-[#ababab] font-bold hover:text-white cursor-pointer
+}
+.icon{
+    @apply text-[15px]
+}
+.active{
+    @apply text-white
 }

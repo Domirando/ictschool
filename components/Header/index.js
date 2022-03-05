@@ -1,9 +1,15 @@
 import styles from "./header.module.css";
 import Image from 'next/image'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import state from '../../util/state'
 
 const Header = ({title, text, image, gradient, btn, headerBg, headerHeight}) => {
-    let navTitles = state.navbar.map((items, index) => items.title)
+    let navTitle = state.navbar.map((items, index) => items.items === null ? <li className={styles.items} key={index}>{items.title}</li> :
+        <li key={index} className={styles.items}>
+            {items.title}
+            <FontAwesomeIcon icon={faAngleDown} className={styles.icon}/>
+        </li>)
     return (
         <div className="headerContainer">
             <style jsx>{`
@@ -32,7 +38,7 @@ const Header = ({title, text, image, gradient, btn, headerBg, headerHeight}) => 
             {/*nav*/}
             <ul className={styles.navListTitles}>
                 {
-                    navTitles.map((items, index) => <li key={index}>{items}</li>)
+                    navTitle
                 }
             </ul>
             {/*title*/}
