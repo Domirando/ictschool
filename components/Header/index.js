@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import state from '../../util/state'
+import Button from "../Button";
 
 const Header = ({title, text, image, gradient, btn, headerBg, headerHeight}) => {
     let navTitle = state.navbar.map((items, index) => items.items === null ? <li className={styles.items} key={index}>{items.title}</li> :
@@ -21,7 +22,7 @@ const Header = ({title, text, image, gradient, btn, headerBg, headerHeight}) => 
                 color: white;
                 display: flex;
                 flex-direction: column;
-                gap: 50px;
+                gap: 65px;
               }
             `}</style>
             {/*logo-image*/}
@@ -37,15 +38,14 @@ const Header = ({title, text, image, gradient, btn, headerBg, headerHeight}) => 
             </div>
             {/*nav*/}
             <ul className={styles.navListTitles}>
-                {
-                    navTitle
-                }
+                {navTitle}
             </ul>
-            {/*title*/}
-
-            {/*text*/}
-
-            {/*btn*/}
+            {/*title & text* & button*/}
+            <div className={styles.content}>
+                <h1>Muhammad al-Xorazmiy nomidagi axborot texnologiyalariga ixtisoslashtirilgan maktabi</h1>
+                <p>qabul 2021/2022</p>
+                <Button bgcolor={"bg-[hsla(230,80%,5%,0.5)]"} text={"batafsil"} />
+            </div>
         </div>
     );
 };
