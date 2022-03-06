@@ -11,6 +11,7 @@ specifiers:
   eslint: 8.10.0
   eslint-config-next: 12.1.0
   next: 12.1.0
+  next-absolute-url: ^1.2.2
   nprogress: ^0.2.0
   postcss: ^8.4.7
   prettier: ^2.5.1
@@ -28,6 +29,7 @@ dependencies:
   '@supabase/supabase-js': 1.30.6
   '@tanem/react-nprogress': 4.0.8_react-dom@17.0.2+react@17.0.2
   next: 12.1.0_react-dom@17.0.2+react@17.0.2
+  next-absolute-url: 1.2.2
   nprogress: 0.2.0
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -1630,6 +1632,10 @@ packages:
   /natural-compare/1.4.0:
     resolution: {integrity: sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=}
     dev: true
+
+  /next-absolute-url/1.2.2:
+    resolution: {integrity: sha512-Z2+LZXQTthhw2je9u4eq8QWXxXd57a6b54x9exBfQX4Dct6YxaMjcXZWNLHd9AOlCue84EsMpdSGP7wACqUnPg==}
+    dev: false
 
   /next-tick/1.0.0:
     resolution: {integrity: sha1-yobR/ogoFpsBICCOPchCS524NCw=}

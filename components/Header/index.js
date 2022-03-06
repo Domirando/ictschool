@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import state from "../../util/state";
 import Button from "../Button";
-import { router } from "next/client";
+import { useRouter } from "next/router";
 
 const Header = ({
   title,
@@ -15,11 +15,13 @@ const Header = ({
   headerBg,
   headerHeight,
 }) => {
+    const router = useRouter()
+
   let navTitle = state.navbar.map((items, index) =>
     items.items === null ? (
       <li
         className={
-          items.url !== router.pathname
+          items.url !== router.asPath
             ? `${styles.items} text-[#ababab]`
             : `${styles.items} text-white`
         }
@@ -30,7 +32,7 @@ const Header = ({
     ) : (
       <li
         className={
-          items.url !== router.pathname
+          items.url !== router.asPath
             ? `${styles.items} text-[#ababab]`
             : `${styles.items} text-white`
         }
@@ -41,7 +43,7 @@ const Header = ({
       </li>
     )
   );
-  console.log(router.pathname);
+  console.log(router.asPath);
   return (
     <div className="headerContainer">
       <style jsx>{`
