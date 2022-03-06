@@ -5,7 +5,7 @@
   @apply flex gap-4 items-center justify-center self-center;
 }
 .items {
-  @apply flex gap-3 text-[17px] items-center text-[#ababab] font-bold hover:text-white cursor-pointer;
+  @apply flex gap-3 text-[17px] items-center font-bold hover:text-white cursor-pointer;
 }
 .content {
   @apply w-[500px];
