@@ -2,7 +2,10 @@
   @apply flex gap-4;
 }
 .items {
-  @apply flex gap-3 text-[17px] items-center font-bold hover:text-white cursor-pointer;
+  @apply text-[17px] items-center font-bold hover:text-white cursor-pointer;
+}
+.items span {
+  @apply flex gap-3 justify-center items-center;
 }
 .items:hover .itemsList {
   @apply opacity-100 visible;
@@ -23,15 +26,23 @@
 .itemsList {
   @apply bg-white min-w-[230px] px-6 pt-2 pb-4 opacity-0 top-10 invisible absolute flex flex-col gap-3 text-[15px] font-[500] text-[#585858];
 }
-.itemsList p {
+.itemsList a {
   @apply hover:text-blue-600;
 }
 .itemContainer {
   @apply relative;
 }
 .slideNavBar {
-  @apply absolute w-[98px] border-[#5c64c4];
-  border-bottom-width: 7px;
-  border-bottom-style: solid;
-  margin-top: 7px;
+  position: absolute;
+  border-bottom: 4px solid transparent;
+  z-index: -1;
+  transform: translateX(-60px);
+  /*@apply absolute w-[98px] border-[#5c64c4];*/
+  /*border-bottom-width: 7px;*/
+  /*border-bottom-style: solid;*/
+  /*margin-top: 7px;*/
+}
+.itemContainer a,
+.target {
+  transition: all 0.35s ease-in-out;
 }
