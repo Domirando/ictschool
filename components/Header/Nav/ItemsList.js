@@ -3,7 +3,7 @@ const ItemsList = ({ items }) => {
   return (
     <div className={styles.itemsList}>
       {items.map((items, index) => (
-        <a key={index}>{items.title}</a>
+        <p key={index}>{items.title}</p>
       ))}
     </div>
   );

@@ -3,6 +3,7 @@
 }
 .items {
   @apply text-[17px] px-[5px] py-[10px] items-center font-bold hover:text-white cursor-pointer;
+  transition: all 0.4s ease-in;
 }
 .items:hover {
   border-bottom-width: 7px;
