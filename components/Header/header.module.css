@@ -21,3 +21,10 @@
 .icon {
   @apply text-[15px];
 }
+.nav {
+  @apply flex justify-evenly;
+}
+.searchIcon {
+  @apply mr-[-260px];
+  transform: scaleX(-1);
+}

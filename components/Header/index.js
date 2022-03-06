@@ -2,6 +2,8 @@ import styles from "./header.module.css";
 import Image from "next/image";
 import Button from "../Button";
 import NavList from "./Nav";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 const Header = ({
   title,
   text,
@@ -37,7 +39,13 @@ const Header = ({
         />
       </div>
       {/*nav*/}
-      <NavList />
+      <div className={styles.nav}>
+        <NavList />
+        <FontAwesomeIcon
+          icon={faMagnifyingGlass}
+          className={styles.icon + " " + styles.searchIcon}
+        />
+      </div>
       {/*title & text* & button*/}
       <div className={styles.content}>
         <h1>
