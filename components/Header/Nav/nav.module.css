@@ -1,0 +1,16 @@
+.navListTitles {
+  @apply flex gap-4 items-center justify-center self-center;
+}
+.items {
+  @apply flex gap-3 text-[17px] items-center font-bold hover:text-white cursor-pointer;
+}
+.icon {
+  @apply text-[15px];
+}
+.nav {
+  @apply flex justify-evenly;
+}
+.searchIcon {
+  @apply mr-[-260px];
+  transform: scaleX(-1);
+}

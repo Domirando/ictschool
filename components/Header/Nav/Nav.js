@@ -1,8 +1,11 @@
 import { useRouter } from "next/router";
-import state from "../../util/state";
-import styles from "./header.module.css";
+import state from "../../../util/state";
+import styles from "./nav.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import {
+  faAngleDown,
+  faMagnifyingGlass,
+} from "@fortawesome/free-solid-svg-icons";
 
 const NavList = () => {
   const router = useRouter();
@@ -33,6 +36,14 @@ const NavList = () => {
       </li>
     )
   );
-  return <ul className={styles.navListTitles}>{navTitle}</ul>;
+  return (
+    <div className={styles.nav}>
+      <ul className={styles.navListTitles}>{navTitle}</ul>
+      <FontAwesomeIcon
+        icon={faMagnifyingGlass}
+        className={styles.icon + " " + styles.searchIcon}
+      />
+    </div>
+  );
 };
 export default NavList;

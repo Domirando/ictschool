@@ -1,12 +1,7 @@
 .logo {
   @apply flex justify-center;
 }
-.navListTitles {
-  @apply flex gap-4 items-center justify-center self-center;
-}
-.items {
-  @apply flex gap-3 text-[17px] items-center font-bold hover:text-white cursor-pointer;
-}
+
 .content {
   @apply w-[500px];
 }
@@ -17,14 +12,4 @@
 .content p {
   @apply uppercase text-[32px] mb-4 w-[50%];
   line-height: 1;
-}
-.icon {
-  @apply text-[15px];
-}
-.nav {
-  @apply flex justify-evenly;
-}
-.searchIcon {
-  @apply mr-[-260px];
-  transform: scaleX(-1);
 }
