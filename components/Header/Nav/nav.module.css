@@ -21,7 +21,7 @@
   transform: scaleX(-1);
 }
 .itemsList {
-  @apply bg-white px-6 pt-2 pb-4 opacity-0 top-10 invisible absolute flex flex-col gap-3 text-[15px] font-[500] text-[#585858];
+  @apply bg-white min-w-[230px] px-6 pt-2 pb-4 opacity-0 top-10 invisible absolute flex flex-col gap-3 text-[15px] font-[500] text-[#585858];
 }
 .itemsList p {
   @apply hover:text-blue-600;
