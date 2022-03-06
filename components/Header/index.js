@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import state from "../../util/state";
 import Button from "../Button";
-import {router} from "next/client";
+import { router } from "next/client";
 
 const Header = ({
   title,
@@ -17,17 +17,31 @@ const Header = ({
 }) => {
   let navTitle = state.navbar.map((items, index) =>
     items.items === null ? (
-      <li className={ items.url !== router.pathname ? `${styles.items} text-[#ababab]` : `${styles.items} text-white`} key={index}>
+      <li
+        className={
+          items.url !== router.pathname
+            ? `${styles.items} text-[#ababab]`
+            : `${styles.items} text-white`
+        }
+        key={index}
+      >
         {items.title}
       </li>
     ) : (
-        <li className={ items.url !== router.pathname ? `${styles.items} text-[#ababab]` : `${styles.items} text-white`} key={index}>
-            {items.title}
-            <FontAwesomeIcon icon={faAngleDown} className={styles.icon}/>
-        </li>
+      <li
+        className={
+          items.url !== router.pathname
+            ? `${styles.items} text-[#ababab]`
+            : `${styles.items} text-white`
+        }
+        key={index}
+      >
+        {items.title}
+        <FontAwesomeIcon icon={faAngleDown} className={styles.icon} />
+      </li>
     )
   );
-    console.log(router.pathname)
+  console.log(router.pathname);
   return (
     <div className="headerContainer">
       <style jsx>{`

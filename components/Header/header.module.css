@@ -21,6 +21,3 @@
 .icon {
   @apply text-[15px];
 }
-.active {
-  @apply text-white;
-}
