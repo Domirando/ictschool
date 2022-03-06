@@ -1,11 +1,7 @@
 import styles from "./header.module.css";
 import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
-import state from "../../util/state";
 import Button from "../Button";
-import { useRouter } from "next/router";
-
+import NavList from "./Nav";
 const Header = ({
   title,
   text,
@@ -15,35 +11,6 @@ const Header = ({
   headerBg,
   headerHeight,
 }) => {
-  const router = useRouter();
-
-  let navTitle = state.navbar.map((items, index) =>
-    items.items === null ? (
-      <li
-        className={
-          items.url !== router.asPath
-            ? `${styles.items} text-[#ababab]`
-            : `${styles.items} text-white`
-        }
-        key={index}
-      >
-        {items.title}
-      </li>
-    ) : (
-      <li
-        className={
-          items.url !== router.asPath
-            ? `${styles.items} text-[#ababab]`
-            : `${styles.items} text-white`
-        }
-        key={index}
-      >
-        {items.title}
-        <FontAwesomeIcon icon={faAngleDown} className={styles.icon} />
-      </li>
-    )
-  );
-  console.log(router.asPath);
   return (
     <div className="headerContainer">
       <style jsx>{`
@@ -70,7 +37,7 @@ const Header = ({
         />
       </div>
       {/*nav*/}
-      <ul className={styles.navListTitles}>{navTitle}</ul>
+      <NavList />
       {/*title & text* & button*/}
       <div className={styles.content}>
         <h1>
