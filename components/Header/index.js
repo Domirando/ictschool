@@ -15,7 +15,7 @@ const Header = ({
   headerBg,
   headerHeight,
 }) => {
-    const router = useRouter()
+  const router = useRouter();
 
   let navTitle = state.navbar.map((items, index) =>
     items.items === null ? (
