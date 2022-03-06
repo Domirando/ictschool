@@ -16,7 +16,7 @@ const Page = ({
   children,
 }) => {
   return (
-    <div>
+    <div className={styles.container}>
       <Head title={title} description={description} image={image} />
       <Navbar />
       <Header
