@@ -2,7 +2,12 @@
   @apply flex gap-4;
 }
 .items {
-  @apply text-[17px] items-center font-bold hover:text-white cursor-pointer;
+  @apply text-[17px] px-[5px] py-[10px] items-center font-bold hover:text-white cursor-pointer;
+}
+.items:hover {
+  border-bottom-width: 7px;
+  border-bottom-style: solid;
+  border-bottom-color: #5c64c4;
 }
 .items span {
   @apply flex gap-3 justify-center items-center;
@@ -17,14 +22,14 @@
   @apply text-[15px];
 }
 .nav {
-  @apply flex justify-evenly relative;
+  @apply flex items-center justify-evenly relative;
 }
 .searchIcon {
-  @apply mr-[-260px];
+  @apply mr-[-220px];
   transform: scaleX(-1);
 }
 .itemsList {
-  @apply bg-white min-w-[230px] px-6 pt-2 pb-4 opacity-0 top-10 invisible absolute flex flex-col gap-3 text-[15px] font-[500] text-[#585858];
+  @apply bg-white min-w-[230px] px-6 pt-2 pb-4 opacity-0 top-[3.2rem] invisible absolute flex flex-col gap-3 text-[15px] font-[500] text-[#585858];
 }
 .itemsList a {
   @apply hover:text-blue-600;
@@ -38,11 +43,4 @@
   z-index: -1;
   transform: translateX(-60px);
   /*@apply absolute w-[98px] border-[#5c64c4];*/
-  /*border-bottom-width: 7px;*/
-  /*border-bottom-style: solid;*/
-  /*margin-top: 7px;*/
-}
-.itemContainer a,
-.target {
-  transition: all 0.35s ease-in-out;
 }

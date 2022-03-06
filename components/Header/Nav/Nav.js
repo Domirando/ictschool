@@ -8,7 +8,7 @@ const NavList = () => {
     <div className={styles.nav}>
       <div className={styles.itemContainer}>
         <NavTitle />
-        <div className={styles.slideNavBar} />
+        {/*<div className={styles.slideNavBar} />*/}
       </div>
       <FontAwesomeIcon
         icon={faMagnifyingGlass}

@@ -14,7 +14,7 @@ const NavTitle = () => {
         className={
           items.url !== router.asPath
             ? `${styles.items} text-[#ababab]`
-            : `${styles.items} text-white`
+            : `${styles.items} ${styles.active}`
         }
         key={index}
       >
@@ -27,7 +27,7 @@ const NavTitle = () => {
         className={
           items.url !== router.asPath
             ? `${styles.items} text-[#ababab]`
-            : `${styles.items} text-white`
+            : `${styles.items} ${styles.active}`
         }
         key={index}
       >
