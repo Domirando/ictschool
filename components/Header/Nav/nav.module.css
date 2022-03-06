@@ -1,16 +1,37 @@
 .navListTitles {
-  @apply flex gap-4 items-center justify-center self-center;
+  @apply flex gap-4;
 }
 .items {
   @apply flex gap-3 text-[17px] items-center font-bold hover:text-white cursor-pointer;
+}
+.items:hover .itemsList {
+  @apply opacity-100 visible;
+}
+.items:hover ~ .slideNavBar {
+  @apply opacity-0 invisible;
 }
 .icon {
   @apply text-[15px];
 }
 .nav {
-  @apply flex justify-evenly;
+  @apply flex justify-evenly relative;
 }
 .searchIcon {
   @apply mr-[-260px];
   transform: scaleX(-1);
+}
+.itemsList {
+  @apply bg-white px-6 pt-2 pb-4 opacity-0 top-10 invisible absolute flex flex-col gap-3 text-[15px] font-[500] text-[#585858];
+}
+.itemsList p {
+  @apply hover:text-blue-600;
+}
+.itemContainer {
+  @apply relative;
+}
+.slideNavBar {
+  @apply absolute w-[98px] border-[#5c64c4];
+  border-bottom-width: 7px;
+  border-bottom-style: solid;
+  margin-top: 7px;
 }

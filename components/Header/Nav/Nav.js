@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import state from "../../../util/state";
 import styles from "./nav.module.css";
+import ItemsList from "./ItemsList";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAngleDown,
@@ -31,14 +32,20 @@ const NavList = () => {
         }
         key={index}
       >
-        {items.title}
-        <FontAwesomeIcon icon={faAngleDown} className={styles.icon} />
+        <span>
+          {items.title}
+          <FontAwesomeIcon icon={faAngleDown} className={styles.icon} />
+        </span>
+        <ItemsList items={items.items} />
       </li>
     )
   );
   return (
     <div className={styles.nav}>
-      <ul className={styles.navListTitles}>{navTitle}</ul>
+      <div className={styles.itemContainer}>
+        <ul className={styles.navListTitles}>{navTitle}</ul>
+        <div className={styles.slideNavBar}></div>
+      </div>
       <FontAwesomeIcon
         icon={faMagnifyingGlass}
         className={styles.icon + " " + styles.searchIcon}
