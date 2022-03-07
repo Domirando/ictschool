@@ -58,11 +58,11 @@
   @apply relative;
 }
 .time_in {
-  @apply absolute invisible;
+  @apply absolute w-auto invisible;
 }
 .time_an span {
-  @apply flex w-full justify-between;
+  @apply flex w-full;
 }
-.time_in p {
-  @apply w-full flex justify-between;
+.time_an p:hover ~ .time_in {
+  @apply visible opacity-100;
 }
