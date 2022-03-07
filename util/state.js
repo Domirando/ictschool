@@ -33,6 +33,16 @@ let state = {
           ],
         },
         {
+          title: "Ta`lim tizimi",
+          url: "/smth",
+          items: [
+            { title: "O'quv tizimi", url: "/smth", items: null },
+            { title: "STEAM ta'lim", url: "/smth", items: null },
+            { title: "Qo'shimcha ta'lim", url: "/smth", items: null },
+            { title: "Qo'shimcha imkoniyatlar", url: "/smth", items: null },
+          ],
+        },
+        {
           title: "logo",
           url: "/smth",
           items: null,
@@ -72,6 +82,21 @@ let state = {
               title: "Al-Xorazmiy izdoshlari",
               url: "/smth",
               items: [{ title: "Kirish", url: "/smth", items: null }],
+            },
+            {
+              title: "Digital Camp",
+              url: "/",
+              items: null,
+            },
+            {
+              title: "GG Girls",
+              url: "/",
+              items: null,
+            },
+            {
+              title: "Startup Weekend",
+              url: "/",
+              items: null,
             },
           ],
         },

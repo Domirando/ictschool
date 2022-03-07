@@ -1,10 +1,18 @@
 import styles from "./nav.module.css";
-const ItemsList = ({ items }) => {
+import Item from "./Item";
+const ItemsList = ({ title, items }) => {
+  const hasChildren = items && items.length;
   return (
-    <div className={styles.itemsList}>
-      {items.map((items, index) => (
-        <p key={index}>{items.title}</p>
-      ))}
+    <div className={`${styles[`itemsList`]} `}>
+      {hasChildren &&
+        items.map((item, index) => (
+          <Item
+            key={index}
+            title={item.title}
+            time={false}
+            items={item.items}
+          />
+        ))}
     </div>
   );
 };

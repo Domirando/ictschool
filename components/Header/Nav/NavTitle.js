@@ -35,7 +35,7 @@ const NavTitle = () => {
           <a>{items.title}</a>
           <FontAwesomeIcon icon={faAngleDown} className={styles.icon} />
         </span>
-        <ItemsList items={items.items} />
+        <ItemsList items={items.items} title={items.title} time={1} />
       </li>
     )
   );
