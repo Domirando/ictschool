@@ -17,7 +17,7 @@
   @apply opacity-100 visible;
 }
 .items:hover ~ .slideNavBar {
-  @apply opacity-0 invisible;
+  /*@apply opacity-0 invisible;*/
 }
 .icon {
   @apply text-[15px];
@@ -57,9 +57,7 @@
 .time_an {
   @apply relative;
 }
-.time_in {
-  @apply absolute w-auto invisible;
-}
+
 .time_an span {
   @apply flex w-full;
 }

@@ -2,7 +2,7 @@ import styles from "./navbar.module.css";
 import Image from "next/image";
 import { faEnvelopeOpen, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import Button from '../Button/index'
 const Navbar = () => {
   return (
     <nav>

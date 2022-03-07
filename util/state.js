@@ -3,142 +3,142 @@ let state = {
     {
       title: "Bosh sahifa",
       url: "/",
-      items: null,
+      submenu: null,
     },
     {
       title: "Maktab haqida",
       url: "/smth",
-      items: [
+      submenu: [
         {
           title: "Maktab haqida",
           url: "/smth",
-          items: [
+          submenu: [
             {
               title: "Maktab hayoti",
               url: "/smth",
-              items: null,
+              submenu: null,
             },
-            { title: "Maktab yutuqlari", url: "/smth", items: null },
-            { title: "Maktab logosi", url: "/smth", items: null },
-            { title: "Qonun hujjatlari", url: "/smth", items: null },
+            { title: "Maktab yutuqlari", url: "/smth", submenu: null },
+            { title: "Maktab logosi", url: "/smth", submenu: null },
+            { title: "Qonun hujjatlari", url: "/smth", submenu: null },
           ],
         },
         {
           title: "Tuzilma",
           url: "/smth",
-          items: [
-            { title: "Rahbariyat", url: "/smth", items: null },
-            { title: "Ilmiy kengash", url: "/smth", items: null },
-            { title: "O'qituvchilar", url: "/smth", items: null },
+          submenu: [
+            { title: "Rahbariyat", url: "/smth", submenu: null },
+            { title: "Ilmiy kengash", url: "/smth", submenu: null },
+            { title: "O'qituvchilar", url: "/smth", submenu: null },
           ],
         },
         {
           title: "Ta`lim tizimi",
           url: "/smth",
-          items: [
-            { title: "O'quv tizimi", url: "/smth", items: null },
-            { title: "STEAM ta'lim", url: "/smth", items: null },
-            { title: "Qo'shimcha ta'lim", url: "/smth", items: null },
-            { title: "Qo'shimcha imkoniyatlar", url: "/smth", items: null },
+          submenu: [
+            { title: "O'quv tizimi", url: "/smth", submenu: null },
+            { title: "STEAM ta'lim", url: "/smth", submenu: null },
+            { title: "Qo'shimcha ta'lim", url: "/smth", submenu: null },
+            { title: "Qo'shimcha imkoniyatlar", url: "/smth", submenu: null },
           ],
         },
         {
           title: "logo",
           url: "/smth",
-          items: null,
+          submenu: null,
         },
       ],
     },
     {
       title: "Qabul",
       url: "/smth",
-      items: [
-        { title: "Qabul haqida", url: "/smth", items: null },
-        { title: "Onlayn hujjat topshirish", url: "/smth", items: null },
+      submenu: [
+        { title: "Qabul haqida", url: "/smth", submenu: null },
+        { title: "Onlayn hujjat topshirish", url: "/smth", submenu: null },
         {
           title: "2021/2022 o'quv yili qabul natijalari",
           url: "/smth",
-          items: null,
+          submenu: null,
         },
       ],
     },
     {
       title: "Yangiliklar",
       url: "/smth",
-      items: null,
+      submenu: null,
     },
     {
       title: "Maktab hayoti",
       url: "/smth",
-      items: [
-        { title: "E'lonlar", url: "/smth", items: null },
-        { title: "Tadbirlar", url: "/smth", items: null },
-        { title: "Olimpiadalar", url: "/smth", items: null },
+      submenu: [
+        { title: "E'lonlar", url: "/smth", submenu: null },
+        { title: "Tadbirlar", url: "/smth", submenu: null },
+        { title: "Olimpiadalar", url: "/smth", submenu: null },
         {
           title: "Tanlov & Konkurslar",
           url: "/smth",
-          items: [
+          submenu: [
             {
               title: "Al-Xorazmiy izdoshlari",
               url: "/smth",
-              items: [{ title: "Kirish", url: "/smth", items: null }],
+              submenu: [{ title: "Kirish", url: "/smth", submenu: null }],
             },
             {
               title: "Digital Camp",
               url: "/",
-              items: null,
+              submenu: null,
             },
             {
               title: "GG Girls",
               url: "/",
-              items: null,
+              submenu: null,
             },
             {
               title: "Startup Weekend",
               url: "/",
-              items: null,
+              submenu: null,
             },
           ],
         },
         {
           title: "Loyihalar",
           url: "/smth",
-          items: [
+          submenu: [
             {
               title: "Digital Generation Uzbekistan",
               url: "/smth",
-              items: null,
+              submenu: null,
             },
-            { title: "Olimpiada Assotsatsiyasi", url: "/smth", items: null },
-            { title: "Hour of Code", url: "/smth", items: null },
+            { title: "Olimpiada Assotsatsiyasi", url: "/smth", submenu: null },
+            { title: "Hour of Code", url: "/smth", submenu: null },
           ],
         },
         {
           title: "Hamkorlar",
           url: "/smth",
-          items: [
-            { title: "Huawei", url: "/smth", items: null },
-            { title: "Artel", url: "/smth", items: null },
-            { title: "DGUzbekistan", url: "/smth", items: null },
-            { title: "UzCard", url: "/smth", items: null },
-            { title: "Ucell", url: "/smth", items: null },
-            { title: "Hamkor bo'lish", url: "/smth", items: null },
+          submenu: [
+            { title: "Huawei", url: "/smth", submenu: null },
+            { title: "Artel", url: "/smth", submenu: null },
+            { title: "DGUzbekistan", url: "/smth", submenu: null },
+            { title: "UzCard", url: "/smth", submenu: null },
+            { title: "Ucell", url: "/smth", submenu: null },
+            { title: "Hamkor bo'lish", url: "/smth", submenu: null },
           ],
         },
-        { title: "Onlayn darslar", url: "/smth", items: null },
-        { title: "Ota-onalarga", url: "/smth", items: null },
-        { title: "O'quvchilar yotoqxonasi", url: "/smth", items: null },
+        { title: "Onlayn darslar", url: "/smth", submenu: null },
+        { title: "Ota-onalarga", url: "/smth", submenu: null },
+        { title: "O'quvchilar yotoqxonasi", url: "/smth", submenu: null },
       ],
     },
     {
       title: "Onlayn darslar",
       url: "/smth",
-      items: null,
+      submenu: null,
     },
     {
       title: "Bog'lanish",
       url: "/smth",
-      items: [{ title: "Maktab bilan a'loqa", url: "/smth", items: null }],
+      submenu: [{ title: "Maktab bilan a'loqa", url: "/smth", submenu: null }],
     },
   ],
   footerColumnData: [

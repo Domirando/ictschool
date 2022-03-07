@@ -1,0 +1,54 @@
+
+.dropdown_menu {
+    @apply flex gap-3;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-align: center;
+}
+
+.dropdown_menu li {
+    @apply inline-block p-2 relative float-left;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+
+.dropdown_menu li li a {
+    font-size: 12px;
+}
+
+.dropdown_menu li:hover {
+    background: blue;
+}
+
+/*--- Sublist Styles ---*/
+.dropdown_menu ul {
+    position: absolute;
+    display: none;
+}
+
+/*--- Hide Sub Sublists ---*/
+.dropdown_menu li:hover ul ul {
+    display: none;
+}
+
+/*--- Sublevel UL's display and position on hover ---*/
+.dropdown_menu li:hover ul {
+    display: block;
+}
+.dropdown_menu li li:hover ul {
+    margin-left: 200px;/*This must be width of menu box*/
+    margin-top: -35px;
+    display: block;
+}
+.nu_li {
+    padding: 10px;
+}
+
+.dropdown_submenu {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}

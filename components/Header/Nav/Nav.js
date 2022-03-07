@@ -1,14 +1,13 @@
 import styles from "./nav.module.css";
-import NavTitle from "./NavTitle";
+import DropdownMenu from "./DropDownMenu";
+import state from '../../../util/state'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-
 const NavList = () => {
   return (
     <div className={styles.nav}>
       <div className={styles.itemContainer}>
-        <NavTitle />
-        {/*<div className={styles.slideNavBar} />*/}
+        <DropdownMenu config={state.navbar} />
       </div>
       <FontAwesomeIcon
         icon={faMagnifyingGlass}
