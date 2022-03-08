@@ -1,6 +1,6 @@
 import styles from "./nav.module.css";
 import DropdownMenu from "./DropDownMenu";
-import state from '../../../util/state'
+import state from "../../../util/state";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 const NavList = () => {

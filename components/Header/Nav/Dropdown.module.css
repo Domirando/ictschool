@@ -1,40 +1,40 @@
 .dropdown_menu {
-    @apply flex gap-3;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    float: left;
-    text-align: center;
+  @apply flex gap-3;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  text-align: center;
 }
-.rotated{
-    transform: rotate(-90deg);
+.rotated {
+  transform: rotate(-90deg);
 }
-.dropdown_menu li{
-    @apply relative justify-self-start;
-    line-height: 35px;
-    text-decoration: none;
+.dropdown_menu li {
+  @apply relative justify-self-start;
+  line-height: 35px;
+  text-decoration: none;
 }
 
-.dropdown_menu li p{
-    @apply inline-block pr-2;
+.dropdown_menu li p {
+  @apply inline-block pr-2;
 }
 
 /*--- Sublist Styles ---*/
 .dropdown_menu ul {
-    @apply px-2 py-2 bg-white hidden min-w-[220px] absolute text-[#585858];
+  @apply px-2 py-2 bg-white hidden min-w-[220px] absolute text-[#585858];
 }
 
 /*--- Hide Sub Sublists ---*/
 .dropdown_menu li:hover ul ul {
-    display: none;
+  display: none;
 }
 
 /*--- Sublevel UL's display and position on hover ---*/
 .dropdown_menu li:hover ul {
-    display: block;
+  display: block;
 }
 .dropdown_menu li li:hover ul {
-    margin-left: 100%;/*This must be width of menu box*/
-    margin-top: -21%;
-    display: block;
+  margin-left: 100%; /*This must be width of menu box*/
+  margin-top: -21%;
+  display: block;
 }
