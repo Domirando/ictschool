@@ -1,7 +1,10 @@
-import React from "react";
 import styles from "./Dropdown.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 const DropdownMenu = (props) => {
+  let [repeated, setRepeated] = useState(false)
   let getMenuItemTitle = (menuItem, index, depthLevel) => {
     return menuItem.title;
   };
@@ -11,13 +14,21 @@ const DropdownMenu = (props) => {
     if (menuItem.submenu && menuItem.submenu.length > 0) {
       return (
         <li>
-          {title}
+          <p>{title}</p>
+          <FontAwesomeIcon
+            icon={faAngleDown}
+            className={repeated ? styles.rotated : ''}
+          />
           <DropdownMenu config={menuItem.submenu} submenu={true} />
         </li>
       );
+      (!repeated ? setRepeated(true) : null)
     } else {
-      return <li>{title}</li>;
-    }
+      return (
+      <li>
+        {title}
+      </li>
+    )}
   };
   let { config } = props;
 
@@ -26,8 +37,13 @@ const DropdownMenu = (props) => {
     options.push(getMenuItem(item, 0, index));
   });
 
-  if (props.submenu && props.submenu === true)
-    return <ul>{options}</ul>;
+  if (props.submenu && props.submenu === true){
+    return (
+      <ul>
+        {options}
+      </ul>
+  )
+  }
   return <ul className={styles.dropdown_menu}>{options}</ul>;
 }
 
