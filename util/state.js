@@ -138,7 +138,13 @@ let state = {
     {
       title: "Bog'lanish",
       url: "/smth",
-      submenu: [{ title: "Maktab bilan a'loqa", url: "/smth", submenu: null }],
+      submenu: [
+        {
+          title: "Maktab bilan a'loqa",
+          url: "/smth",
+          submenu: null,
+        },
+      ],
     },
   ],
   footerColumnData: [

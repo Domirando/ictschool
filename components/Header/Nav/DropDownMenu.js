@@ -13,7 +13,7 @@ const DropdownMenu = (props) => {
 
     if (menuItem.submenu && menuItem.submenu.length > 0) {
       return (
-        <li>
+        <li key={index}>
           <p>{title}</p>
           <FontAwesomeIcon
             icon={faAngleDown}
@@ -24,7 +24,7 @@ const DropdownMenu = (props) => {
       );
       !repeated ? setRepeated(true) : null;
     } else {
-      return <li>{title}</li>;
+      return <li key={index}>{title}</li>;
     }
   };
   let { config } = props;
