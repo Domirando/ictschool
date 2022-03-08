@@ -6,7 +6,7 @@
   float: left;
   text-align: center;
 }
-.rotated {
+.dropdown_menu li:hover .icon {
   transform: rotate(-90deg);
 }
 .dropdown_menu li {

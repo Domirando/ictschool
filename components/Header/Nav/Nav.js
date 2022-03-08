@@ -7,7 +7,7 @@ const NavList = () => {
   return (
     <div className={styles.nav}>
       <div className={styles.itemContainer}>
-        <DropdownMenu config={state.navbar} state={false} />
+        <DropdownMenu config={state.navbar} />
       </div>
       <FontAwesomeIcon
         icon={faMagnifyingGlass}
