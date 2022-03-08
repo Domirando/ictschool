@@ -17,7 +17,7 @@ const DropdownMenu = (props) => {
           <p>{title}</p>
           <FontAwesomeIcon
             icon={faAngleDown}
-            className={repeated ? styles.rotated : ""}
+            className={repeated ? "" : styles.rotated}
           />
           <DropdownMenu config={menuItem.submenu} submenu={true} />
         </li>
