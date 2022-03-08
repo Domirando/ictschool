@@ -24,7 +24,7 @@
 }
 
 /*--- Hide Sub Sublists ---*/
-.dropdown_menu li:hover ul ul {
+.dropdown_menu li:hover ul ul{
   display: none;
 }
 
@@ -32,7 +32,18 @@
 .dropdown_menu li:hover ul {
   display: block;
 }
+
 .dropdown_menu li li:hover ul {
+  margin-left: 100%; /*This must be width of menu box*/
+  margin-top: -21%;
+  display: block;
+}
+.dropdown_menu li:hover li ul ul {
+  margin-left: 100%; /*This must be width of menu box*/
+  margin-top: -21%;
+  display: none;
+}
+.dropdown_menu li li ul:hover ul {
   margin-left: 100%; /*This must be width of menu box*/
   margin-top: -21%;
   display: block;
