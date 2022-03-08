@@ -1,16 +1,15 @@
 .dropdown_menu {
-  @apply flex gap-3;
+  @apply flex gap-3 justify-between;
   list-style: none;
   margin: 0;
   padding: 0;
   float: left;
-  text-align: center;
 }
-.dropdown_menu li:hover .icon {
+.dropdown_menu li:hover li svg {
   transform: rotate(-90deg);
 }
 .dropdown_menu li {
-  @apply relative justify-self-start;
+  @apply relative;
   line-height: 35px;
   text-decoration: none;
 }

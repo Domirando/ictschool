@@ -1,10 +1,8 @@
 import styles from "./Dropdown.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
-import { useEffect, useState } from "react";
 
 const DropdownMenu = (props) => {
-  let [repeated, setRepeated] = useState([]);
   let getMenuItemTitle = (menuItem, index, depthLevel) => {
     return menuItem.title;
   };
@@ -15,7 +13,7 @@ const DropdownMenu = (props) => {
       return (
         <li key={index}>
           <p>{title}</p>
-          <FontAwesomeIcon icon={faAngleDown} className={styles.icon} />
+          <FontAwesomeIcon icon={faAngleDown} />
           <DropdownMenu config={menuItem.submenu} submenu={true} />
         </li>
       );
