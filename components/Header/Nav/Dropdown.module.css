@@ -1,9 +1,12 @@
 .dropdown_menu {
-  @apply flex gap-3 justify-between;
+  @apply flex gap-3 flex-wrap justify-between;
   list-style: none;
   margin: 0;
   padding: 0;
   float: left;
+}
+.dropdown_menu li p {
+  @apply text-[17px];
 }
 .dropdown_menu:hover * {
   cursor: pointer;

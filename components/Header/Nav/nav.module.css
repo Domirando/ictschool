@@ -5,6 +5,6 @@
   @apply flex items-center justify-evenly relative;
 }
 .searchIcon {
-  @apply mr-[-220px];
+  @apply mr-[-300px];
   transform: scaleX(-1);
 }
