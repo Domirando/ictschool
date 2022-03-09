@@ -5,15 +5,15 @@
   padding: 0;
   float: left;
 }
-.dropdown_menu:hover *{
+.dropdown_menu:hover * {
   cursor: pointer;
 }
 .dropdown_menu ul li,
-.dropdown_menu ul li ul li{
+.dropdown_menu ul li ul li {
   @apply flex justify-between items-center;
 }
 .dropdown_menu ul li ul,
-.dropdown_menu ul li ul li ul{
+.dropdown_menu ul li ul li ul {
   @apply top-full;
 }
 
@@ -36,7 +36,7 @@
 }
 
 /*--- Hide Sub Sublists ---*/
-.dropdown_menu li:hover ul ul{
+.dropdown_menu li:hover ul ul {
   display: none;
 }
 
