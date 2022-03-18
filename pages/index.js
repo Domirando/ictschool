@@ -9,13 +9,9 @@ const Index = () => {
       gradient={"none"}
     >
       <article>
-        <h1>Hello World</h1>
-
-        <p>This is ICTSchool &lsquo s website</p>
-        <p>
-          <Link href="/about">Go to about</Link>
-        </p>
+        hello
       </article>
+
     </Page>
   );
 };
