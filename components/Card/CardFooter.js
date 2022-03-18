@@ -1,6 +1,4 @@
 const CardFooter = () => {
-    return (
-        <div>foooter</div>
-    )
-}
-export default CardFooter
+  return <div>foooter</div>;
+};
+export default CardFooter;

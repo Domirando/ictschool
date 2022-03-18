@@ -27,7 +27,7 @@ const Page = ({
       />
 
       <main className={styles.mainItems}>
-        <CardContainer/>
+        <CardContainer />
         {children}
       </main>
 

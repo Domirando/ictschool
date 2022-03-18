@@ -8,10 +8,7 @@ const Index = () => {
       headerHeight={"100vh"}
       gradient={"none"}
     >
-      <article>
-        hello
-      </article>
-
+      <article>hello</article>
     </Page>
   );
 };

@@ -1,4 +1,4 @@
 const CardTitle = () => {
-    return <div>title</div>
-}
-export default CardTitle
+  return <div>title</div>;
+};
+export default CardTitle;

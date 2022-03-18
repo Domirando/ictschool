@@ -1,4 +1,4 @@
 const CardDescription = () => {
-    return ""
-}
-export default CardDescription
+  return "";
+};
+export default CardDescription;
