@@ -1,11 +1,11 @@
 import Card from "./Card";
-
+import styles from './Card.module.css'
 const CardContainer = () => {
   return (
-    <div className={"flex flex-row justify-between mx-12"}>
-      <Card />
-      <Card />
-      <Card />
+    <div className={styles.container}>
+      <Card image={'/schoolImage.png'} description={'adfasfs'} title={'IT Maktab Hayoti'}/>
+      <Card image={'/schoolImage.png'} description={'adfasfs'} title={'IT Maktab Hayoti'}/>
+      <Card image={'/schoolImage.png'} description={'adfasfs'} title={'IT Maktab Hayoti'}/>
     </div>
   );
 };

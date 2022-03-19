@@ -1,0 +1,18 @@
+.container{
+    @apply flex flex-row mt-[-30px] justify-between mx-12;
+}
+.card{
+    @apply flex flex-col;
+}
+.title{
+    @apply flex py-7 pl-8 bg-blue-600;
+}
+.title_text{
+
+}
+.description{
+    @apply mr-12 my-7
+}
+.footer{
+    @apply py-5;
+}
