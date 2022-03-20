@@ -4,6 +4,7 @@ import CardContainer from "../components/Card/CardContainer";
 import Card from "../components/Card/Card";
 import NewsContainer from "../components/News/index";
 import Admission from "../components/Admission";
+import Holidays from "../components/Holidays";
 
 const Index = () => {
   return (
@@ -32,6 +33,7 @@ const Index = () => {
           <NewsContainer />
         </section>
         <Admission />
+        <Holidays />
       </main>
     </Page>
   );
