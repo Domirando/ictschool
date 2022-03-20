@@ -2,6 +2,7 @@ import styles from "./header.module.css";
 import Image from "next/image";
 import Button from "../Button";
 import NavList from "./Nav/Nav";
+import Link from "next/link";
 const Header = ({
   title,
   text,
@@ -27,14 +28,16 @@ const Header = ({
       `}</style>
       {/*logo-image*/}
       <div className={styles.logo}>
-        <Image
-          src={
-            "https://ictschool.uz/wp-content/uploads/2019/10/AKSS-logo3-UZ-300x31.png"
-          }
-          alt={"logo"}
-          height="40px"
-          width="300px"
-        />
+        <Link href={"/"}>
+          <Image
+            src={
+              "https://ictschool.uz/wp-content/uploads/2019/10/AKSS-logo3-UZ-300x31.png"
+            }
+            alt={"logo"}
+            height="40px"
+            width="300px"
+          />
+        </Link>
       </div>
       {/*nav*/}
       <NavList />

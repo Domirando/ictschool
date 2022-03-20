@@ -25,12 +25,7 @@ const Page = ({
         headerBg={headerBg}
         gradient={gradient}
       />
-
-      <main className={styles.mainItems}>
-        <CardContainer />
-        {children}
-      </main>
-
+      {children}
       <Footer />
     </div>
   );

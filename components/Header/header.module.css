@@ -1,5 +1,5 @@
 .logo {
-  @apply flex justify-center;
+  @apply cursor-pointer flex justify-center;
 }
 
 .content {

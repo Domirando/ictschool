@@ -29,7 +29,7 @@ const DropdownMenu = (props) => {
   });
 
   if (props.submenu && props.submenu === true) {
-    return <ul>{options}</ul>;
+    return <ul className={styles.dropdown_menu}>{options}</ul>;
   }
   return <ul className={styles.dropdown_menu}>{options}</ul>;
 };
