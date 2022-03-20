@@ -20,7 +20,7 @@
   @apply flex gap-3 w-[370px];
 }
 .text {
-  @apply flex flex-col w-full;
+  @apply flex flex-col gap-2 w-full;
 }
 .text span {
   @apply flex gap-2 uppercase text-[#959595];
