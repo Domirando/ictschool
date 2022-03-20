@@ -14,12 +14,16 @@ const NewsContainer = () => {
             date={"15.03.2022"}
           />
           <News
-            title={"PREZIDENT TA’LIM MUASSASALARI AGENTLIGI TIZIMIDAGI O’QUVCHILAR ITALIYAGA BORADI!"}
+            title={
+              "PREZIDENT TA’LIM MUASSASALARI AGENTLIGI TIZIMIDAGI O’QUVCHILAR ITALIYAGA BORADI!"
+            }
             image={"/images/img_4.png"}
             date={"15.03.2022"}
           />
           <News
-            title={"Assalom Navro‘z –Yangilanish,mehr-oqibat va qadr-qimmat ayyomi!"}
+            title={
+              "Assalom Navro‘z –Yangilanish,mehr-oqibat va qadr-qimmat ayyomi!"
+            }
             image={"/images/img_3.png"}
             date={"15.03.2022"}
           />
@@ -31,12 +35,16 @@ const NewsContainer = () => {
             date={"15.03.2022"}
           />
           <News
-            title={"EPAM kompaniyasi bilan hamkorlikda SCRATCH kurslarini davom ettmoqda.\n"}
+            title={
+              "EPAM kompaniyasi bilan hamkorlikda SCRATCH kurslarini davom ettmoqda.\n"
+            }
             image={"/images/img_6.png"}
             date={"15.03.2022"}
           />
           <News
-            title={"TESOL Arabia-2022 pedagoglar uchun yuqori samarali kasbiy rivojlanish imkoniyati.\n"}
+            title={
+              "TESOL Arabia-2022 pedagoglar uchun yuqori samarali kasbiy rivojlanish imkoniyati.\n"
+            }
             image={"/images/img_7.png"}
             date={"15.03.2022"}
           />
