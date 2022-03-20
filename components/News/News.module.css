@@ -5,26 +5,29 @@
   @apply text-[#212052] text-xl font-semibold;
 }
 .container hr {
-  @apply border-[#212052] bg-[#212052] h-[2px];
+  @apply border-[#212052] bg-[#212052] h-[2px] mb-4;
 }
 .news {
   @apply flex gap-24;
 }
 .news_box {
-  @apply flex flex-col gap-7;
+  @apply flex flex-col gap-8;
 }
 .news_container div {
   @apply flex flex-col gap-6;
 }
 .card_container {
-  @apply flex gap-3;
+  @apply flex gap-3 w-[370px];
 }
 .text {
-  @apply flex flex-col;
+  @apply flex flex-col w-full
 }
 .text span {
   @apply flex gap-2 uppercase text-[#959595];
 }
 .text h2 {
-  @apply text-[#353372] text-[17px];
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+  @apply text-[#353372];
 }

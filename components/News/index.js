@@ -14,30 +14,30 @@ const NewsContainer = () => {
             date={"15.03.2022"}
           />
           <News
-            title={"Kitob – insonning haqiqiy do’sti."}
-            image={"/images/img_3.png"}
+            title={"PREZIDENT TA’LIM MUASSASALARI AGENTLIGI TIZIMIDAGI O’QUVCHILAR ITALIYAGA BORADI!"}
+            image={"/images/img_4.png"}
             date={"15.03.2022"}
           />
           <News
-            title={"Kitob – insonning haqiqiy do’sti."}
+            title={"Assalom Navro‘z –Yangilanish,mehr-oqibat va qadr-qimmat ayyomi!"}
             image={"/images/img_3.png"}
             date={"15.03.2022"}
           />
         </div>
         <div className={styles.news_box}>
           <News
-            title={"Kitob – insonning haqiqiy do’sti."}
-            image={"/images/img_3.png"}
+            title={"“IELTS Mock”"}
+            image={"/images/img_5.png"}
             date={"15.03.2022"}
           />
           <News
-            title={"Kitob – insonning haqiqiy do’sti."}
-            image={"/images/img_3.png"}
+            title={"EPAM kompaniyasi bilan hamkorlikda SCRATCH kurslarini davom ettmoqda.\n"}
+            image={"/images/img_6.png"}
             date={"15.03.2022"}
           />
           <News
-            title={"Kitob – insonning haqiqiy do’sti."}
-            image={"/images/img_3.png"}
+            title={"TESOL Arabia-2022 pedagoglar uchun yuqori samarali kasbiy rivojlanish imkoniyati.\n"}
+            image={"/images/img_7.png"}
             date={"15.03.2022"}
           />
         </div>

@@ -14,8 +14,8 @@
   @apply flex justify-between text-white flex-col;
 }
 .description {
-  @apply my-7 text-[#555555] text-[15px] font-[400];
+  @apply my-7 w-full text-[#555555] text-[15px] font-[400];
 }
 .footer {
-  @apply py-5 flex items-center gap-2 text-[#202060] font-extrabold;
+  @apply py-5 cursor-pointer flex items-center gap-2 text-[#202060] font-extrabold;
 }

@@ -1,8 +1,7 @@
 import Page from "../components/page/index";
 import styles from "../components/page/page.module.css";
 import CardContainer from "../components/Card/CardContainer";
-import CardImage from "../components/Card/CardImage";
-import CardDescription from "../components/Card/CardDescription";
+import Card from "../components/Card/Card";
 import NewsContainer from "../components/News/index";
 
 const Index = () => {
@@ -16,19 +15,13 @@ const Index = () => {
         <section>
           <CardContainer />
         </section>
-        <section className={"flex justify-between mx-12 mt-20"}>
-          <div className={" flex flex-col gap-4"}>
-            <h2 className={"text-[#212052] text-xl font-semibold"}>
-              Maktab bo‘ylab sayohat
-            </h2>
-            <hr className={"border-[#212052] bg-[#212052] h-[2px]"} />
-            <CardImage
-              image={"/images/img.png"}
-              width={"460px"}
-              height={"280px"}
-            />
+        <section className={'flex justify-between gap-3 mx-12 mt-20'}>
+          <div className={'w-[34%] flex flex-col gap-4'}>
+            <h2 className={'text-[#212052] text-xl font-semibold'}>Maktab bo‘ylab sayohat</h2>
+            <hr className={'border-[#212052] bg-[#212052] h-[2px] mb-4'}/>
+            <Card description={'Ushbu videoda Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktab binosi haqida qisqacha ma’lumot olishingiz mumkin.'} image={"/images/img.png"}/>
           </div>
-          <NewsContainer />
+          <NewsContainer/>
         </section>
       </main>
       <article>hello</article>
