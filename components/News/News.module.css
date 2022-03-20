@@ -1,0 +1,30 @@
+.container{
+    @apply flex flex-col gap-4;
+}
+.container h2{
+    @apply text-[#212052] text-xl font-semibold
+}
+.container hr{
+    @apply border-[#212052] bg-[#212052] h-[2px]
+}
+.news{
+    @apply flex gap-24
+}
+.news_box{
+    @apply flex flex-col gap-7
+}
+.news_container div{
+    @apply flex flex-col gap-6
+}
+.card_container{
+    @apply flex gap-3;
+}
+.text{
+    @apply flex flex-col
+}
+.text span{
+    @apply flex gap-2 uppercase text-[#959595]
+}
+.text h2{
+    @apply text-[#353372] text-[17px]
+}

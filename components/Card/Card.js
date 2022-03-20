@@ -4,7 +4,7 @@ import CardDescription from "./CardDescription";
 import CardImage from "./CardImage";
 import CardFooter from "./CardFooter";
 
-const Card = ({title=false, image='', description='some description', icon='', header_color='#3a3a7c', footer=false }) => {
+const Card = ({title=false, image='/images/img.png', description='some description', icon='', header_color='#3a3a7c', footer=false }) => {
   return (
     <article className={styles.card}>
         {title?(
