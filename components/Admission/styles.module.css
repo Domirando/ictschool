@@ -1,2 +1,24 @@
 .container {
+  background-color: #171748;
+  @apply flex h-[85vh] items-center;
+}
+.leftImage {
+  width: 2200px;
+  height: 100%;
+  border: none;
+  background-position: center;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #171748),
+    url("/images/img_9.png");
+}
+.rightContent {
+  @apply text-white ml-[-130px] mr-28;
+}
+.rightContent h1 {
+  @apply text-4xl font-extrabold;
+}
+.rightContent h3 {
+  @apply text-xl my-4;
+}
+.rightContent p {
+  @apply mt-8 text-lg w-[500px] mb-9;
 }
