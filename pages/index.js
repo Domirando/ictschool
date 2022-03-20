@@ -31,7 +31,7 @@ const Index = () => {
           </div>
           <NewsContainer />
         </section>
-        <Admission/>
+        <Admission />
       </main>
     </Page>
   );
