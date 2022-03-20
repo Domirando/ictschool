@@ -16,13 +16,19 @@ const Index = () => {
         <section>
           <CardContainer />
         </section>
-        <section className={'flex justify-between mx-12 mt-20'}>
-          <div className={' flex flex-col gap-4'}>
-            <h2 className={'text-[#212052] text-xl font-semibold'}>Maktab bo‘ylab sayohat</h2>
-            <hr className={'border-[#212052] bg-[#212052] h-[2px]'}/>
-            <CardImage image={'/images/img.png'} width={'460px'} height={'280px'}/>
+        <section className={"flex justify-between mx-12 mt-20"}>
+          <div className={" flex flex-col gap-4"}>
+            <h2 className={"text-[#212052] text-xl font-semibold"}>
+              Maktab bo‘ylab sayohat
+            </h2>
+            <hr className={"border-[#212052] bg-[#212052] h-[2px]"} />
+            <CardImage
+              image={"/images/img.png"}
+              width={"460px"}
+              height={"280px"}
+            />
           </div>
-          <NewsContainer/>
+          <NewsContainer />
         </section>
       </main>
       <article>hello</article>

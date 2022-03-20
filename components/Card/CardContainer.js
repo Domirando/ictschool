@@ -29,7 +29,7 @@ const CardContainer = () => {
         image={"/images/img_2.png"}
         description={
           "Respublikada yagona bo‘lmish mazkur IT maktabga o‘quvchilar O‘zbekiston Republikasi Prezidenti, Ijod va Ixtisoslashgan maktablarni rivojlantirish Agentligi tomonidan belgilangan kvota asosida 5-sinfdan qabul qilinadi."
-      }
+        }
         title={"Qabul"}
         footer={true}
       />
