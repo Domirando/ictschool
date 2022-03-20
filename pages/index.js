@@ -3,6 +3,7 @@ import styles from "../components/page/page.module.css";
 import CardContainer from "../components/Card/CardContainer";
 import Card from "../components/Card/Card";
 import NewsContainer from "../components/News/index";
+import Admission from "../components/Admission";
 
 const Index = () => {
   return (
@@ -30,8 +31,8 @@ const Index = () => {
           </div>
           <NewsContainer />
         </section>
+        <Admission/>
       </main>
-      <article>hello</article>
     </Page>
   );
 };
