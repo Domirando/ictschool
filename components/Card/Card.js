@@ -4,17 +4,18 @@ import CardDescription from "./CardDescription";
 import CardImage from "./CardImage";
 import CardFooter from "./CardFooter";
 
-const Card = (props) => {
+const Card = ({title=false, image='', description='some description', icon='', header_color='#3a3a7c', footer=false }) => {
   return (
     <article className={styles.card}>
-      <CardTitle
-        bg={props.header_color}
-        icon={props.icon}
-        title={props.title}
-      />
-      <CardImage image={props.image} />
-      <CardDescription description={props.description} />
-      <CardFooter />
+        {title?(
+                <CardTitle bg={header_color}
+                           icon={icon}
+                           title={title}
+                />
+            ):null}
+      <CardImage image={image} />
+      <CardDescription description={description} />
+        {footer?<CardFooter />:null}
     </article>
   );
 };

@@ -7,7 +7,7 @@ const CardTitle = ({ icon, title, bg }) => {
       <style jsx>{`
         .bg {
           @apply flex items-center py-7 gap-6 pl-8;
-          background-color: ${bg ? bg : "#3a3a7c"};
+          background-color: ${bg};
         }
       `}</style>
       <div className={styles.title_text}>
