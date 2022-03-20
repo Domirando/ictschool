@@ -7,11 +7,11 @@
 .title {
   @apply flex items-center py-7 gap-6 pl-8;
 }
-.title h1{
-  @apply font-extrabold text-lg
+.title h1 {
+  @apply font-extrabold text-lg;
 }
 .title_text {
-  @apply flex justify-between text-white flex-col
+  @apply flex justify-between text-white flex-col;
 }
 .description {
   @apply my-7 text-[#555555] text-[15px] font-[400];
