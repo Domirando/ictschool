@@ -1,0 +1,25 @@
+.container {
+  background-image: url("/images/img_10.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  @apply h-[650px] w-[500px] flex items-center justify-center;
+}
+.container .content {
+  @apply text-white flex justify-center flex-col gap-9 w-[70%];
+}
+.title {
+  @apply flex gap-2.5 font-extrabold text-2xl;
+}
+.title svg {
+  transform: rotate(90deg);
+}
+.list {
+  @apply flex flex-col gap-4 text-[16px] font-bold;
+}
+.list h3 {
+  @apply cursor-pointer;
+}
+.list hr {
+  @apply border-[#212052] bg-[#212052] h-[1px];
+}
