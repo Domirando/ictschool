@@ -1,11 +1,7 @@
-const Button = ({ text, border = "rounded-md", bgcolor }) => {
+const Button = ({ text, border = "rounded-md", uppercase=true, bgcolor, py="py-2" }) => {
   return (
     <button
-      className={
-        bgcolor +
-        " " +
-        border +
-        " px-8 h-full flex items-center justify-center py-2 font-bold text-white uppercase"
+      className={`${border} ${bgcolor} ${py} px-8 h-full flex items-center justify-center font-bold text-white ${uppercase?'uppercase':null}`
       }
     >
       {text}
