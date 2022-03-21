@@ -1,9 +1,9 @@
 import styles from "./Card.module.css";
-
+import Image from "next/image";
 const CardTitle = ({ icon, title, bg }) => {
   return (
     <div className={`bg ${styles.title}`}>
-      <img src={icon} />
+      <Image width={"45%"} height={"40%"} alt="" src={icon} />
       <style jsx>{`
         .bg {
           @apply flex items-center py-7 gap-6 pl-8;

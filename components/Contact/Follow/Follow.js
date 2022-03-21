@@ -13,19 +13,19 @@ const Follow = () => {
   return (
     <div className={styles.container}>
       <FontAwesomeIcon icon={faEnvelope} className={styles.envelope} />
-      <h1>Yangiliklarga obuna bo'ling</h1>
+      <h1>Yangiliklarga obuna bo`ling</h1>
       <p>
         Maktabimiz hayotidagi barcha o‘zgarishlar va yangiliklardan xabardor
-        bo‘ling
+        bo`ling
       </p>
       <span className={styles.icons}>
-        <Link href={"https://facebook.com/itschool.uz"}>
+        <Link passHref href={"https://facebook.com/itschool.uz"}>
           <FontAwesomeIcon icon={faFacebook} />
         </Link>
-        <Link href={"https://instagram.com/itschool.uz"}>
+        <Link passHref href={"https://instagram.com/itschool.uz"}>
           <FontAwesomeIcon icon={faInstagram} />
         </Link>
-        <Link href={"https://t.me/itschooluz"}>
+        <Link passHref href={"https://t.me/itschooluz"}>
           <FontAwesomeIcon icon={faTelegram} />
         </Link>
       </span>

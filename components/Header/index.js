@@ -28,7 +28,7 @@ const Header = ({
       `}</style>
       {/*logo-image*/}
       <div className={styles.logo}>
-        <Link href={"/"}>
+        <Link href={"/"} passHref>
           <Image
             src={
               "https://ictschool.uz/wp-content/uploads/2019/10/AKSS-logo3-UZ-300x31.png"

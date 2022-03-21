@@ -6,6 +6,7 @@ const News = ({ image = "/images/img.png", title, date }) => {
     <div className={styles.card_container}>
       <div className={"h-[100px] w-[100px]"}>
         <Image
+          alt={""}
           height="100px"
           width="100px"
           className={styles.image}

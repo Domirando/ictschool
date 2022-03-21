@@ -19,9 +19,9 @@ const UsefulLinks = () => {
           <hr />
           <h3>Oliy majlisning senati</h3>
           <hr />
-          <h3>Ochiq ma'lumotlar portali</h3>
+          <h3>Ochiq ma`lumotlar portali</h3>
           <hr />
-          <h3>Xalq ta'lim vazirligi</h3>
+          <h3>Xalq ta`lim vazirligi</h3>
         </div>
       </div>
     </div>
