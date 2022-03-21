@@ -1,4 +1,5 @@
 import styles from "./Follow.module.css";
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -18,9 +19,9 @@ const Follow = () => {
         bo‘ling
       </p>
       <span className={styles.icons}>
-        <FontAwesomeIcon icon={faFacebook} />
-        <FontAwesomeIcon icon={faInstagram} />
-        <FontAwesomeIcon icon={faTelegram} />
+        <Link href={"https://facebook.com/itschool.uz"}><FontAwesomeIcon icon={faFacebook} /></Link>
+        <Link href={"https://instagram.com/itschool.uz"}><FontAwesomeIcon icon={faInstagram} /></Link>
+        <Link href={"https://t.me/itschooluz"}><FontAwesomeIcon icon={faTelegram} /></Link>
       </span>
       <span className={styles.email_sender}>
         <input placeholder={"Your Email Address"} className={styles.email_input}/>

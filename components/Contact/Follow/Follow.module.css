@@ -4,6 +4,9 @@
 .icons {
   @apply flex gap-5 my-4;
 }
+.icons svg{
+    @apply cursor-pointer
+}
 .container svg {
   @apply text-4xl text-[#202060];
 }
