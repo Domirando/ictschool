@@ -19,15 +19,30 @@ const Follow = () => {
         bo‘ling
       </p>
       <span className={styles.icons}>
-        <Link href={"https://facebook.com/itschool.uz"}><FontAwesomeIcon icon={faFacebook} /></Link>
-        <Link href={"https://instagram.com/itschool.uz"}><FontAwesomeIcon icon={faInstagram} /></Link>
-        <Link href={"https://t.me/itschooluz"}><FontAwesomeIcon icon={faTelegram} /></Link>
+        <Link href={"https://facebook.com/itschool.uz"}>
+          <FontAwesomeIcon icon={faFacebook} />
+        </Link>
+        <Link href={"https://instagram.com/itschool.uz"}>
+          <FontAwesomeIcon icon={faInstagram} />
+        </Link>
+        <Link href={"https://t.me/itschooluz"}>
+          <FontAwesomeIcon icon={faTelegram} />
+        </Link>
       </span>
       <span className={styles.email_sender}>
-        <input placeholder={"Your Email Address"} className={styles.email_input}/>
-        <Button text={"Obuna bo`lish"} bgcolor={"bg-[#c50227]"} uppercase={false} border={"rounded-none"} py={"py-4"}/>
+        <input
+          placeholder={"Your Email Address"}
+          className={styles.email_input}
+        />
+        <Button
+          text={"Obuna bo`lish"}
+          bgcolor={"bg-[#c50227]"}
+          uppercase={false}
+          border={"rounded-none"}
+          py={"py-4"}
+        />
       </span>
-      </div>
+    </div>
   );
 };
 export default Follow;

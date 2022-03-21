@@ -4,8 +4,8 @@
 .icons {
   @apply flex gap-5 my-4;
 }
-.icons svg{
-    @apply cursor-pointer
+.icons svg {
+  @apply cursor-pointer;
 }
 .container svg {
   @apply text-4xl text-[#202060];
@@ -13,16 +13,16 @@
 .container .envelope {
   @apply text-7xl mb-6;
 }
-.container h1{
-    @apply font-extrabold mb-[-15px] text-xl
+.container h1 {
+  @apply font-extrabold mb-[-15px] text-xl;
 }
 .container p {
   text-align: center;
   width: 320px;
 }
-.email_input{
-    @apply p-4 bg-[#f2f2f2] border-none
+.email_input {
+  @apply p-4 bg-[#f2f2f2] border-none;
 }
-.email_sender{
-    @apply flex flex-col gap-3
+.email_sender {
+  @apply flex flex-col gap-3;
 }
