@@ -9,10 +9,10 @@ const Donate = () => {
       <CardImage
         image={"/images/img_11.png"}
         width={"150px"}
-        height={"200px"}
+        height={"180px"}
       />
       <h1>Maktab uchun xayriya</h1>
-      <p>
+      <p className={styles.description}>
         Mamlakatimizda o‘quvchi-yoshlarning sifatli ta’lim-tarbiyasi uchun zarur
         shart-sharoitlarni yaxshilash va ularni har tomonlama qo‘llab-quvvatlash
         yo‘lida katta ishlar amalga oshirilmoqda. Agar Siz biz bilan hamkorlikni
@@ -20,10 +20,14 @@ const Donate = () => {
       </p>
       <Button
         uppercase={false}
-        width={"w-52"}
+        width={"w-44"}
         fontSize={`text-[12px]`}
         py={"py-4"}
-        text={((<FontAwesomeIcon icon={faHeart} />), "Hamkor bo'lish")}
+        text={
+          <p className={"flex gap-2 justify-center items-center"}>
+            <FontAwesomeIcon icon={faHeart} /> Hamkor bo`lish
+          </p>
+        }
         bgcolor={"bg-[#202060]"}
         border={"rounded-none"}
       />

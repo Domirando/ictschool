@@ -1,6 +1,9 @@
 .container {
-  @apply h-[650px] w-[500px] flex flex-col gap-6 mr-16;
+  @apply h-[650px] w-[400px] flex flex-col gap-6 mr-16;
 }
 .container h1 {
   @apply text-[#202060] text-xl font-extrabold;
+}
+.container .description {
+  @apply text-[#9b9a9a] font-black text-[15px];
 }
