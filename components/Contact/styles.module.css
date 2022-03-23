@@ -1,3 +1,8 @@
 .container {
-  @apply flex flex-wrap;
+  @apply flex;
+}
+@media screen and (max-width: 1100px) {
+  .container {
+    @apply flex-wrap justify-between
+  }
 }

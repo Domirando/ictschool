@@ -7,3 +7,8 @@
 .container .description {
   @apply text-[#9b9a9a] font-black text-[15px];
 }
+@media screen and (max-width: 1100px) {
+  .container {
+    @apply mt-6 my-0 mx-auto
+  }
+}

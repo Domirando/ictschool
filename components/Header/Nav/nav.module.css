@@ -2,11 +2,11 @@
   @apply text-[15px];
 }
 .nav {
-  @apply flex items-center justify-evenly relative flex-wrap;
+  @apply flex items-center justify-evenly relative;
 }
-@media screen and (max-width: 1370px) {
+@media screen and (max-width: 1360px) {
   .nav{
-    @apply flex-wrap flex-col
+    @apply justify-start gap-56
   }
 }
 
