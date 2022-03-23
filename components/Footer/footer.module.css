@@ -3,10 +3,10 @@
   font-size: 16px;
 }
 .rowsContainer {
-  @apply flex gap-10 justify-between px-16 py-14;
+  @apply flex gap-10 flex flex-wrap justify-between px-16 py-14;
 }
 .footerColumn {
-  @apply float-left w-[25%];
+  @apply float-left w-[25%] flex flex-wrap;
 }
 .footerColumn ul {
   @apply ml-9 mt-14 flex flex-col gap-2;

@@ -18,7 +18,7 @@ const Index = () => {
         <section>
           <CardContainer />
         </section>
-        <section className={"flex justify-between gap-3 mx-12 mt-20"}>
+        <section className={"flex justify-between flex-wrap gap-3 mx-12 mt-20"}>
           <div className={"w-[34%] flex flex-col gap-4"}>
             <h2 className={"text-[#212052] text-xl font-semibold"}>
               Maktab bo‘ylab sayohat

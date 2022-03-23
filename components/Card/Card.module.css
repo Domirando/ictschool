@@ -1,6 +1,14 @@
 .container {
   @apply flex flex-row mt-[-30px] justify-between mx-12;
 }
+@media screen and (max-width: 1150px) {
+  .container{
+    @apply flex-wrap
+  }
+  .card{
+    @apply w-[500px] mx-auto my-0
+  }
+}
 .card {
   @apply flex flex-col;
 }

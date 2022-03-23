@@ -2,8 +2,14 @@
   @apply text-[15px];
 }
 .nav {
-  @apply flex items-center justify-evenly relative;
+  @apply flex items-center justify-evenly relative flex-wrap;
 }
+@media screen and (max-width: 1370px) {
+  .nav{
+    @apply flex-wrap flex-col
+  }
+}
+
 .searchIcon {
   @apply mr-[-300px];
   transform: scaleX(-1);
