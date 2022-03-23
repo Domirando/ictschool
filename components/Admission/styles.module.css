@@ -2,6 +2,11 @@
   background-color: #171748;
   @apply flex h-[85vh] items-center;
 }
+@media screen and (max-width: 1360px) {
+  .container {
+    @apply h-[110vh];
+  }
+}
 .leftImage {
   width: 2200px;
   height: 100%;

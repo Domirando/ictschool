@@ -5,8 +5,18 @@
   @apply flex items-center justify-evenly relative;
 }
 @media screen and (max-width: 1360px) {
-  .nav{
-    @apply justify-start gap-56
+  .nav {
+    @apply justify-start gap-56;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .nav {
+    @apply justify-start gap-28;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .nav {
+    @apply justify-start gap-14;
   }
 }
 

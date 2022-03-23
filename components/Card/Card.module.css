@@ -1,12 +1,12 @@
 .container {
-  @apply flex flex-row mt-[-30px] justify-between mx-12;
+  @apply flex flex-row mt-[-30px] mx-auto justify-between mx-12;
 }
 @media screen and (max-width: 1150px) {
-  .container{
-    @apply flex-wrap
+  .container {
+    @apply flex-wrap justify-center;
   }
-  .card{
-    @apply w-[500px] mx-auto my-0
+  .card {
+    @apply w-[500px] mx-auto my-0;
   }
 }
 .card {

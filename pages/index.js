@@ -17,7 +17,7 @@ const Index = () => {
         <section>
           <CardContainer />
         </section>
-        <SchoolStuff/>
+        <SchoolStuff />
         <Admission />
         <Holidays />
         <Contact />

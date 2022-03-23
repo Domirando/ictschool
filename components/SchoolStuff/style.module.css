@@ -1,12 +1,11 @@
-.container{
-    @apply flex justify-between gap-3 mx-12 mt-20
+.container {
+  @apply flex justify-between gap-3 mx-12 mt-20;
 }
 @media screen and (max-width: 1300px) {
-    .container{
-        @apply flex-wrap justify-center
-    }
-
+  .container {
+    @apply flex-wrap justify-center;
+  }
 }
-.rightSide{
-    @apply w-[34%] flex flex-col gap-4
+.rightSide {
+  @apply w-[34%] flex flex-col gap-4;
 }
