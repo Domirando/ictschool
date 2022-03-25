@@ -34,6 +34,7 @@ const Hamburger = () => {
             background-color: transparent;
           }
           .active_hamburger::before {
+            z-index: 999;
             transition: all 0.5s ease-in-out;
             transform: rotate(45deg) translate(35px, -35px);
             content: "";
@@ -45,6 +46,7 @@ const Hamburger = () => {
             border-radius: 5px;
           }
           .active_hamburger::after {
+            z-index: 999;
             transition: all 0.5s ease-in-out;
             transform: rotate(-45deg) translate(35px, 35px);
             content: "";
