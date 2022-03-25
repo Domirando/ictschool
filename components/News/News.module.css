@@ -5,8 +5,8 @@
   @apply text-[#212052] text-xl font-semibold;
 }
 @media screen and (max-width: 1080px) {
-  .news_box:nth-child(2){
-    @apply hidden
+  .news_box:nth-child(2) {
+    @apply hidden;
   }
 }
 

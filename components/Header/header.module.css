@@ -2,8 +2,8 @@
   @apply flex flex-col gap-12;
 }
 @media screen and (max-width: 1070px) {
-  .header_res{
-    @apply flex justify-between items-center
+  .header_res {
+    @apply flex justify-between items-center;
   }
 }
 .logo {

@@ -1,6 +1,7 @@
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 1080px) {
   .dropdown_menu {
-    @apply flex flex-wrap;
+    transition: all 0.5s ease-in-out;
+    @apply fixed w-full h-screen bg-[#1c1b3b];
   }
 }
 .dropdown_menu {
