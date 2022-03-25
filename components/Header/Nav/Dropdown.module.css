@@ -1,14 +1,19 @@
-@media screen and (max-width: 1080px) {
+@media (max-width: 1080px) {
   .dropdown_menu {
     transition: all 0.5s ease-in-out;
-    @apply fixed w-full h-screen bg-[#1c1b3b];
+    transform: translateX(-30%);
+    justify-content: start !important;
+    @apply flex flex-col fixed w-[550px]  pt-[40px] h-screen bg-[#1c1b3b];
+  }
+  .dropdown_menu li {
+    margin: 0px 20px !important;
   }
 }
 .dropdown_menu {
   @apply flex gap-3 justify-between;
   list-style: none;
   margin: 0;
-  padding: 0;
+  /*padding: 0;*/
   float: left;
 }
 .dropdown_menu li p {

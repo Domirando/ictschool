@@ -25,6 +25,7 @@ const Hamburger = () => {
             display: none;
           }
           .active_hamburger {
+            z-index: 999;
             cursor: pointer;
             transition: all 0.5s ease-in-out;
             transform: translateX(-50px);
