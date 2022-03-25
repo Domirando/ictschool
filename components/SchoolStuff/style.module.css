@@ -6,6 +6,12 @@
     @apply flex-wrap justify-center;
   }
 }
+@media screen and (max-width: 1080px) {
+  .container{
+    @apply flex-col
+  }
+}
+
 .rightSide {
   @apply w-[34%] flex flex-col gap-4;
 }

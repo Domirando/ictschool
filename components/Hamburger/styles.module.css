@@ -1,0 +1,17 @@
+.container {
+  @apply hidden;
+}
+.hamburger {
+  transition: all 0.5s ease-in-out;
+  @apply w-[30px] h-[3px] bg-white rounded-[5px];
+}
+.hamburger::before {
+  transition: all 0.5s ease-in-out;
+  transform: translateY(-10px);
+  @apply content-[""] absolute w-[30px] h-[3px] bg-white rounded-[5px];
+}
+.hamburger::after {
+  transition: all 0.5s ease-in-out;
+  transform: translateY(z10px);
+  @apply content-[""] absolute w-[30px] h-[3px] bg-white rounded-[5px];
+}

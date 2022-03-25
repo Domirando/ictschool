@@ -4,6 +4,12 @@
 .container h2 {
   @apply text-[#212052] text-xl font-semibold;
 }
+@media screen and (max-width: 1080px) {
+  .news_box:nth-child(2){
+    @apply hidden
+  }
+}
+
 .container hr {
   @apply border-[#212052] bg-[#212052] h-[2px] mb-4;
 }

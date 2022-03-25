@@ -3,6 +3,8 @@ import Image from "next/image";
 import Button from "../Button";
 import NavList from "./Nav/Nav";
 import Link from "next/link";
+import Hamburger from "../Hamburger";
+
 const Header = ({
   title,
   text,
@@ -27,20 +29,25 @@ const Header = ({
         }
       `}</style>
       {/*logo-image*/}
-      <div className={styles.logo}>
-        <Link href={"/"} passHref>
-          <Image
-            src={
-              "https://ictschool.uz/wp-content/uploads/2019/10/AKSS-logo3-UZ-300x31.png"
-            }
-            alt={"logo"}
-            height="40px"
-            width="300px"
-          />
-        </Link>
-      </div>
-      {/*nav*/}
-      <NavList />
+      <span className={styles.headerNav}>
+        <div className={styles.header_res}>
+          <div className={styles.logo}>
+            <Link href={"/"} passHref>
+              <Image
+                src={
+                  "https://ictschool.uz/wp-content/uploads/2019/10/AKSS-logo3-UZ-300x31.png"
+                }
+                alt={"logo"}
+                height="40px"
+                width="300px"
+              />
+            </Link>
+          </div>
+          <Hamburger />
+        </div>
+        {/*nav*/}
+        <NavList />
+      </span>
       {/*title & text* & button*/}
       <div className={styles.content}>
         <h1>

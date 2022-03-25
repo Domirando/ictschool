@@ -1,7 +1,6 @@
 .icon {
   @apply text-[15px];
-}
-.nav {
+}  .nav {
   @apply flex items-center justify-evenly relative;
 }
 @media screen and (max-width: 1360px) {
@@ -19,6 +18,12 @@
     @apply justify-start gap-14;
   }
 }
+@media screen and (max-width: 1080px) {
+  .nav{
+    display: none;
+  }
+}
+
 
 .searchIcon {
   @apply mr-[-300px];
