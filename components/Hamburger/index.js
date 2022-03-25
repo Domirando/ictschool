@@ -16,7 +16,7 @@ const Hamburger = () => {
       <style jsx>
         {`
           .active_hamburger {
-            z-index: 999;
+            //z-index: 9;
             cursor: pointer;
             transition: all 0.5s ease-in-out;
             transform: translateX(-50px);

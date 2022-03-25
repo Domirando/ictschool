@@ -1,9 +1,11 @@
 @media (max-width: 1080px) {
   .dropdown_menu {
     transition: all 0.5s ease-in-out;
-    transform: translateX(-30%);
+    top: 60px;
+    left: 65%;
+    padding-top: 10px !important;
     justify-content: start !important;
-    @apply flex flex-col fixed w-[550px]  pt-[40px] h-screen bg-[#1c1b3b];
+    @apply flex flex-col absolute w-[550px] h-screen bg-[#1c1b3b];
   }
   .dropdown_menu li {
     margin: 0px 20px !important;
