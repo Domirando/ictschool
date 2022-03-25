@@ -21,7 +21,6 @@ const Header = ({
           background: ${gradient},
             url("${headerBg}") no-repeat center center / cover;
           min-height: ${headerHeight};
-          padding: 50px 100px;
           color: white;
           display: flex;
           flex-direction: column;
@@ -38,7 +37,7 @@ const Header = ({
                   "https://ictschool.uz/wp-content/uploads/2019/10/AKSS-logo3-UZ-300x31.png"
                 }
                 alt={"logo"}
-                height="40px"
+                height="35px"
                 width="300px"
               />
             </Link>
