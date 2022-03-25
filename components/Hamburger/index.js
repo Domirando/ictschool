@@ -5,14 +5,14 @@ import DropdownMenu from "../Header/Nav/DropDownMenu";
 const Hamburger = () => {
   let [open, setOpened] = useState(false);
   return (
-    <div onClick={() => setOpened(!open)}>
-      <div className="hamburger_wrapper">
+    //
+    <div className="hamburger_wrapper">
+      <div onClick={() => setOpened(!open)}>
         <div className={!open ? "hamburger" : "active_hamburger"} />
-        <div className={open ? "menu" : "no_menu"}>
-          <DropdownMenu display={true} config={state.navbar} />
-        </div>
       </div>
-
+      <div className={open ? "menu" : "no_menu"}>
+        <DropdownMenu display={true} config={state.navbar} />
+      </div>
       <style jsx>
         {`
           .active_hamburger {

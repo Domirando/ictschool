@@ -5,10 +5,21 @@
     left: 65%;
     padding-top: 10px !important;
     justify-content: start !important;
+    gap: 20px !important;
     @apply flex flex-col absolute w-[550px] h-screen bg-[#1c1b3b];
   }
   .dropdown_menu li {
     margin: 0px 20px !important;
+    position: relative !important;
+  }
+  .dropdown_menu li::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 2px;
+    width: 40%;
+    background: #fff;
   }
 }
 .dropdown_menu {
