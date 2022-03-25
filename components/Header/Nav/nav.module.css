@@ -2,6 +2,7 @@
   @apply text-[15px];
 }
 .nav {
+  margin: 50px 100px;
   @apply flex items-center justify-evenly relative;
 }
 @media screen and (max-width: 1360px) {
@@ -26,6 +27,6 @@
 }
 
 .searchIcon {
-  @apply mr-[-300px];
+  @apply mr-[-250px];
   transform: scaleX(-1);
 }

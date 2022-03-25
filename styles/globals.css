@@ -7,3 +7,6 @@
 :root {
   --primary: #1c1b3b;
 }
+body {
+  overflow-x: hidden;
+}
