@@ -10,6 +10,7 @@
   }
   .content {
     padding-top: 150px;
+    width: 80% !important;
   }
 }
 .logo {

@@ -15,15 +15,6 @@ const Hamburger = () => {
 
       <style jsx>
         {`
-          .no_menu {
-            display: none;
-          }
-          .menu {
-            display: block;
-          }
-          .hamburger_wrapper {
-            display: none;
-          }
           .active_hamburger {
             z-index: 999;
             cursor: pointer;
@@ -86,6 +77,15 @@ const Hamburger = () => {
             height: 3px;
             background-color: white;
             border-radius: 5px;
+          }
+          .no_menu {
+            display: none;
+          }
+          .menu {
+            display: block;
+          }
+          .hamburger_wrapper {
+            display: none;
           }
           @media (max-width: 1080px) {
             .hamburger_wrapper {
