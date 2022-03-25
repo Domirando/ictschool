@@ -8,13 +8,16 @@
   .headerNav {
     @apply pt-0;
   }
+  .content {
+    padding-top: 150px;
+  }
 }
 .logo {
   @apply cursor-pointer flex justify-center;
 }
 
 .content {
-  margin: 50px 100px;
+  margin: -50px 100px;
   @apply w-[500px];
 }
 .content h1 {
