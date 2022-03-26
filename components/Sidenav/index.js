@@ -34,6 +34,9 @@ const Sidenav = ({ open = false, submenu = false, config = state.navbar }) => {
   config.map((item, index) => {
     options.push(getMenuItem(item, 0, index));
   });
+  if (submenu && submenu === true) {
+    return open && <ul className={styles.container}>{options}</ul>;
+  }
   return open && <ul className={styles.container}>{options}</ul>;
 };
 export default Sidenav;
