@@ -1,30 +1,3 @@
-@media (max-width: 1080px) {
-  .dropdown_menu {
-    transition: all 0.5s ease-in-out;
-    top: 60px;
-    left: 55%;
-    padding-top: 20px !important;
-    justify-content: start !important;
-    gap: 25px !important;
-    @apply flex flex-col absolute w-[550px] h-screen bg-[#1c1b3b];
-  }
-  .dropdown_menu li {
-    margin: 0px 20px !important;
-    position: relative !important;
-  }
-  .dropdown_menu li::after {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    height: 1px;
-    width: 35%;
-    background: #494f9c;
-  }
-  .dropdown_menu li svg {
-    transform: rotate(-90deg);
-  }
-}
 .dropdown_menu {
   @apply flex gap-3 justify-between;
   list-style: none;
@@ -70,7 +43,6 @@
   display: none;
 }
 
-/*--- Sublevel UL's display and position on hover ---*/
 .dropdown_menu li:hover ul {
   display: block;
 }

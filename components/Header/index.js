@@ -4,6 +4,8 @@ import Button from "../Button";
 import NavList from "./Nav/Nav";
 import Link from "next/link";
 import Hamburger from "../Hamburger";
+import { useState } from "react";
+import Sidenav from "../Sidenav";
 
 const Header = ({
   title,
@@ -14,6 +16,7 @@ const Header = ({
   headerBg,
   headerHeight,
 }) => {
+  let [open, setOpened] = useState(false);
   return (
     <div className="headerContainer">
       <style jsx>{`
@@ -42,10 +45,15 @@ const Header = ({
               />
             </Link>
           </div>
-          <Hamburger />
+          <div>
+            <div onClick={() => setOpened(!open)}>
+              <Hamburger open={open} />
+            </div>
+          </div>
         </div>
         {/*nav*/}
         <NavList />
+        <Sidenav open={open} />
       </span>
       {/*title & text* & button*/}
       <div className={styles.content}>

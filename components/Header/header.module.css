@@ -1,5 +1,5 @@
 .headerNav {
-  @apply flex flex-col gap-12 pt-[50px];
+  @apply flex flex-col pt-[50px];
 }
 @media screen and (max-width: 1080px) {
   .header_res {

@@ -2,17 +2,11 @@ import { useState } from "react";
 import state from "../../util/state";
 import DropdownMenu from "../Header/Nav/DropDownMenu";
 
-const Hamburger = () => {
-  let [open, setOpened] = useState(false);
+const Hamburger = ({ open }) => {
   return (
     //
     <div className="hamburger_wrapper">
-      <div onClick={() => setOpened(!open)}>
-        <div className={!open ? "hamburger" : "active_hamburger"} />
-      </div>
-      <div className={open ? "menu" : "no_menu"}>
-        <DropdownMenu display={true} config={state.navbar} />
-      </div>
+      <div className={!open ? "hamburger" : "active_hamburger"} />
       <style jsx>
         {`
           .active_hamburger {
