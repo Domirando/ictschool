@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 const Sidenav = ({ open = false, submenu = false, config = state.navbar }) => {
   let [state, setState] = useState({
-    opacity: "1",
+    opacity: 1,
   });
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -14,7 +14,7 @@ const Sidenav = ({ open = false, submenu = false, config = state.navbar }) => {
         let currentScrollPos = window.pageYOffset;
         let maxScroll = document.body.scrollHeight - window.innerHeight;
         if (currentScrollPos > 0 && currentScrollPos < maxScroll) {
-          setState({ opacity: "0" });
+          setState({ opacity: 0 });
           // console.log(currentScrollPos)
         }
       };
