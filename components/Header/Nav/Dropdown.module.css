@@ -58,7 +58,7 @@
   display: none;
 }
 .dropdown_menu li li ul:hover ul {
-  margin-left: 100%; /*This must be width of menu box*/
+  margin-left: 100%;
   margin-top: -21%;
   display: block;
 }

@@ -6,7 +6,7 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 const NavList = () => {
   return (
     <div className={styles.nav}>
-      <div className={styles.itemContainer}>
+      <div>
         <DropdownMenu config={state.navbar} />
       </div>
       <FontAwesomeIcon

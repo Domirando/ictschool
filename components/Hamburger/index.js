@@ -69,12 +69,6 @@ const Hamburger = ({ open }) => {
             background-color: white;
             border-radius: 5px;
           }
-          .no_menu {
-            display: none;
-          }
-          .menu {
-            display: block;
-          }
           .hamburger_wrapper {
             display: none;
           }

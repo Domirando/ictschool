@@ -24,7 +24,7 @@ const Footer = () => {
               <div className={styles.textWidget}>
                 <Image
                   src={
-                    "https://ictschool.uz/wp-content/uploads/2019/10/AKSS-logo3-UZ-300x31.png"
+                    "/images/al_Xorazmiy.png"
                   }
                   alt={"logo"}
                   height="40px"
