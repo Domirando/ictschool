@@ -36,9 +36,7 @@ const Header = ({
           <div className={styles.logo}>
             <Link href={"/"} passHref>
               <Image
-                src={
-                  "https://ictschool.uz/wp-content/uploads/2019/10/AKSS-logo3-UZ-300x31.png"
-                }
+                src={"/images/al_Xorazmiy.png"}
                 alt={"logo"}
                 height="35px"
                 width="300px"

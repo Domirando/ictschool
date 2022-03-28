@@ -10,17 +10,12 @@ const Navbar = () => {
         <div className={styles.barContainer}>
           <div className={styles.left}>
             <Image
-              src="https://ictschool.uz/wp-content/plugins/polylang/flags/uz.png"
+              src="/icons/uz.png"
               width="18"
               height="12"
               alt={"uzb flag"}
             />
-            <Image
-              src="https://ictschool.uz/wp-content/plugins/polylang/flags/ru.png"
-              width="18"
-              height="12"
-              alt={"ru flag"}
-            />
+            <Image src="/icons/ru.png" width="18" height="12" alt={"ru flag"} />
             <FontAwesomeIcon
               className={styles.icon}
               icon={faEnvelopeOpen}
