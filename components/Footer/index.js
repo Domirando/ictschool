@@ -23,9 +23,7 @@ const Footer = () => {
             <div className={styles.footerText}>
               <div className={styles.textWidget}>
                 <Image
-                  src={
-                    "/images/al_Xorazmiy.png"
-                  }
+                  src={"/images/al_Xorazmiy.png"}
                   alt={"logo"}
                   height="40px"
                   width="300px"

@@ -13,7 +13,7 @@ const Navbar = () => {
               src="/icons/uz.png"
               width="18"
               height="12"
-              alt={'uzb flag'}
+              alt={"uzb flag"}
             />
             <Image src="/icons/ru.png" width="18" height="12" alt={"ru flag"} />
             <FontAwesomeIcon
