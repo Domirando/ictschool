@@ -10,7 +10,7 @@ const Button = ({
   return (
     <button
       className={`${border} ${bgcolor} ${py} ${fontSize} ${width} px-8  flex items-center justify-center font-bold text-white ${
-          uppercase ? "uppercase" : null
+        uppercase ? "uppercase" : null
       }`}
     >
       {text}
