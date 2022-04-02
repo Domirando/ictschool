@@ -5,7 +5,7 @@ import NavList from "./Nav/Nav";
 import Link from "next/link";
 import Hamburger from "../Hamburger";
 import { useState } from "react";
-import Sidenav from "../Sidenav";
+import SideNav from "../SideNav";
 
 const Header = ({
   title,
@@ -51,7 +51,7 @@ const Header = ({
         </div>
         {/*nav*/}
         <NavList />
-        <Sidenav open={open} />
+        <SideNav open={open} />
       </span>
       {/*title & text* & button*/}
       <div className={styles.content}>

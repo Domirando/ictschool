@@ -27,11 +27,9 @@ const DropdownMenu = (props) => {
   config.map((item, index) => {
     options.push(getMenuItem(item, 0, index));
   });
-
   if (props.submenu && props.submenu === true) {
     return <ul className={styles.dropdown_menu}>{options}</ul>;
   }
   return <ul className={styles.dropdown_menu}>{options}</ul>;
 };
-
 export default DropdownMenu;
