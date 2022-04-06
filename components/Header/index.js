@@ -6,6 +6,8 @@ import Link from "next/link";
 import Hamburger from "../Hamburger";
 import { useState } from "react";
 import SideNav from "../SideNav";
+import state from "../../util/state.js";
+import PropTypes from "prop-types";
 
 const Header = ({
   title,
@@ -35,12 +37,14 @@ const Header = ({
         <div className={styles.header_res}>
           <div className={styles.logo}>
             <Link href={"/"} passHref>
-              <Image
-                src={"/images/al_Xorazmiy.png"}
-                alt={"logo"}
-                height="35px"
-                width="300px"
-              />
+              <span>
+                <Image
+                  src={"/images/al_Xorazmiy.png"}
+                  alt={"logo"}
+                  height="35px"
+                  width="300px"
+                />
+              </span>
             </Link>
           </div>
           <div>
@@ -51,7 +55,7 @@ const Header = ({
         </div>
         {/*nav*/}
         <NavList />
-        <SideNav open={open} />
+        <SideNav open={open} state={state.navbar} />
       </span>
       {/*title & text* & button*/}
       <div className={styles.content}>
@@ -65,4 +69,5 @@ const Header = ({
     </div>
   );
 };
+
 export default Header;

@@ -20,13 +20,19 @@ const Follow = () => {
       </p>
       <span className={styles.icons}>
         <Link passHref href={"https://facebook.com/itschool.uz"}>
-          <FontAwesomeIcon icon={faFacebook} />
+          <span>
+            <FontAwesomeIcon icon={faFacebook} />
+          </span>
         </Link>
         <Link passHref href={"https://instagram.com/itschool.uz"}>
-          <FontAwesomeIcon icon={faInstagram} />
+          <span>
+            <FontAwesomeIcon icon={faInstagram} />
+          </span>
         </Link>
         <Link passHref href={"https://t.me/itschooluz"}>
-          <FontAwesomeIcon icon={faTelegram} />
+          <span>
+            <FontAwesomeIcon icon={faTelegram} />
+          </span>
         </Link>
       </span>
       <span className={styles.email_sender}>

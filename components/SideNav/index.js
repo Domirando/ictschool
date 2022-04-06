@@ -1,40 +1,50 @@
 import styles from "./styles.module.css";
-import states from "../../util/state.js";
-import PropTypes from "prop-types";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function GetItem(item, index) {
+function Item({ item, index, open, depth }) {
   if (item.submenu && item.submenu.length > 0) {
-    let obj = {
-      open: true,
-    };
     return (
       // FixMe: Onclick is not working properly...
-      <p
-        className={"text-green-400 hover:cursor-pointer"}
-        onClick={() => <SideNav open={true} subNav={true} />}
+      <li
+        key={index}
+        className={
+          "w-full flex justify-between items-center text-green-400 hover:cursor-pointer"
+        }
+        onClick={() => (
+          <SideNav state={item.submenu} open={true} depth={depth++} />
+        )}
       >
         {item.title}
-      </p>
+        <FontAwesomeIcon
+          icon={faAngleDown}
+          className={depth == 1 ? null : "rotate-[-90deg]"}
+        />
+      </li>
     );
   } else {
-    return <p className={"text-red-400"}>{item.title}</p>;
+    return (
+      <li key={index} className={"text-red-400"}>
+        {item.title}
+      </li>
+    );
   }
 }
 
-const SideNav = ({ open = false, subNav = false }) => {
+const SideNav = ({ open = false, state = ["no data on menu"], depth = 0 }) => {
   return (
     <ul
-      className={open ? `flex ${styles.side_nav}` : `hidden ${styles.side_nav}`}
+      className={
+        open
+          ? `flex ${depth ? "bg-red-400" : styles.side_nav}`
+          : `hidden ${styles.side_nav}`
+      }
     >
-      {states.navbar.map((item, index) => (
-        <li key={index}>{GetItem(item)}</li>
+      {state.map((item, index) => (
+        <Item item={item} key={index} index={index} open={open} depth={depth} />
       ))}
     </ul>
   );
-};
-
-SideNav.propTypes = {
-  open: PropTypes.boolean,
 };
 
 export default SideNav;
