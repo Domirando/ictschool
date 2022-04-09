@@ -2,30 +2,38 @@ import styles from "./styles.module.css";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
+
 const SideNav = ({ open = false, state = ["no data on menu"], depth = 0 }) => {
   let [data, setData] = useState(false);
+
   function Item({ item, index, open, depth }) {
     if (item.submenu && item.submenu.length > 0) {
       return (
-        // FixMe: Onclick is not working properly...
         <li
           key={index}
-          className={
-            "w-full flex justify-between items-center hover:cursor-pointer"
-          }
+          className={styles.sidenav_item}
           onClick={() => setData(item.submenu)}
         >
-          {item.title}
-          <FontAwesomeIcon
-            icon={faAngleDown}
-            className={depth == 1 ? null : "rotate-[-90deg]"}
-          />
+          <span>
+            {item.title}
+            <FontAwesomeIcon
+              icon={faAngleDown}
+              className={depth == 1 ? null : "rotate-[-90deg]"}
+            />
+          </span>
+          <hr className={"w-full"} />
         </li>
       );
     } else {
-      return <li key={index}>{item.title}</li>;
+      return (
+        <li key={index} className={styles.sidenav_item}>
+          <span>{item.title}</span>
+          <hr className={"w-full"} />
+        </li>
+      );
     }
   }
+
   return (
     <>
       {" "}
@@ -35,6 +43,15 @@ const SideNav = ({ open = false, state = ["no data on menu"], depth = 0 }) => {
             open ? `flex ${styles.side_nav}` : `hidden ${styles.side_nav}`
           }
         >
+          <FontAwesomeIcon
+            onClick={() => console.log("hello")}
+            icon={faAngleDown}
+            className={
+              depth == 1
+                ? null
+                : "rotate-[90deg] cursor-pointer h-5 mt-2 mb-4 text-[#979797]"
+            }
+          />
           {data.map((item, index) => (
             <Item
               item={item}

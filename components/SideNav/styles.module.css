@@ -1,3 +1,9 @@
 .side_nav {
-  @apply absolute bg-[#1c1b3b] h-full w-[40vw] flex-col gap-2 items-start p-4 top-16 right-0;
+  @apply absolute bg-[#1c1b3b] gap-3 h-full flex-col text-[#979797] items-start py-6 px-10 top-16 right-0;
+}
+.sidenav_item > span {
+  @apply w-full flex justify-between w-[30vw] items-center pb-3 hover:cursor-pointer;
+}
+.sidenav_item > hr {
+  @apply border-[#5c64c4];
 }
