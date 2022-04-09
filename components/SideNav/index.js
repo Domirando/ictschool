@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const SideNav = ({ open = false, state = ["no data on menu"], depth = 0 }) => {
   let [data, setData] = useState(false);
-
+  let prev_state = null;
   function Item({ item, index, open, depth }) {
     if (item.submenu && item.submenu.length > 0) {
       return (
@@ -36,7 +36,6 @@ const SideNav = ({ open = false, state = ["no data on menu"], depth = 0 }) => {
 
   return (
     <>
-      {" "}
       {data ? (
         <ul
           className={
@@ -44,7 +43,7 @@ const SideNav = ({ open = false, state = ["no data on menu"], depth = 0 }) => {
           }
         >
           <FontAwesomeIcon
-            onClick={() => console.log("hello")}
+            onClick={() => setData(prev_state)}
             icon={faAngleDown}
             className={
               depth == 1
