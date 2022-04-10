@@ -26,7 +26,7 @@
   @apply flex gap-3 w-full;
 }
 .text {
-  @apply flex flex-col gap-2 w-full;
+  @apply flex flex-col gap-1 w-full;
 }
 .text span {
   @apply flex gap-2 uppercase text-[#959595];
