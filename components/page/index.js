@@ -15,6 +15,7 @@ const Page = ({
   headerHeight,
   image,
   children,
+  header__content,
 }) => {
   return (
     <div className={styles.container}>
@@ -24,6 +25,7 @@ const Page = ({
         headerHeight={headerHeight}
         headerBg={headerBg}
         gradient={gradient}
+        header_content={header__content}
       />
       {children}
       <Footer />

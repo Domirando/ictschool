@@ -10,6 +10,7 @@ import state from "../../util/state.js";
 import PropTypes from "prop-types";
 
 const Header = ({
+  header_content = false,
   title,
   text,
   image,
@@ -58,14 +59,18 @@ const Header = ({
         <SideNav open={open} state={state.navbar} />
       </span>
       {/*title & text* & button*/}
-      <div className={styles.content}>
-        <h1>
-          Muhammad al-Xorazmiy nomidagi axborot texnologiyalariga
-          ixtisoslashtirilgan maktabi
-        </h1>
-        <p>qabul 2021/2022</p>
-        <Button bgcolor={"bg-[hsla(230,80%,5%,0.5)]"} text={"batafsil"} />
-      </div>
+      {header_content !== false ? (
+        <div>{header_content}</div>
+      ) : (
+        <div className={styles.content}>
+          <h1>
+            Muhammad al-Xorazmiy nomidagi axborot texnologiyalariga
+            ixtisoslashtirilgan maktabi
+          </h1>
+          <p>qabul 2021/2022</p>
+          <Button bgcolor={"bg-[hsla(230,80%,5%,0.5)]"} text={"batafsil"} />
+        </div>
+      )}
     </div>
   );
 };
