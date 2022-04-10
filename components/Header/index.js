@@ -68,7 +68,11 @@ const Header = ({
             ixtisoslashtirilgan maktabi
           </h1>
           <p>qabul 2021/2022</p>
-          <Button href={"/404"} bgcolor={"bg-[hsla(230,80%,5%,0.5)]"} text={"batafsil"} />
+          <Button
+            href={"/404"}
+            bgcolor={"bg-[hsla(230,80%,5%,0.5)]"}
+            text={"batafsil"}
+          />
         </div>
       )}
     </div>

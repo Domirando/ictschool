@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from "next/link";
 const Button = ({
   text,
   border = "rounded-md",
@@ -7,7 +7,7 @@ const Button = ({
   uppercase = true,
   bgcolor,
   py = "py-2",
-  href="/404"
+  href = "/404",
 }) => {
   return (
     <button
