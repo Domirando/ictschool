@@ -1,5 +1,5 @@
 .container {
-  @apply flex flex-row mt-[-30px] mx-auto justify-between mx-12;
+  @apply flex mt-[-30px] justify-between mx-12;
 }
 @media (min-width: 1600px) {
   .container {
@@ -35,4 +35,9 @@
 }
 .footer {
   @apply py-5 cursor-pointer flex items-center gap-2 text-[#202060] font-extrabold;
+}
+@media (min-width: 414px) {
+  .card {
+    @apply w-full;
+  }
 }

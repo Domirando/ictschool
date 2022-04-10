@@ -6,6 +6,7 @@
     @apply mx-[var(--container)];
   }
 }
+
 @media screen and (max-width: 1300px) {
   .container {
     @apply flex-wrap justify-center;
@@ -18,8 +19,11 @@
 }
 
 .rightSide {
-  @apply w-[34%] flex flex-col gap-4;
+  @apply w-full flex flex-col gap-4;
 }
-.rightSide {
-  @apply w-auto;
+
+@media (min-width: 414px) {
+  .container {
+    @apply mx-2;
+  }
 }

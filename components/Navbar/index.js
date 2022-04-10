@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Navbar = () => {
   return (
     <nav className={styles.container}>
-      {/*<img src="https://ictschool.uz/wp-content/uploads/2019/10/AKSS-logo3-UZ.png"/>*/}
       <div className={styles.topBarBg}>
         <div className={styles.barContainer}>
           <div className={styles.left}>
