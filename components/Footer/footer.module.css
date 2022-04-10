@@ -44,3 +44,11 @@
 .icons {
   @apply text-[#5c64c4] flex gap-4 text-xl;
 }
+@media (min-width: 1600px) {
+  .rowsContainer {
+    @apply px-[var(--container)];
+  }
+  .bottomContainer {
+    @apply px-[var(--container)];
+  }
+}

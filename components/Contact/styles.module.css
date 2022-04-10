@@ -6,3 +6,8 @@
     @apply flex-wrap justify-between;
   }
 }
+@media (min-width: 1600px) {
+  .container {
+    @apply mx-[var(--container)];
+  }
+}

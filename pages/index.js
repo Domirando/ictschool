@@ -14,9 +14,7 @@ const Index = () => {
       gradient={"none"}
     >
       <main className={styles.mainItems}>
-        <section>
-          <CardContainer />
-        </section>
+        <CardContainer />
         <SchoolStuff />
         <Admission />
         <Holidays />

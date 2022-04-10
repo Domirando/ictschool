@@ -21,6 +21,11 @@
   margin: -50px 100px;
   @apply w-[500px];
 }
+@media (min-width: 1600px) {
+  .content {
+    margin: -50px var(--container);
+  }
+}
 .content h1 {
   @apply text-[24px] mb-14;
   line-height: 1.5;

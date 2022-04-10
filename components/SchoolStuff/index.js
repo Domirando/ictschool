@@ -17,7 +17,9 @@ export const SchoolStuff = () => {
           image={"/images/img.png"}
         />
       </div>
-      <NewsContainer />
+      <div className={styles.leftSide}>
+        <NewsContainer />
+      </div>
     </section>
   );
 };

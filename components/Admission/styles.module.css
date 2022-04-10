@@ -11,9 +11,15 @@
   width: 2200px;
   height: 100%;
   border: none;
+  background-repeat: no-repeat;
   background-position: center;
   background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #171748),
     url("/images/img_9.png");
+}
+@media (min-width: 1600px) {
+  .leftImage {
+    background-size: 100% 100%;
+  }
 }
 .rightContent {
   @apply text-white ml-[-130px] mr-28;

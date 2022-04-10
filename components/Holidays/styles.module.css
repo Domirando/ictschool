@@ -1,6 +1,11 @@
 .container {
   @apply mx-12 my-16 flex flex-col gap-2;
 }
+@media (min-width: 1600px) {
+  .container {
+    @apply mx-[var(--container)];
+  }
+}
 .container h1 {
   @apply text-[#212052] text-2xl font-[800];
 }

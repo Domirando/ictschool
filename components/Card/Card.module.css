@@ -1,6 +1,15 @@
 .container {
   @apply flex flex-row mt-[-30px] mx-auto justify-between mx-12;
 }
+@media (min-width: 1600px) {
+  .container {
+    @apply mx-[var(--container)];
+  }
+  .description {
+    @apply pr-4;
+  }
+}
+
 @media screen and (max-width: 1150px) {
   .container {
     @apply flex-wrap justify-center;
