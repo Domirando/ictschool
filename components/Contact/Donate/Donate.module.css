@@ -1,6 +1,11 @@
 .container {
   @apply h-[650px] w-[400px] flex flex-col gap-6 mr-16;
 }
+@media (max-width: 760px) {
+  .container {
+    @apply w-auto mr-0 px-7;
+  }
+}
 .container h1 {
   @apply text-[#202060] text-xl font-extrabold;
 }
