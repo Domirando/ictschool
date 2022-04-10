@@ -2,7 +2,7 @@ import styles from "./footer.module.css";
 import Link from "next/link";
 const FooterColumn = ({ item }) => {
   return (
-    <div class={styles.footer_ColItem}>
+    <div className={styles.footer_ColItem}>
       {item.title}
       <hr className={styles.straight} />
       <div className={styles.listItems}>
