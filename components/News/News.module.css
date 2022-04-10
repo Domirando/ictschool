@@ -23,10 +23,10 @@
   @apply flex flex-col gap-6;
 }
 .card_container {
-  @apply flex gap-3 w-[370px];
+  @apply flex gap-3 w-full;
 }
 .text {
-  @apply flex flex-col gap-2 w-auto;
+  @apply flex flex-col gap-2 w-full;
 }
 .text span {
   @apply flex gap-2 uppercase text-[#959595];
