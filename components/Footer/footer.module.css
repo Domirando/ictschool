@@ -11,6 +11,7 @@
 .footerColumn ul {
   @apply ml-9 mt-14 flex flex-col gap-2;
 }
+
 .footerText {
   @apply mb-[60px];
 }
@@ -55,5 +56,16 @@
   }
   .bottomContainer {
     @apply px-[var(--container)];
+  }
+}
+@media (max-width: 560px){
+  .footerColumn {
+    @apply float-left w-full;
+  }
+  .footerColumn ul {
+    @apply mt-0;
+  }
+  .footer_ColItem{
+    @apply w-full;
   }
 }
