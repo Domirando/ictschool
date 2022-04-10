@@ -3,10 +3,10 @@
   font-size: 16px;
 }
 .rowsContainer {
-  @apply flex gap-10 flex flex-wrap justify-between px-16 py-14;
+  @apply flex  flex flex-wrap justify-between px-16 py-14;
 }
 .footerColumn {
-  @apply float-left w-[25%] flex flex-wrap;
+  @apply float-left w-[22vw] flex flex-wrap;
 }
 .footerColumn ul {
   @apply ml-9 mt-14 flex flex-col gap-2;
@@ -68,4 +68,7 @@
   .footer_ColItem {
     @apply w-full;
   }
+}
+.footer_ColItem {
+  @apply w-[250px];
 }
