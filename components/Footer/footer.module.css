@@ -58,14 +58,14 @@
     @apply px-[var(--container)];
   }
 }
-@media (max-width: 560px){
+@media (max-width: 560px) {
   .footerColumn {
     @apply float-left w-full;
   }
   .footerColumn ul {
     @apply mt-0;
   }
-  .footer_ColItem{
+  .footer_ColItem {
     @apply w-full;
   }
 }
