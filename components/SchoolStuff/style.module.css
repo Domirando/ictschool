@@ -22,7 +22,7 @@
   @apply w-full flex flex-col gap-4;
 }
 
-@media (min-width: 414px) {
+@media (max-width: 760px) {
   .container {
     @apply mx-2;
   }
