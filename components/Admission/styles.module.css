@@ -7,8 +7,13 @@
     @apply h-[110vh];
   }
 }
+@media (max-width: 640px) {
+  .leftImage {
+    display: none;
+  }
+}
 .leftImage {
-  width: 2200px;
+  width: 300vw;
   height: 100%;
   border: none;
   background-repeat: no-repeat;
@@ -22,7 +27,7 @@
   }
 }
 .rightContent {
-  @apply text-white ml-[-130px] mr-28;
+  @apply text-white mr-[13vw] px-6 w-auto;
 }
 .rightContent h1 {
   @apply text-4xl font-extrabold;
@@ -31,5 +36,5 @@
   @apply text-xl my-4;
 }
 .rightContent p {
-  @apply mt-8 text-lg w-[500px] mb-9;
+  @apply mt-8 text-lg w-auto mb-9;
 }
