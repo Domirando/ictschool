@@ -37,7 +37,7 @@
 }
 @media (max-width: 760px) {
   .header_res {
-    @apply gap-8 pl-[20px];
+    @apply justify-between gap-11 px-[20px];
   }
   .content {
     width: auto !important;

@@ -22,7 +22,7 @@
   @apply flex flex-col;
 }
 .title {
-  @apply flex items-center py-7 gap-6 pl-8;
+  @apply flex items-center py-7 gap-6 px-8;
 }
 .title h1 {
   @apply font-extrabold text-lg;
