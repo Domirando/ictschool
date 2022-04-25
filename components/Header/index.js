@@ -18,6 +18,7 @@ const Header = ({
   btn,
   headerBg,
   headerHeight,
+  children,
 }) => {
   let [open, setOpened] = useState(false);
   return (
@@ -59,8 +60,8 @@ const Header = ({
         <SideNav open={open} state={state.navbar} />
       </span>
       {/*title & text* & button*/}
-      {header_content ? (
-        <div>{header_content}</div>
+      {!header_content ? (
+        <div>{children}</div>
       ) : (
         <div className={styles.content}>
           <h1>
