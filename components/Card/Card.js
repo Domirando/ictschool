@@ -13,13 +13,14 @@ const Card = ({
   icon = "",
   header_color = "#3a3a7c",
   footer = false,
+  anchor = "/",
 }) => {
   return (
     <article className={styles.card}>
       {title ? <CardTitle bg={header_color} icon={icon} title={title} /> : null}
       <CardImage image={image} height={image_height} width={image_width} />
       <CardDescription description={description} />
-      {footer ? <CardFooter /> : null}
+      {footer ? <CardFooter anchor={anchor} /> : null}
     </article>
   );
 };

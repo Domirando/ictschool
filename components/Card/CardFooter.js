@@ -1,13 +1,15 @@
 import styles from "./Card.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightLong } from "@fortawesome/free-solid-svg-icons";
-
-const CardFooter = ({ text = "Batafsil" }) => {
+import Link from "next/link";
+const CardFooter = ({ text = "Batafsil", anchor = "/" }) => {
   return (
-    <div className={styles.footer}>
-      <p>{text}</p>
-      <FontAwesomeIcon icon={faRightLong} />
-    </div>
+    <Link href={anchor} passHref>
+      <div className={styles.footer}>
+        <p>{text}</p>
+        <FontAwesomeIcon icon={faRightLong} />
+      </div>
+    </Link>
   );
 };
 export default CardFooter;

@@ -12,6 +12,7 @@ const CardContainer = () => {
         }
         title={"IT Maktab Hayoti"}
         footer={true}
+        anchor="/maktab-hayoti"
       />
       <Card
         header_color={"#0f1744"}
@@ -22,6 +23,7 @@ const CardContainer = () => {
         }
         title={"Ta`lim"}
         footer={true}
+        anchor="/maktab-hayoti"
       />
       <Card
         header_color={"#050b29"}
@@ -32,6 +34,7 @@ const CardContainer = () => {
         }
         title={"Qabul"}
         footer={true}
+        anchor="/maktab-hayoti"
       />
     </div>
   );

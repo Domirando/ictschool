@@ -7,8 +7,10 @@ console.log(date);
 const MaktabHayoti = () => {
   return (
     <Page
-      headerHeight={"70vh"}
-      gradient="linear-gradient(0deg, hsla(212, 72%, 60%, 0.45), hsla(278, 55%, 80%, 0.68))"
+      headerBg={"/images/maktab-hayoti.jpg"}
+      headerHeight={"120vh"}
+      gradient="none"
+      header={false}
     >
       salooom
     </Page>

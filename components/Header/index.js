@@ -59,7 +59,7 @@ const Header = ({
         <SideNav open={open} state={state.navbar} />
       </span>
       {/*title & text* & button*/}
-      {header_content !== false ? (
+      {header_content ? (
         <div>{header_content}</div>
       ) : (
         <div className={styles.content}>

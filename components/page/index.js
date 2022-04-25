@@ -25,6 +25,7 @@ const Page = ({
         headerHeight={headerHeight}
         headerBg={headerBg}
         gradient={gradient}
+        image={image}
         header_content={header__content}
       />
       {children}
