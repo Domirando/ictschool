@@ -1,6 +1,7 @@
 import styles from "./header.module.css";
 import Image from "next/image";
 import Button from "../Button";
+import Error from "../../components/Error";
 import NavList from "./Nav/Nav";
 import Link from "next/link";
 import Hamburger from "../Hamburger";
@@ -12,6 +13,7 @@ import PropTypes from "prop-types";
 const Header = ({
   header_content = false,
   title,
+  error_page,
   text,
   image,
   gradient,
@@ -21,6 +23,7 @@ const Header = ({
   children,
 }) => {
   let [open, setOpened] = useState(false);
+  console.log(error_page);
   return (
     <div className="headerContainer">
       <style jsx>{`
@@ -60,9 +63,7 @@ const Header = ({
         <SideNav open={open} state={state.navbar} />
       </span>
       {/*title & text* & button*/}
-      {!header_content ? (
-        <div>{children}</div>
-      ) : (
+    {header_content ? (
         <div className={styles.content}>
           <h1>
             Muhammad al-Xorazmiy nomidagi axborot texnologiyalariga
@@ -71,6 +72,13 @@ const Header = ({
           <p>qabul 2021/2022</p>
           <Button bgcolor={"bg-[hsla(230,80%,5%,0.5)]"} text={"batafsil"} />
         </div>
+      ) : (error_page ? (
+        <Error
+          error_type={"404"}
+          description={"PAGE NOT FOUND"}
+          message={"Sorry, we couldn't find the page you're looking for."}
+        />
+      ) : <div>{header_content}</div>
       )}
     </div>
   );

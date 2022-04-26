@@ -13,7 +13,7 @@ const MaktabHayoti = () => {
       headerHeight={"105vh"}
       gradient="linear-gradient(0deg, hsla(0, 0%, 3%, 1), hsla(0, 20%, 5%, 0.1))"
       header={false}
-      header_content={false}
+      header__content={false}
     >
       <div className={styles.header_content}>
         <span>

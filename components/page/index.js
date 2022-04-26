@@ -9,6 +9,7 @@ const Page = ({
   header = true,
   footer = true,
   title,
+  error_page = false,
   description,
   headerBg,
   gradient,
@@ -26,6 +27,7 @@ const Page = ({
         headerBg={headerBg}
         gradient={gradient}
         image={image}
+        error_page={error_page}
         header_content={header__content}
       />
       {children}
