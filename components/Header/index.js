@@ -63,7 +63,7 @@ const Header = ({
         <SideNav open={open} state={state.navbar} />
       </span>
       {/*title & text* & button*/}
-    {header_content ? (
+      {header_content ? (
         <div className={styles.content}>
           <h1>
             Muhammad al-Xorazmiy nomidagi axborot texnologiyalariga
@@ -72,13 +72,14 @@ const Header = ({
           <p>qabul 2021/2022</p>
           <Button bgcolor={"bg-[hsla(230,80%,5%,0.5)]"} text={"batafsil"} />
         </div>
-      ) : (error_page ? (
+      ) : error_page ? (
         <Error
           error_type={"404"}
           description={"PAGE NOT FOUND"}
           message={"Sorry, we couldn't find the page you're looking for."}
         />
-      ) : <div>{header_content}</div>
+      ) : (
+        <div>{header_content}</div>
       )}
     </div>
   );
