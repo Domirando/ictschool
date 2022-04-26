@@ -23,6 +23,17 @@
   @apply w-[55vw];
   padding: 80px var(--padding-x);
 }
+@media (max-width: 1100px) {
+  .header_content {
+    top: 35vh;
+  }
+}
+@media (max-width: 900px) {
+  .header_content {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
 .schHistoryFacilites > .right {
   @apply w-[45vw] bg-[#f5f5f5];
   padding: 80px var(--padding-x);
