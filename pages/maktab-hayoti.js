@@ -112,6 +112,31 @@ const MaktabHayoti = () => {
             <h1 className={styles.sFirst__sideRight__heading}>
               Maktab qulayliklari
             </h1>
+            <Image
+              className={styles.sideRight__image}
+              src={"/images/school.jpg"}
+              alt={"school image"}
+              width={430}
+              height={270}
+            />
+            <div className={styles.transports}>
+              <span className={styles.transports__heading}>
+                {/*icon & text*/}
+              </span>
+              <span className={styles.transports__subHeading}>
+                {/*icon & text*/}
+              </span>
+              <span className={styles.transports__content}>
+                {/*icon & text*/}
+              </span>
+            </div>
+            <div className={styles.kanteen}>
+              <span className={styles.kanteen__heading}>{/*icon & text*/}</span>
+              <span className={styles.kanteen__subHeading}>
+                {/*icon & text*/}
+              </span>
+              <span className={styles.kanteen__content}>{/*icon & text*/}</span>
+            </div>
           </div>
         </section>
       </main>
