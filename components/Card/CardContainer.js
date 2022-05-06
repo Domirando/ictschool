@@ -25,7 +25,7 @@ const CardContainer = () => {
         }
         title={"Ta`lim"}
         footer={true}
-        anchor="/maktab-hayoti"
+        anchor="/steam-tabiiy-fanlar"
       />
       <Card
         image_width={450}

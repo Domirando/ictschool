@@ -63,7 +63,7 @@ const Header = ({
         <SideNav open={open} state={state.navbar} />
       </span>
       {/*title & text* & button*/}
-      {header_content ? (
+      {header_content === true ? (
         <div className={styles.content}>
           <h1>
             Muhammad al-Xorazmiy nomidagi axborot texnologiyalariga
