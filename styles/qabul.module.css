@@ -1,0 +1,85 @@
+.header {
+  @apply flex pl-24 items-end text-5xl font-bold;
+}
+.container {
+  @apply pb-14;
+}
+.praktika {
+  @apply w-screen flex h-[480px];
+}
+.praktika_haqida {
+  @apply w-[50%] flex flex-col gap-4 justify-center items-center px-20;
+}
+.praktika_haqida > h2 {
+  @apply font-bold text-2xl;
+}
+.img_practice {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @apply w-[50%] h-auto bg-[url("/images/3.jpg")];
+}
+.img_fakultativ {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @apply w-[50%] h-auto bg-[url("/images/maktab-hayoti.jpg")];
+}
+.img_yotoqxona {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @apply w-[50%] h-auto bg-[url("/images/dormitory.jpg")];
+}
+.ad_img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @apply w-[50%] h-auto bg-[url("/images/3.jpg")];
+}
+.ariza {
+  @apply flex flex-col px-20 w-[50%] justify-center items-center;
+}
+.ariza > h4 {
+  @apply text-[17px] self-start text-slate-900 font-semibold;
+  letter-spacing: 0.14rem;
+}
+.ariza > h1 {
+  @apply text-[26px] font-bold py-1;
+}
+.ariza > p {
+  @apply text-[16px] py-6;
+}
+.registration {
+  @apply w-[50%] flex flex-col gap-6 px-20 justify-center;
+}
+.one > h1 {
+  @apply text-4xl flex flex-col justify-center text-green-600 font-bold;
+}
+.two > h1 {
+  @apply text-4xl flex flex-col justify-center text-blue-600 font-bold;
+}
+.three > h1 {
+  @apply text-4xl flex flex-col justify-center text-gray-700 font-bold;
+}
+.registration > span {
+  @apply flex flex-col gap-4;
+}
+.content {
+  @apply text-[16px] leading-8;
+}
+.contactWays {
+  @apply flex flex-col gap-4 self-start pt-6;
+}
+.contact {
+  @apply flex gap-2 self-start;
+}
+.contact > span {
+  @apply text-[14px] gap-1 flex flex-col;
+}
+.reg_haqida {
+  @apply mx-56 mt-12 leading-6 text-[17px];
+}
+.reg_haqida > h1 {
+  @apply mb-6 text-slate-900 text-2xl text-center font-extrabold;
+}
