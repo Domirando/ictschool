@@ -8,6 +8,7 @@ const CardDescription = ({ description, heading = "", width = "280px" }) => {
           display: flex;
           flex-direction: column;
           gap: 1rem;
+          padding-right: 7px;
         }
         .container > h1 {
           font-size: 22px;

@@ -19,7 +19,7 @@ const Card = ({
     <article className={styles.card}>
       {title ? <CardTitle bg={header_color} icon={icon} title={title} /> : null}
       <CardImage image={image} height={image_height} width={image_width} />
-      <CardDescription description={description} />
+      <CardDescription width={image_width} description={description} />
       {footer ? <CardFooter anchor={anchor} /> : null}
     </article>
   );

@@ -1,5 +1,5 @@
 .container {
-  @apply flex mt-[-30px] justify-between mx-12;
+  @apply flex mt-[-30px] justify-center mx-12;
 }
 @media (min-width: 1600px) {
   .container {

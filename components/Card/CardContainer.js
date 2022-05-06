@@ -4,6 +4,7 @@ const CardContainer = () => {
   return (
     <div className={styles.container}>
       <Card
+        image_width={450}
         icon={"/icons/img_2.png"}
         image={"/images/img.png"}
         description={
@@ -16,6 +17,7 @@ const CardContainer = () => {
       />
       <Card
         header_color={"#0f1744"}
+        image_width={450}
         icon={"/icons/img_1.png"}
         image={"/images/img_1.png"}
         description={
@@ -26,6 +28,7 @@ const CardContainer = () => {
         anchor="/maktab-hayoti"
       />
       <Card
+        image_width={450}
         header_color={"#050b29"}
         icon={"/icons/img.png"}
         image={"/images/img_2.png"}
