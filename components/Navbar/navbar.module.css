@@ -10,6 +10,9 @@
   font-family: "Poppins", sans-serif;
   font-size: 17px;
 }
+.icon {
+  color: #a4a4a4;
+}
 .barContainer {
   @apply flex h-full px-[70px] items-center justify-between w-full;
 }

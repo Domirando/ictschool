@@ -1,8 +1,14 @@
 import Page from "../components/page/index";
 import Button from "../components/Button";
+import CardImage from "../components/Card/CardImage";
+import CardDescription from "../components/Card/CardDescription";
+import { Item } from "../components/IconText";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/maktab-hayoti.module.css";
+import * as solidIcons from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 
 const oldPosts = require("./api/old/posts/");
 let date = oldPosts.slug;
@@ -119,26 +125,174 @@ const MaktabHayoti = () => {
               width={430}
               height={270}
             />
-            <div className={styles.transports}>
-              <span className={styles.transports__heading}>
-                {/*icon & text*/}
-              </span>
-              <span className={styles.transports__subHeading}>
-                {/*icon & text*/}
-              </span>
-              <span className={styles.transports__content}>
-                {/*icon & text*/}
-              </span>
-            </div>
             <div className={styles.kanteen}>
-              <span className={styles.kanteen__heading}>{/*icon & text*/}</span>
-              <span className={styles.kanteen__subHeading}>
-                {/*icon & text*/}
+              <span className={"flex flex-col gap-12 mt-12"}>
+                <Item
+                  iconName={solidIcons.faCarSide}
+                  text={"Transport"}
+                  description={`Maktabga olib boruvchi avtobus yoʻnalishlari - 18 23 30 44 95 110 119 129 152`}
+                />
+                <Item
+                  iconName={solidIcons.faBus}
+                  text={"Avtomobillar uchun turaragoh "}
+                  description={
+                    "Maktab hududida 24 soat nazorat ostida bo’lgan xavfsiz va qulay avtomobillar turargohi mavjud"
+                  }
+                />
+                <Item
+                  iconName={solidIcons.faSpoon}
+                  text={"Maktab oshxonasi"}
+                  description={
+                    "Maktabda o’quvchilar va xodimlar uchun mo’ljallangan oshxona mavjud"
+                  }
+                />
+                <Item
+                  iconName={solidIcons.faHouseMedical}
+                  text={"Tibbiyot xonasi"}
+                  description={
+                    "Maktabda favqulodda holatlar va doimiy foydalanish uchun moʻljallangan tibbiyot xonasi mavjud"
+                  }
+                />
               </span>
-              <span className={styles.kanteen__content}>{/*icon & text*/}</span>
             </div>
           </div>
         </section>
+        <div className={styles.building}>
+          <h1>Maktab O‘quv Binosi</h1>
+          <p>
+            MUHAMMAD AL-XORAZMIY NOMIDAGI AXBOROT KOMMUNIKATSIYA TEXNOLOGIYALAR
+            YO’NALISHIGA OID FANLARNI CHUQURLASHTIRIB O’QITISHGA
+            IXTISOSLASHTIRILGAN MAKTAB O’ZBEKISTON RESPUBLIKASI PREZIDENTI
+            SHAVKAT MIROMONOVICH MIRZIYOYEVNING TASHABBUSI BILAN BARPO ETILDI
+          </p>
+        </div>
+        <div className={"flex justify-between flex-wrap m-14 mx-20"}>
+          <span>
+            <CardImage width={400} height={250} />
+            <CardDescription
+              width={"400px"}
+              heading={"Ucell"}
+              description={
+                "-yillar davomida " +
+                "o‘z brendiga va doimiy mijozlariga ega bo’lgan kompaniya xisoblanadi. " +
+                "Ucell brendi ostidagi xonaning dizayni kompaniyaning brendiga mos " +
+                "holda jihozlangan bo’lib, 18 nafar o‘quvchiga  mo‘ljallangan laboratoriya xonasida o‘quvchilar  tomonidan yaratilgan dasturlar " +
+                "amaliyoti va mahorat darslari o’tkaziladi."
+              }
+            />
+          </span>
+          <span>
+            <CardImage width={400} height={250} />
+            <CardDescription
+              width={"400px"}
+              heading={"Artel"}
+              description={[
+                <p key={1}>
+                  o&rsquo;quvchilar
+                  <br />
+                  <br />
+                </p>,
+                <p key={2}>
+                  -Elektronika asoslarini sodda va murakkab sxemalar yasashni
+                </p>,
+                <p key={3}>-3D printerdan 3D modellarni chiqarishni</p>,
+                <p key={11}>
+                  -Arduino dasturi shu bilan bir qatorda tranzistor va
+                  mikrochiplar bilan ishlashni
+                </p>,
+                <p key={4}>
+                  -Qo&rsquo;shimcha modul va sensorlar bilan ishlashni (RGB,
+                  WiFi, PIR, LCD display, RFID) ular yordamida mustaqil ravishda
+                  turli xildagi arduino proyektlarini yasashni
+                  o&rsquo;rganadilar.
+                </p>,
+              ]}
+            />
+          </span>
+          <span>
+            <CardImage width={400} height={250} />
+            <CardDescription
+              width={"400px"}
+              heading={"ZTE"}
+              description={
+                "-yillar davomida " +
+                "o‘z brendiga va doimiy mijozlariga ega bo’lgan kompaniya xisoblanadi. " +
+                "Ucell brendi ostidagi xonaning dizayni kompaniyaning brendiga mos " +
+                "holda jihozlangan bo’lib, 18 nafar o‘quvchiga  mo‘ljallangan laboratoriya xonasida o‘quvchilar  tomonidan yaratilgan dasturlar " +
+                "amaliyoti va mahorat darslari o’tkaziladi."
+              }
+            />
+          </span>
+          <span>
+            <CardImage width={400} height={250} />
+            <CardDescription
+              width={"400px"}
+              heading={"IT Park"}
+              description={
+                "faol iqtidor egalarini huquqiy, buxgalteriya, marketing sohalarida ilmiy yondashuv asosida qoʻllab-quvvatlash orqali oʻz biznes loyihalarini chinakam biznesga aylantirish maqsadida  barcha imkoniyatlarni  beradigan IT-xonasi hisoblanadi. Maktabimizdagi 24 nafar o‘quvchi uchun mo‘ljallangan IT-Park laboratoriya xonasida o‘quvchilarimiz yuqorida ko‘rsatilgan barcha yo‘nalishlar " +
+                "bo‘yicha o‘z bilim va ko‘nikmalarini oshirib borish imkoniyatiga ega bo‘ladilar.Ushbu laboratoriya xonasida Start Up loyihalari uchun keng sharoitlar yaratilgan."
+              }
+            />
+          </span>
+          <span>
+            <CardImage width={400} height={250} />
+            <CardDescription
+              width={"400px"}
+              heading={"Huawei"}
+              description={
+                "Huawei – bu yetakchi axborot va kommunikatsiya texnologiyalarining (AKT) infratuzilmalari va smart qurilmalarini global miqyosda yetkazib beruvchi kompaniyalaridan biridir. Maktabning Huawei “smart room” xonasi 20 nafar o‘quvchiga mo‘ljallangan laboratoriya  bo’lib, yuqori sinf o’quvchilari  Xitoyning  Huawei Akademiyasi bilan  hamkorlikda  ingliz tilida “Online ” ko’rinishda  darslar olib boriladi va shu bilan bir qatorda o’quvchilar " +
+                "kompaniyaning kelib chiqishi, dunyo bozoridagi o‘rni, dasturlash , muntazam ravishda axborot texnologiyalariga oid barcha darslarni, o‘rganishlari mumkin."
+              }
+            />
+          </span>
+          <span>
+            <CardImage width={400} height={250} />
+            <CardDescription
+              width={"400px"}
+              heading={"Robototexnika xonasi"}
+              description={[
+                "Ushbu xonada o'quvchilar",
+                <p key={5}>
+                  <br />
+                  -C dasturlash tilini
+                </p>,
+                <p key={6}>
+                  <br />
+                  -Elektronika asoslarini{" "}
+                </p>,
+                <p key={7}>
+                  <br />
+                  -Sodda va murakkab sxemalar yasashni
+                </p>,
+                <p key={8}>
+                  <br />
+                  -3D dizayn va 3D modellashtirishni
+                </p>,
+                <p key={9}>
+                  <br />
+                  -3D printerdan va 3D modellarni chiqarishni
+                </p>,
+                <p key={10}>
+                  <br />
+                  -Arduino dasturlashni turlarini o&rsquo;rganishlari mumkin
+                </p>,
+              ]}
+            />
+          </span>
+        </div>
+        <div className={styles.directorQuote}>
+          <div className={styles.directorImg} />
+          <div className={styles.quote}>
+            <FontAwesomeIcon
+              className={styles.icon}
+              icon={faQuoteLeft}
+              fontSize={70}
+              color="red"
+            />
+            <h1>Sifatli ta’lim – kelajak poydevori</h1>
+            <h2>Umarova Hilola Uktamovna / Maktab rahbari</h2>
+          </div>
+        </div>
       </main>
     </Page>
   );

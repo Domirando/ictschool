@@ -20,8 +20,11 @@
   @apply flex w-full;
 }
 .sFirst__sideLeft {
-  @apply w-[55vw] flex flex-col gap-3;
+  @apply w-[55vw] flex flex-col gap-4;
   padding: 80px var(--padding-x);
+  color: var(--primary);
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
   transition: 0.6s;
 }
 .sFirst__sLeft__stripe {
@@ -78,9 +81,37 @@
     @apply w-screen;
   }
 }
+.building {
+  background-image: url("/images/bg-3.jpg");
+  height: 500px;
+  display: flex;
+  @apply justify-between w-screen items-center px-14 text-white text-3xl font-bold;
+  background-position: center center;
+}
+.building > p {
+  font-size: 20px;
+  width: 70%;
+}
+
 @media (max-width: 900px) {
   .hContent {
     flex-direction: column;
     gap: 30px;
   }
+}
+.directorQuote {
+  @apply bg-[#f2f2f2] px-8 flex justify-center my-10 items-center w-screen h-[550px];
+}
+.directorImg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  obtain-content: cover;
+  @apply bg-[url("/images/director.jpg")] h-full w-[50%];
+}
+.quote {
+  @apply text-lg flex font-bold flex-col text-[#2d2d2d] items-center justify-center gap-6 h-full w-[50%];
+}
+.quote > h1 {
+  @apply text-3xl;
 }

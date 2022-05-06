@@ -6,7 +6,7 @@
     @apply mx-[var(--container)];
   }
   .description {
-    @apply pr-4;
+    @apply pr-4 flex flex-col gap-4;
   }
 }
 
@@ -31,7 +31,7 @@
   @apply flex justify-between text-white flex-col;
 }
 .description {
-  @apply my-7 w-full text-[#555555] text-[15px] font-[400];
+  @apply my-7 flex flex-col gap-4 w-full text-[#555555] text-[15px] font-[400];
 }
 .footer {
   @apply py-5 cursor-pointer flex items-center gap-2 text-[#202060] font-extrabold;
