@@ -168,7 +168,7 @@ const MaktabHayoti = () => {
         </div>
         <div className={"flex justify-between flex-wrap m-14 mx-20"}>
           <span>
-            <CardImage width={400} height={250} />
+            <CardImage image={"/images/ucell.jpg"} width={400} height={250} />
             <CardDescription
               width={"400px"}
               heading={"Ucell"}
@@ -182,7 +182,7 @@ const MaktabHayoti = () => {
             />
           </span>
           <span>
-            <CardImage width={400} height={250} />
+            <CardImage image={"/images/artel.jpg"} width={400} height={250} />
             <CardDescription
               width={"400px"}
               heading={"Artel"}
@@ -210,7 +210,7 @@ const MaktabHayoti = () => {
             />
           </span>
           <span>
-            <CardImage width={400} height={250} />
+            <CardImage width={400} image={"/images/ZTE.jpg"} height={250} />
             <CardDescription
               width={"400px"}
               heading={"ZTE"}
@@ -224,7 +224,7 @@ const MaktabHayoti = () => {
             />
           </span>
           <span>
-            <CardImage width={400} height={250} />
+            <CardImage width={400} height={250} image={"/images/itpark.jpg"} />
             <CardDescription
               width={"400px"}
               heading={"IT Park"}
@@ -235,7 +235,7 @@ const MaktabHayoti = () => {
             />
           </span>
           <span>
-            <CardImage width={400} height={250} />
+            <CardImage width={400} height={250} image={"/images/huawei.jpg"} />
             <CardDescription
               width={"400px"}
               heading={"Huawei"}
@@ -246,7 +246,11 @@ const MaktabHayoti = () => {
             />
           </span>
           <span>
-            <CardImage width={400} height={250} />
+            <CardImage
+              width={400}
+              image={"/images/robotics.jpg"}
+              height={250}
+            />
             <CardDescription
               width={"400px"}
               heading={"Robototexnika xonasi"}
