@@ -13,7 +13,7 @@ import PropTypes from "prop-types";
 const Header = ({
   header_content = false,
   title,
-  error_page,
+  error_page = null,
   text,
   image,
   gradient,

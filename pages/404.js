@@ -5,7 +5,7 @@ export default function Custom404() {
   return (
     <Page
       headerHeight={"110vh"}
-      error_page={true}
+      error_page={404}
       headerBg={"/images/404-background.jpg"}
       title={"Page not found | ICTSchool.uz"}
       header__content={false}

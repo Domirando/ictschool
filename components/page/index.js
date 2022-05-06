@@ -9,14 +9,14 @@ const Page = ({
   header = true,
   footer = true,
   title,
-  error_page = false,
+  error_page = null,
   description,
   headerBg,
   gradient,
   headerHeight,
   image,
   children,
-  header__content,
+  header__content = true,
 }) => {
   return (
     <div className={styles.container}>

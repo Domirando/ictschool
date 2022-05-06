@@ -15,7 +15,8 @@ export const SchoolStuff = () => {
             "Ushbu videoda Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktab binosi haqida qisqacha ma’lumot olishingiz mumkin."
           }
           image={"/images/img.png"}
-          image_width={"100px"}
+          image_width={170}
+          image_height={250}
         />
       </div>
       <div className={styles.leftSide}>

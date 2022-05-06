@@ -7,8 +7,8 @@ import CardFooter from "./CardFooter";
 const Card = ({
   title = false,
   image = "/images/img.png",
-  image_width = "280px",
-  image_height = "237vh",
+  image_width = "0",
+  image_height = "0",
   description = "",
   icon = "",
   header_color = "#3a3a7c",
