@@ -35,5 +35,5 @@
   font-size: 17px;
   line-height: 20px;
   font-weight: 700;
-  @apply text-[#353372];
+  @apply text-[#353372] cursor-pointer;
 }

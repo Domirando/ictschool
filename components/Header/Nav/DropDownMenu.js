@@ -1,6 +1,7 @@
 import styles from "./Dropdown.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 const DropdownMenu = (props) => {
   let getMenuItemTitle = (menuItem, index, depthLevel) => {
@@ -18,7 +19,11 @@ const DropdownMenu = (props) => {
         </li>
       );
     } else {
-      return <li key={index}>{title}</li>;
+      return (
+        <Link passHref href={"404"}>
+          <li key={index}>{title}</li>
+        </Link>
+      );
     }
   };
   let { config } = props;

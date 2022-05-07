@@ -1,7 +1,8 @@
 import styles from "./News.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
-const News = ({ image = "/images/img.png", title, date }) => {
+const News = ({ image = "/images/img.png", title, date, link = "/404" }) => {
   return (
     <div className={styles.card_container}>
       <div className={"h-[100px] w-[100px]"}>
@@ -19,7 +20,9 @@ const News = ({ image = "/images/img.png", title, date }) => {
           <p>/</p>
           <p> yangiliklar</p>
         </span>
-        <h2>{title}</h2>
+        <Link passHref href={link}>
+          <h2>{title}</h2>
+        </Link>
       </span>
     </div>
   );
