@@ -1,0 +1,12 @@
+.card {
+  @apply flex flex-col w-[40%] h-[200px] drop-shadow-2xl;
+}
+.card > div {
+  @apply flex gap-4 p-6;
+}
+.card > div > span {
+  @apply flex flex-col gap-2;
+}
+.card > div > span > h1 {
+  @apply text-xl font-semibold;
+}

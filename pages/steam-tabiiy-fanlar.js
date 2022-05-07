@@ -1,6 +1,7 @@
 import Page from "../components/page/index";
 import styles from "../styles/steam-tabiiy-fanlar.module.css";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function SteamTabiiyFanlar(props) {
   let header_content = (
@@ -12,7 +13,7 @@ function SteamTabiiyFanlar(props) {
   return (
     <div>
       <Page
-        headerHeight={"105vh"}
+        headerHeight={"90vh"}
         headerBg={"/images/img.png"}
         gradient="linear-gradient(0deg, hsla(0, 10%, 0%, 0.85), hsla(0, 50%, 0%, 0.87))"
         header={false}

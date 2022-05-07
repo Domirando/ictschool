@@ -37,7 +37,7 @@ const CardContainer = () => {
         }
         title={"Qabul"}
         footer={true}
-        anchor="/maktab-hayoti"
+        anchor="/qabul"
       />
     </div>
   );
