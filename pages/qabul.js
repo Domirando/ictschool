@@ -141,13 +141,13 @@ function Qabul() {
           <Card
             title={"Ro`yxatidan O`tish"}
             desc={"Royxatdan o`tish formasiga kirish"}
-            colorName="red"
+            colorName="bg-rose-200"
             iconName={solidIcons.faSquarePen}
           />
           <Card
             title={"QA"}
             desc={"So'ralgan savollar va ularga javoblar"}
-            colorName="red"
+            colorName="bg-indigo-200"
             iconName={solidIcons.faComment}
           />
         </div>
@@ -157,13 +157,13 @@ function Qabul() {
             <Card
               title={"Namuna savollar"}
               desc={"Oldingi yilgi imtihon savollari"}
-              colorName="red"
+              colorName="bg-emerald-200"
               iconName={solidIcons.faSquarePen}
             />
             <Card
               title={"Maktab materiallari"}
               desc={"Ingliz tili va matematikadan maktab darsligi"}
-              colorName="red"
+              colorName="bg-slate-200"
               iconName={solidIcons.faComment}
             />
           </span>

@@ -20,7 +20,7 @@ const DropdownMenu = (props) => {
       );
     } else {
       return (
-        <Link passHref href={"404"}>
+        <Link key={`${index}l`} passHref href={"404"}>
           <li key={index}>{title}</li>
         </Link>
       );

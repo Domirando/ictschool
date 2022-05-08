@@ -5,7 +5,7 @@ function Card(props) {
   let col = props.colorName;
   return (
     <div className={styles.card}>
-      <hr className={`bg-${col}-200 h-[0.65rem] rounded-t-md`} />
+      <hr className={`${col} h-[0.65rem] rounded-t-md`} />
       <div>
         <FontAwesomeIcon
           className={styles.icon}
