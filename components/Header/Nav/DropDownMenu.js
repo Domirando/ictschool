@@ -4,10 +4,15 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 
 const DropdownMenu = (props) => {
+  let title, url;
   let getMenuItemTitle = (menuItem, index, depthLevel) => {
     return menuItem.title;
   };
+  let getMenuHref = (menuItem, index, depthLevel) => {
+    return menuItem.url;
+  };
   let getMenuItem = (menuItem, depthLevel, index) => {
+    let url = menuItem.url;
     let title = getMenuItemTitle(menuItem, index, depthLevel);
 
     if (menuItem.submenu && menuItem.submenu.length > 0) {
@@ -20,7 +25,7 @@ const DropdownMenu = (props) => {
       );
     } else {
       return (
-        <Link key={`${index}l`} passHref href={"404"}>
+        <Link key={`${index}l`} passHref href={url}>
           <li key={index}>{title}</li>
         </Link>
       );

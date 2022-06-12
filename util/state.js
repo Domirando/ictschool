@@ -51,13 +51,17 @@ let state = {
     },
     {
       title: "Qabul",
-      url: "/smth",
+      url: "/qabul",
       submenu: [
-        { title: "Qabul haqida", url: "/smth", submenu: null },
-        { title: "Onlayn hujjat topshirish", url: "/smth", submenu: null },
+        { title: "Qabul haqida", url: "/qabul", submenu: null },
+        {
+          title: "Onlayn hujjat topshirish",
+          url: "https://ariza.piima.uz/",
+          submenu: null,
+        },
         {
           title: "2021/2022 o'quv yili qabul natijalari",
-          url: "/smth",
+          url: "https://ariza.piima.uz/",
           submenu: null,
         },
       ],
