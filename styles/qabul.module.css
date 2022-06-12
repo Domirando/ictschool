@@ -5,7 +5,10 @@
   @apply pb-14;
 }
 .praktika {
-  @apply w-screen flex h-[480px];
+  @apply w-screen flex min-h-[480px];
+}
+.praktika_qabul {
+  @apply w-screen flex min-h-[88vh];
 }
 .praktika_haqida {
   @apply w-[50%] flex flex-col gap-4 justify-center items-center px-20;
@@ -30,6 +33,18 @@
   background-size: cover;
   background-repeat: no-repeat;
   @apply w-[50%] h-auto bg-[url("/images/dormitory.jpg")];
+}
+.img_imtiyozlar {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @apply w-[50%] h-auto bg-[url("/images/olimpiad.jpg")];
+}
+.img_fanlar {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @apply w-[50%] h-auto bg-[url("/images/nanotechnology.jpg")];
 }
 .ad_img {
   background-position: center;

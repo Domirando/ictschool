@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
         <div className={styles.bottomContainer}>
           <div>
-            <p>ICTSchool.uz © 2017-2020. Barcha huquqlar himoyalangan.</p>
+            <p>ICTSchool.uz © 2017-2022. Barcha huquqlar himoyalangan.</p>
           </div>
           <div className={styles.icons}>
             <FontAwesomeIcon icon={faFacebook} />

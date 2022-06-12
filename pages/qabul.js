@@ -30,7 +30,7 @@ function Qabul() {
               bilan birgalikda o&#39;rganganlariga ko&#39;ra amaliyot o&#39;tash
               imkoniyatini ham beradi! Ya&#39;ni Muhammad al-Xorazmiy
               maktabining 11-sinf o&#39;quvchilari IT Parkda amaliyot o&#39;tab
-              o&#39;z bilimlarini qo&#39;llash orqali mustahlamlay oladilar!{" "}
+              o&#39;z bilimlarini qo&#39;llash orqali mustahkamlay oladilar!
             </p>
           </div>
           <div className={styles.img_practice} />
@@ -59,9 +59,36 @@ function Qabul() {
           <div className={styles.img_yotoqxona} />
         </div>
         <div className={styles.praktika}>
+          <div className={styles.img_imtiyozlar} />
+          <div className={styles.praktika_haqida}>
+            <h2>IMTIYOZLAR</h2>
+            <p>
+              Agentlik tomonidan tasdiqlanadigan xalqaro, mintaqaviy yoki asosiy
+              fan olimpiadalarining uchinchi (viloyat) bosqichida g&#39;olib
+              bo&#39;lgan (1-, 2-, 3-o&#39;rin) o&#39;quvchilar umumiy qabul
+              parametrlari doirasida kirish imtihonlarisiz o&#39;qishga qabul
+              qilinadi!
+            </p>
+          </div>
+        </div>
+        <div className={styles.praktika}>
+          <div className={styles.praktika_haqida}>
+            <h2>ANIQ FANLAR BILAN BIR QATORDA...</h2>
+            <p>
+              Maktabda aniq fanlar bilan bir qatorda{" "}
+              <u>O&#39;zbekiston tarixi</u>
+              fani ham chuqurlashtirilgan holda o&#39;qitiladi. Shuningdek,
+              sun&#39;iy intelekt, robototexnika, agrotexnologiya,
+              nanotexnologiya, biotexnologiya, IELTS, TOEFL va SAT bo&#39;yicha
+              qo&#39;shimcha kurslar tashkil etilishi ko&#39;zda tutilgan.
+            </p>
+          </div>
+          <div className={styles.img_fanlar} />
+        </div>
+        <div className={styles.praktika_qabul}>
           <div className={styles.ariza}>
             <h4>Regestratsiya</h4>
-            <h1>Qanday Qilib Farzandingiz Maktabga topshirishi mumkin</h1>
+            <h1>Qanday Qilib Farzandingiz Maktabga topshirishi mumkin?</h1>
             <p>
               Muhammad al-Xorazmiy maktabi barcha yoshi to&#39;g&#39;ri keluvchi
               o&#39;quvchilar uchun ochiq bo&#39;lib, maktabda o&#39;qimoqchi
@@ -107,15 +134,18 @@ function Qabul() {
             <span className={styles.two}>
               <h1>02.</h1>
               <p className={styles.content}>
-                Ariza topshira olishingiz uchun 4-sinfni betirib 5-sinfga
+                Ariza topshira olishingiz uchun 4-sinfni bitirib 5-sinfga
                 o&#39;tayotgan bo&#39;lishingiz kerak
               </p>
             </span>
             <span className={styles.three}>
               <h1>03.</h1>
               <p className={styles.content}>
-                Imtihon natijangiz va baholaringiz to&#39;g&#39;ri kelsa biz siz
-                bilan bog&#39;lanamiz.
+                Muhammad al-Xorazmiy maktabiga qabul qilish aniq va tiabiiy
+                fanlar, xorijiy tillar hamda mantiqiy fikrlash bo&#39;yicha
+                o&#39;tkaziladigan kirish imtihonlari natijalariga ko&#39;ra
+                amalga oshiriladi. Imtihon natijangiz to&#39;g&#39;ri kelsa biz
+                siz bilan bog&#39;lanamiz.
               </p>
             </span>
           </div>
@@ -125,22 +155,22 @@ function Qabul() {
           <p>
             Muhammad al-Xorazmiy maktabiga imtihon topshirish uchun
             regestratsiyadan o&#39;tishingiz kerak! <br />
-            Regestratsiyada esa sizdan 3x4 rasm, metrka, baholar tabeli va
-            ota-ona, topshirayotgan o&#39;quvchining ism shartifi kiritiladi.{" "}
-            <br />
+            Regestratsiyada esa sizdan 3x4 rasm, tu&#39;ilganlik haqida
+            guvohnoma, baholar tabeli va ota-ona, topshirayotgan
+            o&#39;quvchining ism shartifi kiritiladi. <br />
             Ro&#39;yxatdan muvaffaqiyatli o&#39;ta olish uchun o&#39;zingiz
             o&#39;qigan maktabingizda maktematka va ingliz tili fanlaridan 5 ga
             o&#39;qigan bo&#39;lishingiz kerak ya&#39;ni chorak va yillik 5 baho
             bo&#39;lishi kerak.
             <br />
-            Muhammad al-Xorazmiy maktabinig 2022-yil qabuli 2011 yil
+            Muhammad al-Xorazmiy maktabining 2022-yil qabuli 2011 yil
             tug&#39;ilgan yani hozirda 4-sinfni bitirganlar uchun.{" "}
           </p>
         </div>
         <div className={styles.cardsContainer}>
           <Card
-            title={"Ro`yxatidan O`tish"}
-            desc={"Royxatdan o`tish formasiga kirish"}
+            title={"Ro'yxatidan O'tish"}
+            desc={"Ro'yxatdan o'tish formasiga kirish"}
             colorName="bg-rose-200"
             iconName={solidIcons.faSquarePen}
           />
