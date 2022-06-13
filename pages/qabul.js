@@ -105,7 +105,7 @@ function Qabul() {
                 />
                 <span>
                   <p>Savolingiz bo&#39;lsa qo&#39;ngiroq qiling</p>
-                  <p>+998777777777</p>
+                  <p>+998 (71) 207 40 48</p>
                 </span>
               </span>
               <span className={styles.contact}>
