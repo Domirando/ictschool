@@ -5,10 +5,12 @@ const Holidays = () => {
     <section className={styles.container}>
       <h1>Tadbirlar</h1>
       <hr />
+      <hr />
       <p>
         There`re no item that match your search criteria. Please try again with
-        different keywords.
+        different keywords. 
       </p>
+      <hr /><hr />
       <CardFooter text={"Barcha tadbirlar"} />
     </section>
   );
