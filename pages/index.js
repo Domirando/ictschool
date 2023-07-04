@@ -8,10 +8,7 @@ import SchoolStuff from "../components/SchoolStuff";
 
 const Index = () => {
   return (
-    <Page
-      headerHeight={"90vh"}
-      gradient={"none"}
-    >
+    <Page headerHeight={"90vh"} gradient={"none"}>
       <main className={styles.mainItems}>
         <CardContainer />
         <SchoolStuff />

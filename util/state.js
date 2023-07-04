@@ -18,7 +18,11 @@ let state = {
               url: "/about-school",
               submenu: null,
             },
-            { title: "Maktab yutuqlari", url: "/school-achievements", submenu: null },
+            {
+              title: "Maktab yutuqlari",
+              url: "/school-achievements",
+              submenu: null,
+            },
             { title: "Maktab logosi", url: "/school-logo", submenu: null },
             { title: "Qonun hujjatlari", url: "/documents", submenu: null },
           ],

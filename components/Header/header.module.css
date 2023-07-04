@@ -2,7 +2,7 @@
   width: 100vw;
   @apply flex flex-col pt-[50px] absolute top-3;
 }
-.coontainer{
+.coontainer {
   width: 100%;
   min-height: 100%;
   position: absolute;

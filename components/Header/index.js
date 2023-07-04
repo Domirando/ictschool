@@ -15,25 +15,26 @@ const Header = ({
   title,
   error_page = null,
   text,
-  video=null,
+  video = null,
   image,
   gradient,
   btn,
-  headerBg=false,
+  headerBg = false,
   headerHeight,
   children,
 }) => {
   let [open, setOpened] = useState(false);
   console.log(error_page);
   return (
-    <div className={video && !headerBg ? "headerVideoBg":"headerContainer"}>
-      {video && !headerBg ? <div className={styles.container}>
-      <video autoPlay loop muted className={styles.video}>
-        <source src={video} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </div> : null
-      }
+    <div className={video && !headerBg ? "headerVideoBg" : "headerContainer"}>
+      {video && !headerBg ? (
+        <div className={styles.container}>
+          <video autoPlay loop muted className={styles.video}>
+            <source src={video} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      ) : null}
       <style jsx>{`
         .headerContainer {
           background: ${gradient},
@@ -48,7 +49,7 @@ const Header = ({
         .headerVideoBg {
           position: relative;
           width: 100%;
-          min-height: 88vh; 
+          min-height: 88vh;
           overflow: hidden;
           background: black;
           color: white;
@@ -58,50 +59,55 @@ const Header = ({
         }
       `}</style>
       {/*logo-image*/}
-      <div className={styles.coontainer}><span className={styles.headerNav}>
-        <div className={styles.header_res}>
-          <div className={styles.logo}>
-            <Link href={"/"} passHref>
-              <span>
-                <Image
-                  src={"/images/al_Xorazmiy.png"}
-                  alt={"logo"}
-                  height="35px"
-                  width="300px"
-                />
-              </span>
-            </Link>
-          </div>
-          <div>
-            <div onClick={() => setOpened(!open)}>
-              <Hamburger open={open} />
+      <div className={styles.coontainer}>
+        <span className={styles.headerNav}>
+          <div className={styles.header_res}>
+            <div className={styles.logo}>
+              <Link href={"/"} passHref>
+                <span>
+                  <Image
+                    src={"/images/al_Xorazmiy.png"}
+                    alt={"logo"}
+                    height="35px"
+                    width="300px"
+                  />
+                </span>
+              </Link>
+            </div>
+            <div>
+              <div onClick={() => setOpened(!open)}>
+                <Hamburger open={open} />
+              </div>
             </div>
           </div>
-        </div>
-        {/*nav*/}
-        <NavList />
-        <SideNav open={open} state={state.navbar} />
-      </span>
-      {/*title & text* & button*/}
-      {header_content === true ? (
-        <div className={!video ? styles.content : styles.video_content}>
-          <h1>
-            Muhammad al-Xorazmiy nomidagi axborot texnologiyalariga
-            ixtisoslashtirilgan maktabi
-          </h1>
-          <p className="mb-6 text-lg italic">qabul 2023/2024</p>
-          <Button bgcolor={"bg-[hsla(230,80%,30%,0.5)]"} className="mt-8" text={"batafsil"} />
-        </div>
-      ) : error_page ? (
-        <Error
-          error_type={"404"}
-          description={"PAGE NOT FOUND"}
-          message={"Sorry, we couldn't find the page you're looking for."}
-        />
-      ) : (
-        <div>{header_content}</div>
-      )}
-    </div>
+          {/*nav*/}
+          <NavList />
+          <SideNav open={open} state={state.navbar} />
+        </span>
+        {/*title & text* & button*/}
+        {header_content === true ? (
+          <div className={!video ? styles.content : styles.video_content}>
+            <h1>
+              Muhammad al-Xorazmiy nomidagi axborot texnologiyalariga
+              ixtisoslashtirilgan maktabi
+            </h1>
+            <p className="mb-6 text-lg italic">qabul 2023/2024</p>
+            <Button
+              bgcolor={"bg-[hsla(230,80%,30%,0.5)]"}
+              className="mt-8"
+              text={"batafsil"}
+            />
+          </div>
+        ) : error_page ? (
+          <Error
+            error_type={"404"}
+            description={"PAGE NOT FOUND"}
+            message={"Sorry, we couldn't find the page you're looking for."}
+          />
+        ) : (
+          <div>{header_content}</div>
+        )}
+      </div>
     </div>
   );
 };
