@@ -19,7 +19,7 @@
     "@fortawesome/react-fontawesome": "^0.1.17",
     "@supabase/supabase-js": "^1.30.6",
     "@tanem/react-nprogress": "^4.0.8",
-    "next": "12.1.0",
+    "next": "13.4.8",
     "next-absolute-url": "^1.2.2",
     "nprogress": "^0.2.0",
     "prop-types": "^15.8.1",
