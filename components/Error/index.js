@@ -7,9 +7,8 @@ function Error(props) {
       <h1>{props.error_type}</h1>
       <h2>{props.description}</h2>
       <h3>{props.message}</h3>
-      <input className={styles.key_search} placeholder={"Type Keywords..."} />
       <button>
-        <Link href={"/"}>OR BACK TO HOMEPAGE</Link>
+        <Link href={"/"}>BACK TO HOMEPAGE</Link>
       </button>
     </div>
   );

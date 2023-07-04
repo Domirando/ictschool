@@ -35,6 +35,7 @@
 
 /*--- Sublist Styles ---*/
 .dropdown_menu ul {
+  z-index: 9999;
   @apply px-2 py-2 bg-white hidden min-w-[220px] absolute text-[#585858];
 }
 

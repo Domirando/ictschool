@@ -2,3 +2,6 @@
   font-family: "Poppins", sans-serif;
   @apply flex flex-col;
 }
+.mainItems{
+  z-index: 99;
+}

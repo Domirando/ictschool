@@ -4,7 +4,7 @@ import Error from "../components/Error";
 export default function Custom404() {
   return (
     <Page
-      headerHeight={"110vh"}
+      headerHeight={"90vh"}
       error_page={404}
       headerBg={"/images/404-background.jpg"}
       title={"Page not found | ICTSchool.uz"}

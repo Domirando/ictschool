@@ -25,7 +25,7 @@
   @apply flex gap-5 text-white items-center;
 }
 .right {
-  @apply text-white h-full bg-[#3a3a7c] w-[100px] flex items-center justify-center;
+  @apply text-white h-full bg-[#3a3a7c] w-[100px] flex items-center justify-center cursor-pointer;
 }
 .icon {
   margin-right: -12px;

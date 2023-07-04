@@ -15,22 +15,42 @@ const Header = ({
   title,
   error_page = null,
   text,
+  video=null,
   image,
   gradient,
   btn,
-  headerBg,
+  headerBg=false,
   headerHeight,
   children,
 }) => {
   let [open, setOpened] = useState(false);
   console.log(error_page);
   return (
-    <div className="headerContainer">
+    <div className={video && !headerBg ? "headerVideoBg":"headerContainer"}>
+      {video && !headerBg ? <div className={styles.container}>
+      <video autoPlay loop muted className={styles.video}>
+        <source src={video} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div> : null
+      }
       <style jsx>{`
         .headerContainer {
           background: ${gradient},
             url("${headerBg}") no-repeat center center / cover;
           min-height: ${headerHeight};
+          color: white;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          gap: 65px;
+        }
+        .headerVideoBg {
+          position: relative;
+          width: 100%;
+          min-height: 88vh; 
+          overflow: hidden;
+          background: black;
           color: white;
           display: flex;
           flex-direction: column;
@@ -38,7 +58,7 @@ const Header = ({
         }
       `}</style>
       {/*logo-image*/}
-      <span className={styles.headerNav}>
+      <div className={styles.coontainer}><span className={styles.headerNav}>
         <div className={styles.header_res}>
           <div className={styles.logo}>
             <Link href={"/"} passHref>
@@ -64,13 +84,13 @@ const Header = ({
       </span>
       {/*title & text* & button*/}
       {header_content === true ? (
-        <div className={styles.content}>
+        <div className={!video ? styles.content : styles.video_content}>
           <h1>
             Muhammad al-Xorazmiy nomidagi axborot texnologiyalariga
             ixtisoslashtirilgan maktabi
           </h1>
-          <p>qabul 2021/2022</p>
-          <Button bgcolor={"bg-[hsla(230,80%,5%,0.5)]"} text={"batafsil"} />
+          <p className="mb-6 text-lg italic">qabul 2023/2024</p>
+          <Button bgcolor={"bg-[hsla(230,80%,30%,0.5)]"} className="mt-8" text={"batafsil"} />
         </div>
       ) : error_page ? (
         <Error
@@ -81,6 +101,7 @@ const Header = ({
       ) : (
         <div>{header_content}</div>
       )}
+    </div>
     </div>
   );
 };

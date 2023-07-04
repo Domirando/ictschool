@@ -27,6 +27,7 @@ const Page = ({
         headerBg={headerBg}
         gradient={gradient}
         image={image}
+        video={"/videos/video.mp4"}
         error_page={error_page}
         header_content={header__content}
       />

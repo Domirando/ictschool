@@ -9,8 +9,7 @@ import SchoolStuff from "../components/SchoolStuff";
 const Index = () => {
   return (
     <Page
-      headerBg={"/images/schoolImage.png"}
-      headerHeight={"100vh"}
+      headerHeight={"90vh"}
       gradient={"none"}
     >
       <main className={styles.mainItems}>

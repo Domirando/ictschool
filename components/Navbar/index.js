@@ -2,6 +2,7 @@ import styles from "./navbar.module.css";
 import Image from "next/image";
 import { faEnvelopeOpen, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 const Navbar = () => {
   return (
     <nav className={styles.container}>
@@ -32,8 +33,12 @@ const Navbar = () => {
               <a>1206</a>
             </p>
           </div>
-          <div className={styles.right}>
-            <p>E-CLASS</p>
+          <div className={styles.right} replace={false}>
+            <Link href="https://eclass.ictschool.uz/" passHref>
+              <a target="_blank">
+                <p>E-CLASS</p>
+              </a>
+            </Link>
           </div>
         </div>
       </div>

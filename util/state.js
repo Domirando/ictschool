@@ -7,20 +7,20 @@ let state = {
     },
     {
       title: "Maktab haqida",
-      url: "/smth",
+      url: "/about-school",
       submenu: [
         {
           title: "Maktab haqida",
-          url: "/smth",
+          url: "/about-school",
           submenu: [
             {
               title: "Maktab hayoti",
-              url: "/smth",
+              url: "/about-school",
               submenu: null,
             },
-            { title: "Maktab yutuqlari", url: "/smth", submenu: null },
-            { title: "Maktab logosi", url: "/smth", submenu: null },
-            { title: "Qonun hujjatlari", url: "/smth", submenu: null },
+            { title: "Maktab yutuqlari", url: "/school-achievements", submenu: null },
+            { title: "Maktab logosi", url: "/school-logo", submenu: null },
+            { title: "Qonun hujjatlari", url: "/documents", submenu: null },
           ],
         },
         {
@@ -34,9 +34,9 @@ let state = {
         },
         {
           title: "Ta`lim tizimi",
-          url: "/smth",
+          url: "/edu-system",
           submenu: [
-            { title: "O'quv tizimi", url: "/smth", submenu: null },
+            { title: "O'quv tizimi", url: "/edu-system", submenu: null },
             { title: "STEAM ta'lim", url: "/smth", submenu: null },
             { title: "Qo'shimcha ta'lim", url: "/smth", submenu: null },
             { title: "Qo'shimcha imkoniyatlar", url: "/smth", submenu: null },
@@ -60,7 +60,7 @@ let state = {
           submenu: null,
         },
         {
-          title: "2021/2022 o'quv yili qabul natijalari",
+          title: "2023/2024 o'quv yili qabul natijalari",
           url: "https://ariza.piima.uz/",
           submenu: null,
         },

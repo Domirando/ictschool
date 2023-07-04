@@ -1,5 +1,13 @@
 .headerNav {
-  @apply flex flex-col pt-[50px];
+  width: 100vw;
+  @apply flex flex-col pt-[50px] absolute top-3;
+}
+.coontainer{
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  background-color: black;
+  @apply bg-gradient-to-r from-black to-slate-900 opacity-75;
 }
 @media screen and (max-width: 1080px) {
   .header_res {
@@ -21,6 +29,10 @@
 .content {
   margin: -50px 100px;
   @apply w-[500px];
+}
+.video_content {
+  margin: -50px 100px;
+  @apply w-[500px] top-64 absolute;
 }
 @media (min-width: 1600px) {
   .content {
