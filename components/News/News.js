@@ -8,8 +8,8 @@ const News = ({ image = "/images/img.png", title, date, link = "/404" }) => {
       <div className={"h-[100px] w-[100px]"}>
         <Image
           alt={""}
-          height="100px"
-          width="100px"
+          height={100}
+          width={100}
           className={styles.image}
           src={image}
         />
@@ -20,7 +20,7 @@ const News = ({ image = "/images/img.png", title, date, link = "/404" }) => {
           <p>/</p>
           <p> yangiliklar</p>
         </span>
-        <Link passHref href={link}>
+        <Link passHref href={link} legacyBehavior>
           <h2>{title}</h2>
         </Link>
       </span>

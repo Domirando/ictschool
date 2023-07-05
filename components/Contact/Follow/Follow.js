@@ -19,17 +19,21 @@ const Follow = () => {
         bo`ling
       </p>
       <span className={styles.icons}>
-        <Link passHref href={"https://facebook.com/itschool.uz"}>
+        <Link passHref href={"https://facebook.com/itschool.uz"} legacyBehavior>
           <span>
             <FontAwesomeIcon icon={faFacebook} />
           </span>
         </Link>
-        <Link passHref href={"https://instagram.com/itschool.uz"}>
+        <Link
+          passHref
+          href={"https://instagram.com/itschool.uz"}
+          legacyBehavior
+        >
           <span>
             <FontAwesomeIcon icon={faInstagram} />
           </span>
         </Link>
-        <Link passHref href={"https://t.me/itschooluz"}>
+        <Link passHref href={"https://t.me/itschooluz"} legacyBehavior>
           <span>
             <FontAwesomeIcon icon={faTelegram} />
           </span>

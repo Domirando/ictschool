@@ -6,11 +6,7 @@ import Button from "../../Button";
 const Donate = () => {
   return (
     <div className={styles.container}>
-      <CardImage
-        image={"/images/img_11.png"}
-        width={"150px"}
-        height={"180px"}
-      />
+      <CardImage image={"/images/img_11.png"} width={450} height={500} />
       <h1>Maktab uchun xayriya</h1>
       <p className={styles.description}>
         Mamlakatimizda o‘quvchi-yoshlarning sifatli ta’lim-tarbiyasi uchun zarur

@@ -7,8 +7,8 @@ const FooterColumn = ({ item }) => {
       <hr className={styles.straight} />
       <div className={styles.listItems}>
         {item.items.map((el, index) => (
-          <Link href={el.url} key={index}>
-            <a className={styles.list}>{el.title}</a>
+          <Link href={el.url} key={index} className={styles.list}>
+            {el.title}
           </Link>
         ))}
       </div>

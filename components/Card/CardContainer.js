@@ -4,7 +4,7 @@ const CardContainer = () => {
   return (
     <div className={styles.container}>
       <Card
-        image_width={450}
+        image_width={500}
         icon={"/icons/img_2.png"}
         image={"/images/img.png"}
         description={
@@ -17,7 +17,7 @@ const CardContainer = () => {
       />
       <Card
         header_color={"#0f1744"}
-        image_width={450}
+        image_width={500}
         icon={"/icons/img_1.png"}
         image={"/images/img_1.png"}
         description={
@@ -28,7 +28,7 @@ const CardContainer = () => {
         anchor="/steam-tabiiy-fanlar"
       />
       <Card
-        image_width={450}
+        image_width={500}
         header_color={"#050b29"}
         icon={"/icons/img.png"}
         image={"/images/img_2.png"}

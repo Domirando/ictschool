@@ -4,7 +4,7 @@ import { faRightLong } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 const CardFooter = ({ text = "Batafsil", anchor = "/" }) => {
   return (
-    <Link href={anchor} passHref>
+    <Link href={anchor} passHref legacyBehavior>
       <div className={styles.footer}>
         <p>{text}</p>
         <FontAwesomeIcon icon={faRightLong} />

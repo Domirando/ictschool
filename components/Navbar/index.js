@@ -11,11 +11,11 @@ const Navbar = () => {
           <div className={styles.left}>
             <Image
               src="/icons/uz.png"
-              width="18"
-              height="12"
+              width={18}
+              height={12}
               alt={"uzb flag"}
             />
-            <Image src="/icons/ru.png" width="18" height="12" alt={"ru flag"} />
+            <Image src="/icons/ru.png" width={18} height={12} alt={"ru flag"} />
             <FontAwesomeIcon
               className={styles.icon}
               icon={faEnvelopeOpen}
@@ -33,11 +33,9 @@ const Navbar = () => {
               <a>1206</a>
             </p>
           </div>
-          <div className={styles.right} replace={false}>
-            <Link href="https://eclass.ictschool.uz/" passHref>
-              <a target="_blank">
-                <p>E-CLASS</p>
-              </a>
+          <div className={styles.right}>
+            <Link href="https://eclass.ictschool.uz/" passHref target="_blank">
+              <p>E-CLASS</p>
             </Link>
           </div>
         </div>

@@ -4,7 +4,7 @@
 }
 .coontainer {
   width: 100%;
-  min-height: 100%;
+  min-height: 90vh;
   position: absolute;
   background-color: black;
   @apply bg-gradient-to-r from-black to-slate-900 opacity-75;
@@ -20,8 +20,10 @@
     padding-top: 150px;
     width: 80% !important;
   }
+  .headerVideoBg {
+    min-height: 100% !important;
+  }
 }
-
 .logo {
   @apply cursor-pointer flex justify-center;
 }

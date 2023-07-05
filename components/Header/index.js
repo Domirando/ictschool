@@ -29,7 +29,13 @@ const Header = ({
     <div className={video && !headerBg ? "headerVideoBg" : "headerContainer"}>
       {video && !headerBg ? (
         <div className={styles.container}>
-          <video autoPlay loop muted className={styles.video}>
+          <video
+            height={headerHeight}
+            autoPlay
+            loop
+            muted
+            className={styles.video}
+          >
             <source src={video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -49,8 +55,8 @@ const Header = ({
         .headerVideoBg {
           position: relative;
           width: 100%;
-          min-height: 88vh;
           overflow: hidden;
+          height: ${headerHeight};
           background: black;
           color: white;
           display: flex;
@@ -63,13 +69,13 @@ const Header = ({
         <span className={styles.headerNav}>
           <div className={styles.header_res}>
             <div className={styles.logo}>
-              <Link href={"/"} passHref>
+              <Link href={"/"} passHref legacyBehavior>
                 <span>
                   <Image
                     src={"/images/al_Xorazmiy.png"}
                     alt={"logo"}
-                    height="35px"
-                    width="300px"
+                    height={35}
+                    width={300}
                   />
                 </span>
               </Link>

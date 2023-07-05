@@ -25,7 +25,7 @@ const DropdownMenu = (props) => {
       );
     } else {
       return (
-        <Link key={`${index}l`} passHref href={url}>
+        <Link key={`${index}l`} passHref href={url} legacyBehavior>
           <li key={index}>{title}</li>
         </Link>
       );

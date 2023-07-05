@@ -25,8 +25,8 @@ const Footer = () => {
                 <Image
                   src={"/images/al_Xorazmiy.png"}
                   alt={"logo"}
-                  height="40px"
-                  width="300px"
+                  height={40}
+                  width={300}
                 />
               </div>
               <div className={styles.textWidget}>

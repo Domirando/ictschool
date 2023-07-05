@@ -15,7 +15,9 @@ const Button = ({
         uppercase ? "uppercase" : null
       }`}
     >
-      <Link href={href}>{text}</Link>
+      <Link href={href} legacyBehavior>
+        {text}
+      </Link>
     </button>
   );
 };
