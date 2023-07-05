@@ -30,7 +30,7 @@
     "swr": "^1.2.2"
   },
   "engines": {
-    "node": "19.8.0"
+    "node": "18.x"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
