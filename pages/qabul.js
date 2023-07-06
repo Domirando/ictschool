@@ -24,7 +24,7 @@ function Qabul() {
       <div className={styles.container}>
         <div className={styles.praktika}>
           <div className={styles.praktika_haqida}>
-            <h2>BILIMLARNI AMALIYOTDA</h2>
+            <h2>BILIMLARNIii AMALIYOTDA</h2>
             <p>
               Muhammad al-Xorazmiy maktabi o&#39;z o&#39;quvchilariga o&#39;qish
               bilan birgalikda o&#39;rganganlariga ko&#39;ra amaliyot o&#39;tash

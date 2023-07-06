@@ -43,7 +43,8 @@ const Header = ({
       ) : null}
       <style jsx>{`
         .headerContainer {
-          background: ${gradient},
+          background:
+            ${gradient},
             url("${headerBg}") no-repeat center center / cover;
           min-height: ${headerHeight};
           color: white;
