@@ -30,8 +30,8 @@ dependencies:
     specifier: ^1.2.2
     version: 1.2.2
   node:
-    specifier: ^19.8.0
-    version: 19.8.0
+    specifier: ^18.16.1
+    version: 18.16.1
   nprogress:
     specifier: ^0.2.0
     version: 0.2.0
@@ -9092,8 +9092,8 @@ packages:
   /node-releases@2.0.12:
     resolution: {integrity: sha512-QzsYKWhXTWx8h1kIvqfnC++o0pEmpRQA/aenALsL2F4pqNVr7YzcdMlDij5WBnwftRbJCNJL/O7zdKaxKPHqgQ==}
 
-  /node@19.8.0:
-    resolution: {integrity: sha512-JFGabXgTq+6zAc1dSeTjdVdoJFj1W14GNQddAaorT3SND6D6ORFQZE5ITmqWWmHVscstiQD/7dxsb5mMwmoqXw==}
+  /node@18.16.1:
+    resolution: {integrity: sha512-dcMZJLpQTNhfR/iuIOEA+e5OsJdISRrCqvDx1EtP7hImqHg5b7UaBhhXW1W38+olicNLcB2HizF54ySWSdez1w==}
     engines: {npm: '>=5.0.0'}
     hasBin: true
     requiresBuild: true
