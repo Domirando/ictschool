@@ -40,6 +40,7 @@ const CardContainer = () => {
         anchor="/qabul"
       />
     </div>
+    //asdf
   );
 };
 export default CardContainer;
