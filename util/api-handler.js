@@ -19,5 +19,3 @@ const apiHandler = async (req, res, data) => {
 };
 
 export default apiHandler;
-
-
