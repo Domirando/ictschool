@@ -20,6 +20,4 @@ const apiHandler = async (req, res, data) => {
 
 export default apiHandler;
 
-// "engines": {
-//   "node": "18.x"
-// },
+
