@@ -38,7 +38,7 @@
 }
 @media (min-width: 1600px) {
   .video_content {
-    margin: -50px var(--container);
+    margin: 70px var(--container);
   }
 }
 .video_content h1 {
