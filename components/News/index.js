@@ -9,44 +9,40 @@ const NewsContainer = () => {
       <div className={styles.news}>
         <div className={styles.news_box}>
           <News
-            title={"Kitob – insonning haqiqiy do’sti."}
-            image={"/images/img_3.png"}
-            date={"15.03.2022"}
+            title={
+              "Ekologik ta’lim fondining (FEE) ta’lim masalalari bo‘yicha..."
+            }
+            image={"/images/fee.jpg"}
+            date={"07.07.2023"}
           />
           <News
-            title={
-              "PREZIDENT TA’LIM MUASSASALARI AGENTLIGI TIZIMIDAGI O’QUVCHILAR ITALIYAGA BORADI!"
-            }
-            image={"/images/img_4.png"}
-            date={"15.03.2022"}
+            title={"ZIYO MASKANINING ZUKKO O‘QUVCHISI"}
+            image={"/images/grant_golibi.jpg"}
+            date={"07.07.2023"}
           />
           <News
-            title={
-              "Assalom Navro‘z –Yangilanish,mehr-oqibat va qadr-qimmat ayyomi!"
-            }
-            image={"/images/img_3.png"}
-            date={"15.03.2022"}
+            title={"Xalqaro olimpiadadan yana 3 ta medal"}
+            image={"/images/olimpiada_g.jpg"}
+            date={"11.07.2023"}
           />
         </div>
         <div className={styles.news_box}>
           <News
-            title={"“IELTS Mock”"}
-            image={"/images/img_5.png"}
-            date={"15.03.2022"}
+            title={"AIDJONOVA GULASAL - XALQARO YOZGI DASTURINING GRANT SOHIBI"}
+            image={"/images/portland_uni.jpg"}
+            date={"03.07.2023"}
+          />
+          <News
+            title={"G‘ALABALAR MEHNATLAR SAMARASI"}
+            image={"/images/xitoy_bejing.jpg"}
+            date={"06.07.2023"}
           />
           <News
             title={
-              "EPAM kompaniyasi bilan hamkorlikda SCRATCH kurslarini davom ettmoqda.\n"
+              "Butunjahon ekologik ta'lim fondi direktori Pramond Kumar Sharma..."
             }
-            image={"/images/img_6.png"}
-            date={"15.03.2022"}
-          />
-          <News
-            title={
-              "TESOL Arabia-2022 pedagoglar uchun yuqori samarali kasbiy rivojlanish imkoniyati.\n"
-            }
-            image={"/images/img_7.png"}
-            date={"15.03.2022"}
+            image={"/images/zamin_eco.jpg"}
+            date={"06.07.2023"}
           />
         </div>
       </div>

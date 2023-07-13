@@ -5,7 +5,7 @@ import styles from "./style.module.css";
 export const SchoolStuff = () => {
   return (
     <section className={styles.container}>
-      <div className={styles.rightSide}>
+      {/* <div className={styles.rightSide}>
         <h2 className={"text-[#212052] text-xl font-semibold"}>
           Maktab bo‘ylab sayohat
         </h2>
@@ -18,7 +18,7 @@ export const SchoolStuff = () => {
           image_width={800}
           image_height={250}
         />
-      </div>
+      </div> */}
       <div className={styles.leftSide}>
         <NewsContainer />
       </div>

@@ -6,13 +6,7 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 const NavList = () => {
   return (
     <div className={styles.nav}>
-      <div>
-        <DropdownMenu config={state.navbar} />
-      </div>
-      <FontAwesomeIcon
-        icon={faMagnifyingGlass}
-        className={styles.icon + " " + styles.searchIcon}
-      />
+      <DropdownMenu config={state.navbar} />
     </div>
   );
 };

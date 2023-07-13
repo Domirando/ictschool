@@ -33,27 +33,27 @@
   @apply w-[500px];
 }
 .video_content {
-  margin: -50px 100px;
+  margin: 0px 100px;
   @apply w-[500px] top-64 absolute;
 }
 @media (min-width: 1600px) {
-  .content {
+  .video_content {
     margin: -50px var(--container);
   }
 }
-.content h1 {
+.video_content h1 {
   @apply text-[24px] mb-14;
-  line-height: 1.5;
+  line-height: 1.4;
 }
-.content p {
-  @apply uppercase text-[32px] mb-4 w-[50%];
+.video_content p {
+  @apply uppercase text-[28px] mb-4 w-[50%];
   line-height: 1;
 }
 @media (max-width: 760px) {
   .header_res {
     @apply justify-between gap-11 px-[20px];
   }
-  .content {
+  .video_content {
     width: auto !important;
     margin: -50px 20px !important;
   }

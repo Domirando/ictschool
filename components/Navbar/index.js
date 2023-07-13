@@ -9,13 +9,6 @@ const Navbar = () => {
       <div className={styles.topBarBg}>
         <div className={styles.barContainer}>
           <div className={styles.left}>
-            <Image
-              src="/icons/uz.png"
-              width={18}
-              height={12}
-              alt={"uzb flag"}
-            />
-            <Image src="/icons/ru.png" width={18} height={12} alt={"ru flag"} />
             <FontAwesomeIcon
               className={styles.icon}
               icon={faEnvelopeOpen}

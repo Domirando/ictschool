@@ -32,6 +32,7 @@ const Header = ({
           <video
             height={headerHeight}
             autoPlay
+            width="100%"
             loop
             muted
             className={styles.video}

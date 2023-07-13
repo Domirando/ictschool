@@ -1,15 +1,21 @@
 import styles from "./styles.module.css";
 import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
 import Button from "../Button";
 
 const Admission = () => {
+  const router = useRouter();
+  let redirect = (link) => {
+    router.push(link);
+  };
   return (
     <section className={styles.container}>
       <div className={styles.leftImage}></div>
       <div className={styles.rightContent}>
         <div className={styles.right_textContent}>
           <h1>Maktabga qabul</h1>
-          <h3>2020/2021 o‘quv yili uchun maktabga qabul qilish</h3>
+          <h3>2023/2024 o‘quv yili uchun maktabga qabul qilish</h3>
           <p>
             Ixtisoslashtirilgan maktabga o‘quvchilar O‘zbekiston Republikasi
             Prezidenti, Ijod va Ixtisoslashgan maktablarni rivojlantirish
@@ -18,6 +24,7 @@ const Admission = () => {
             qilinadi.
           </p>
           <Button
+            onClick={() => redirect("https://ariza.piima.uz/")}
             border={"rounded-none"}
             text={"Ro'yxatdan o'tish"}
             bgcolor={"bg-[#3a3a7c]"}
