@@ -181,8 +181,9 @@ function Qabul() {
             iconName={solidIcons.faComment}
           />
         </div>
-        <div className={styles.containerManbalar}>
-          <h1 className={styles.manbalar}>Foydali manbalar</h1>
+        {/* foydali manbalar */}
+        {/* <div className={styles.containerManbalar}> */}
+        {/* <h1 className={styles.manbalar}>Foydali manbalar</h1>
           <span>
             <Card
               title={"Namuna savollar"}
@@ -196,8 +197,8 @@ function Qabul() {
               colorName="bg-slate-200"
               iconName={solidIcons.faComment}
             />
-          </span>
-        </div>
+          </span> */}
+        {/* </div> */}
       </div>
     </Page>
   );

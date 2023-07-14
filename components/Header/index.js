@@ -101,6 +101,7 @@ const Header = ({
             </h1>
             <p className="mb-6 text-lg italic">qabul 2023/2024</p>
             <Button
+              href="/qabul"
               bgcolor={"bg-[hsla(230,80%,30%,0.5)]"}
               className="mt-8"
               text={"batafsil"}
