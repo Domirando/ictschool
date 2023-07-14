@@ -4,6 +4,7 @@ import CardImage from "../components/Card/CardImage";
 import CardDescription from "../components/Card/CardDescription";
 import { Item } from "../components/IconText";
 import Link from "next/link";
+import DescriptionList from "../components/Card/DescriptionList";
 import Image from "next/image";
 import styles from "../styles/maktab-hayoti.module.css";
 import * as solidIcons from "@fortawesome/free-solid-svg-icons";
@@ -186,27 +187,13 @@ const MaktabHayoti = () => {
             <CardDescription
               width={"400px"}
               heading={"Artel"}
-              description={[
-                <p key={1}>
-                  o&rsquo;quvchilar
-                  <br />
-                  <br />
-                </p>,
-                <p key={2}>
-                  -Elektronika asoslarini sodda va murakkab sxemalar yasashni
-                </p>,
-                <p key={3}>-3D printerdan 3D modellarni chiqarishni</p>,
-                <p key={11}>
-                  -Arduino dasturi shu bilan bir qatorda tranzistor va
-                  mikrochiplar bilan ishlashni
-                </p>,
-                <p key={4}>
-                  -Qo&rsquo;shimcha modul va sensorlar bilan ishlashni (RGB,
-                  WiFi, PIR, LCD display, RFID) ular yordamida mustaqil ravishda
-                  turli xildagi arduino proyektlarini yasashni
-                  o&rsquo;rganadilar.
-                </p>,
-              ]}
+              description={DescriptionList([
+                "o'quvchilar",
+                "-Elektronika asoslarini sodda va murakkab sxemalar yasashni",
+                "-3D printerdan 3D modellarni chiqarishni",
+                "-Arduino dasturi shu bilan bir qatorda tranzistor va mikrochiplar bilan ishlashni",
+                "-Qo'shimcha modul va sensorlar bilan ishlashni (RGB, WiFi, PIR, LCD display, RFID) ular yordamida mustaqil ravishda turli xildagi arduino proyektlarini yasashni o'rganadilar.",
+              ])}
             />
           </span>
           <span>
@@ -254,33 +241,15 @@ const MaktabHayoti = () => {
             <CardDescription
               width={"400px"}
               heading={"Robototexnika xonasi"}
-              description={[
+              description={DescriptionList([
                 "Ushbu xonada o'quvchilar",
-                <p key={5}>
-                  <br />
-                  -C dasturlash tilini
-                </p>,
-                <p key={6}>
-                  <br />
-                  -Elektronika asoslarini{" "}
-                </p>,
-                <p key={7}>
-                  <br />
-                  -Sodda va murakkab sxemalar yasashni
-                </p>,
-                <p key={8}>
-                  <br />
-                  -3D dizayn va 3D modellashtirishni
-                </p>,
-                <p key={9}>
-                  <br />
-                  -3D printerdan va 3D modellarni chiqarishni
-                </p>,
-                <p key={10}>
-                  <br />
-                  -Arduino dasturlashni turlarini o&rsquo;rganishlari mumkin
-                </p>,
-              ]}
+                "-C dasturlash tilini",
+                "-Elektronika asoslarini",
+                "-Sodda va murakkab sxemalar yasashni",
+                "-3D dizayn va 3D modellashtirishni",
+                "-3D printerdan va 3D modellarni chiqarishni",
+                "-Arduino dasturlashni turlarini o&rsquo;rganishlari mumkin",
+              ])}
             />
           </span>
         </div>

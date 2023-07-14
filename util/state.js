@@ -7,15 +7,15 @@ let state = {
     },
     {
       title: "Maktab haqida",
-      url: "/about-school",
+      url: "/",
       submenu: [
         {
           title: "Maktab haqida",
-          url: "/about-school",
+          url: "/maktab-hayoti",
           submenu: [
             {
               title: "Maktab hayoti",
-              url: "/about-school",
+              url: "/maktab-hayoti",
               submenu: null,
             },
             {
@@ -147,7 +147,7 @@ let state = {
           url: "/",
         },
         { title: "Qabul", url: "/" },
-        { title: "Maktab hayoti", url: "/" },
+        { title: "Maktab hayoti", url: "/maktab-hayoti" },
         {
           title: "Yangiliklar",
           url: "/",
