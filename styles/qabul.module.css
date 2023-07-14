@@ -1,8 +1,51 @@
 .header {
   @apply flex pl-24 items-end text-5xl font-bold;
+  margin-top: 340px;
 }
 .container {
   @apply pb-14;
+}
+@media (min-height: 1000px) {
+  .header{
+    margin-top: 460px;
+  }
+}
+@media (max-width: 700px) {
+  .praktika{
+    flex-direction: column;
+  }
+  .praktika_haqida {
+    width: 100%!important;
+    padding: 120px 0;
+  }
+  .img_practice,
+  .img_fakultativ,
+  .img_yotoqxona,
+  .img_imtiyozlar,
+  .img_fanlar {
+    width: 100%!important;
+    height: 480px!important;
+  }
+  .praktika_qabul {
+    flex-direction: column
+  }
+  .ariza{
+    padding: 50px 0;
+    width: 100%!important;
+  }
+  .registration{
+    padding: 50px 0;
+    width: 100%!important;
+  }
+  .reg_haqida{
+    margin: 5rem!important;
+  }
+  .cardsContainer{
+    margin: 3rem!important;
+  }
+  .containerManbalar{
+    margin: 3rem!important;
+  }
 }
 .praktika {
   @apply w-screen flex min-h-[480px];
