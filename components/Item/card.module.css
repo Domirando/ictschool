@@ -1,6 +1,15 @@
 .card {
   @apply flex flex-col w-[40%] h-[200px] drop-shadow-2xl;
 }
+@media (max-width: 500px) {
+  .card {
+    width: auto !important;
+  }
+  .card > div {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
 .card > div {
   @apply flex gap-4 p-6;
 }

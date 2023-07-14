@@ -6,16 +6,19 @@
   @apply pb-14;
 }
 @media (min-height: 1000px) {
-  .header{
+  .header {
     margin-top: 460px;
   }
 }
 @media (max-width: 700px) {
-  .praktika{
+  .header {
+    padding-left: 20px;
+  }
+  .praktika {
     flex-direction: column;
   }
   .praktika_haqida {
-    width: 100%!important;
+    width: 100% !important;
     padding: 120px 0;
   }
   .img_practice,
@@ -23,28 +26,35 @@
   .img_yotoqxona,
   .img_imtiyozlar,
   .img_fanlar {
-    width: 100%!important;
-    height: 480px!important;
+    width: 100% !important;
+    height: 480px !important;
   }
   .praktika_qabul {
-    flex-direction: column
+    flex-direction: column;
   }
-  .ariza{
+  .ariza {
     padding: 50px 0;
-    width: 100%!important;
+    width: 100% !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
   }
-  .registration{
-    padding: 50px 0;
-    width: 100%!important;
+  .registration {
+    padding: 50px 30px !important;
+    width: 100% !important;
   }
-  .reg_haqida{
-    margin: 5rem!important;
+  .reg_haqida {
+    margin: 2.5rem !important;
   }
-  .cardsContainer{
-    margin: 3rem!important;
+  .cardsContainer {
+    margin: 3rem !important;
   }
-  .containerManbalar{
-    margin: 3rem!important;
+  .containerManbalar {
+    margin: 3rem !important;
+  }
+}
+@media (max-width: 500px) {
+  .praktika_haqida {
+    padding: 3rem 2rem !important;
   }
 }
 .praktika {
