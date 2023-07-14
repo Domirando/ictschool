@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./card.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -14,7 +15,9 @@ function Card(props) {
           color="#1c1b3b"
         />
         <span>
-          <h1>{props.title}</h1>
+          <Link href={props.href ? props.href : "/"}>
+            <h1>{props.title}</h1>
+          </Link>
           <p>{props.desc}</p>
         </span>
       </div>

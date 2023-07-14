@@ -169,6 +169,7 @@ function Qabul() {
         </div>
         <div className={styles.cardsContainer}>
           <Card
+            href="/"
             title={"Ro'yxatidan O'tish"}
             desc={"Ro'yxatdan o'tish formasiga kirish"}
             colorName="bg-rose-200"
