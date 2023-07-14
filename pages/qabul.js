@@ -169,17 +169,11 @@ function Qabul() {
         </div>
         <div className={styles.cardsContainer}>
           <Card
-            href="/"
+            href="https://ariza.piima.uz/"
             title={"Ro'yxatidan O'tish"}
             desc={"Ro'yxatdan o'tish formasiga kirish"}
             colorName="bg-rose-200"
             iconName={solidIcons.faSquarePen}
-          />
-          <Card
-            title={"QA"}
-            desc={"So'ralgan savollar va ularga javoblar"}
-            colorName="bg-indigo-200"
-            iconName={solidIcons.faComment}
           />
         </div>
         {/* foydali manbalar */}

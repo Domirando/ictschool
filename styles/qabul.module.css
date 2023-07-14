@@ -91,13 +91,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  @apply w-[50%] h-auto bg-[url("/images/olimpiad.jpg")];
+  @apply w-[50%] h-auto bg-[url("/images/imtiyozlar.jpg")];
 }
 .img_fanlar {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  @apply w-[50%] h-auto bg-[url("/images/nanotechnology.jpg")];
+  @apply w-[50%] h-auto bg-[url("/images/aniq_Fanlar.jpg")];
 }
 .ad_img {
   background-position: center;
