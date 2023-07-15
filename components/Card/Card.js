@@ -21,7 +21,9 @@ const Card = ({
     <article className={styles.card}>
       {title ? (
         <CardTitle bg={header_color} icon={icon} title={title} more={more} />
-      ) : null}
+      ) : (
+        <div></div>
+      )}
       {image ? (
         <CardImage image={image} height={image_height} width={image_width} />
       ) : null}
