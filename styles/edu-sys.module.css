@@ -1,0 +1,24 @@
+.header_title {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 350px 60px 0px;
+}
+.edu_sys {
+  display: flex;
+  margin: 60px;
+  flex-direction: column;
+}
+.edu_sys > p {
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #6b6b6b;
+  margin-bottom: 15px;
+}
+.images {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
