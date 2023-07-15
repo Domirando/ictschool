@@ -20,7 +20,7 @@ let state = {
             },
             {
               title: "Maktab yutuqlari",
-              url: "/school-achievements",
+              url: "/maktab-yutuqlari",
               submenu: null,
             },
             { title: "Qonun hujjatlari", url: "/documents", submenu: null },

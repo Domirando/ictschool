@@ -11,16 +11,22 @@ const Card = ({
   image_height = 280,
   description = "",
   icon = "",
+  more = true,
+  footer_text = "",
   header_color = "#3a3a7c",
   footer = false,
   anchor = "/",
 }) => {
   return (
     <article className={styles.card}>
-      {title ? <CardTitle bg={header_color} icon={icon} title={title} /> : null}
-      <CardImage image={image} height={image_height} width={image_width} />
+      {title ? (
+        <CardTitle bg={header_color} icon={icon} title={title} more={more} />
+      ) : null}
+      {image ? (
+        <CardImage image={image} height={image_height} width={image_width} />
+      ) : null}
       <CardDescription width={image_width} description={description} />
-      {footer ? <CardFooter anchor={anchor} /> : null}
+      {footer ? <CardFooter footer_text={footer_text} anchor={anchor} /> : null}
     </article>
   );
 };
