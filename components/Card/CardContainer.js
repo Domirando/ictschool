@@ -13,7 +13,7 @@ const CardContainer = () => {
         }
         title={"IT Maktab Hayoti"}
         footer={true}
-        anchor="/maktab-hayoti"
+        anchor="/school-life"
       />
       <Card
         header_color={"#0f1744"}
@@ -25,7 +25,7 @@ const CardContainer = () => {
         }
         title={"Ta`lim"}
         footer={true}
-        anchor="/steam-tabiiy-fanlar"
+        anchor="/steam-subjects"
       />
       <Card
         image_width={500}
@@ -37,7 +37,7 @@ const CardContainer = () => {
         }
         title={"Qabul"}
         footer={true}
-        anchor="/qabul"
+        anchor="/admission"
       />
     </div>
     //asdf

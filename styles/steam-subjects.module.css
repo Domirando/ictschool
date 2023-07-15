@@ -1,0 +1,7 @@
+.container {
+  @apply flex flex-col gap-6 p-10 px-16 text-[16px] leading-7 text-slate-700;
+}
+.container > p > li {
+  list-style-type: none;
+  padding: 2px;
+}

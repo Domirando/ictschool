@@ -1,0 +1,117 @@
+.hContent {
+  position: absolute;
+  top: 80vh;
+  display: flex;
+  gap: 80px;
+  width: auto;
+  padding: 0 var(--padding-x);
+  color: white;
+}
+.hContent__span__heading {
+  @apply text-[38px] font-bold p-0;
+  border-bottom: solid 4px red;
+  transition: 0.6s;
+  white-space: nowrap;
+}
+.hContent__span__text {
+  @apply text-[18px] leading-8 font-medium;
+}
+.sFirst {
+  @apply flex w-full;
+}
+.sFirst__sideLeft {
+  @apply w-[55vw] flex flex-col gap-4;
+  padding: 80px var(--padding-x);
+  color: var(--primary);
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  transition: 0.6s;
+}
+.sFirst__sLeft__stripe {
+  border: 1px solid var(--primary);
+  @apply my-8;
+}
+.sFirst__sideLeft__heading {
+  @apply text-2xl font-bold mb-3;
+}
+.sFirst__sideLeft__textAbout {
+  @apply text-[1.15rem] leading-8;
+  color: var(--primary);
+}
+.sFirst__sideLeft__description {
+  @apply text-[1rem] text-gray-500 leading-7;
+}
+
+.sFirst__sLeft__cCard {
+  @apply w-full text-white min-h-[450px] bg-red-600;
+  padding: 50px 50px;
+}
+.sFirst__sLeft__cCard__content {
+  @apply flex flex-col gap-5 mt-7;
+}
+.sFirst__sLeft__cCard__cHeading {
+  @apply text-2xl font-bold;
+}
+.sFirst__sLeft__cCard__cStripe {
+  border: 1px solid white;
+  width: 20px;
+  align-self: center;
+}
+.sFirst__sLeft__cCard__second {
+  @apply hidden;
+}
+.sFirst__sideRight {
+  @apply w-[45vw] bg-[#f5f5f5] flex flex-col gap-3 items-start;
+  padding: 80px var(--padding-x);
+}
+.sFirst__sideRight > h1 {
+  @apply text-2xl font-bold mb-3;
+}
+@media (max-width: 1100px) {
+  .hContent {
+    top: 35vh;
+  }
+  .sFirst {
+    @apply flex-col items-center;
+  }
+  .sFirst__sideLeft {
+    @apply w-screen;
+  }
+  .sFirst__sideRight {
+    @apply w-screen;
+  }
+}
+.building {
+  background-image: url("/images/bg-3.jpg");
+  height: 500px;
+  display: flex;
+  @apply justify-between w-screen items-center px-14 text-white text-3xl font-bold;
+  background-position: center center;
+}
+.building > p {
+  font-size: 20px;
+  width: 70%;
+}
+
+@media (max-width: 900px) {
+  .hContent {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+.directorQuote {
+  @apply bg-[#f2f2f2] px-8 flex justify-center my-10 items-center w-screen h-[550px];
+}
+.directorImg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  obtain-content: cover;
+  @apply bg-[url("/images/director.jpg")] h-full w-[50%];
+}
+.quote {
+  @apply text-lg flex font-bold flex-col text-[#2d2d2d] items-center justify-center gap-6 h-full w-[50%];
+}
+.quote > h1 {
+  @apply text-3xl;
+}

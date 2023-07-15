@@ -1,0 +1,68 @@
+.heading {
+  font-weight: 600;
+  margin: 0 5rem;
+  font-size: 36px;
+  margin-top: 24rem;
+}
+.achievements_page {
+  padding: 30px 0;
+}
+.achievement_container > article > div > div > h1 {
+  color: black !important;
+  font-size: 22px;
+  text-align: center;
+}
+.achievement_container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+.achievement_container > article > div {
+  padding-bottom: 0px !important;
+}
+.achievement_container > article > div:nth-child(2) {
+  margin-left: 30px;
+  margin-top: 0px;
+  width: auto;
+}
+.achievement_container > article > div:nth-child(3) > p {
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 600;
+  color: #8f8f8f;
+}
+.achievement_container > article > div:nth-child(3) {
+  margin: 0 30px 30px;
+  border-top: solid 3px black;
+}
+.achievement_container > article > div:nth-child(3) > svg {
+  display: none;
+}
+
+.achievements > article > div > div > h1 {
+  color: black !important;
+  font-size: 22px;
+  text-align: center;
+}
+.achievements {
+  margin: 0 30px;
+}
+.achievements > article > div {
+  padding-bottom: 0px !important;
+}
+.achievements > article > div:nth-child(2) {
+  margin: 0 30px 30px;
+}
+.achievements > article > div:nth-child(3) > p {
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 600;
+  color: #8f8f8f;
+}
+.achievements > article > div:nth-child(3) {
+  margin: 0 30px 30px;
+  border-top: solid 3px black;
+}
+.achievements > article > div:nth-child(3) > svg {
+  display: none;
+}

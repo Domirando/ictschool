@@ -1,0 +1,39 @@
+.header_title {
+  font-weight: 600;
+  font-size: 42px;
+  margin-top: 350px;
+  margin-left: 4rem;
+}
+.law_documents {
+  display: flex;
+  margin: 3rem 3rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.law_documents > article {
+  width: 30%;
+}
+.law_documents > article > div > div > h1 {
+  font-size: 21px;
+  font-weight: 300;
+  color: #383838;
+}
+.law_documents > article > div {
+  padding: 0px;
+  justify-content: center;
+}
+.law_documents > article > div:nth-child(2) {
+  margin: 0;
+}
+.law_documents > article > div:nth-child(2) > span > p {
+  text-align: center;
+}
+.law_documents > article > div:nth-child(3) {
+  margin: 20px 0;
+}
+.law_documents > article > div:nth-child(3) > svg {
+  display: none;
+}
+.law_documents > article > div:nth-child(3) > a > svg {
+  display: none;
+}

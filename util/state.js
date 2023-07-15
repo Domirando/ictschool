@@ -11,19 +11,19 @@ let state = {
       submenu: [
         {
           title: "Maktab haqida",
-          url: "/maktab-hayoti",
+          url: "/school-life",
           submenu: [
             {
               title: "Maktab hayoti",
-              url: "/maktab-hayoti",
+              url: "/school-life",
               submenu: null,
             },
             {
               title: "Maktab yutuqlari",
-              url: "/maktab-yutuqlari",
+              url: "/school-achievements",
               submenu: null,
             },
-            { title: "Qonun hujjatlari", url: "/documents", submenu: null },
+            { title: "Qonun hujjatlari", url: "/law-documents", submenu: null },
           ],
         },
         {
@@ -43,9 +43,9 @@ let state = {
     },
     {
       title: "Qabul",
-      url: "/qabul",
+      url: "/admission",
       submenu: [
-        { title: "Qabul haqida", url: "/qabul", submenu: null },
+        { title: "Qabul haqida", url: "/admission", submenu: null },
         {
           title: "Onlayn hujjat topshirish",
           url: "https://ariza.piima.uz/",

@@ -3,7 +3,7 @@ import Image from "next/image";
 const CardTitle = ({ icon, title, bg, more }) => {
   return (
     <div className={`bg ${styles.title}`}>
-      <Image alt="" src={icon} width={50} height={50} />
+      {icon ? <Image alt="" src={icon} width={50} height={50} /> : null}
       <style jsx>{`
         .bg {
           @apply flex items-center py-7 gap-6 pl-8;

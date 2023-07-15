@@ -11,6 +11,7 @@ const Card = ({
   image_height = 280,
   description = "",
   icon = "",
+  download = false,
   more = true,
   footer_text = "Batafsil",
   header_color = "#3a3a7c",
@@ -28,7 +29,13 @@ const Card = ({
         <CardImage image={image} height={image_height} width={image_width} />
       ) : null}
       <CardDescription width={image_width} description={description} />
-      {footer ? <CardFooter footer_text={footer_text} anchor={anchor} /> : null}
+      {footer ? (
+        <CardFooter
+          footer_text={footer_text}
+          download={download}
+          anchor={anchor}
+        />
+      ) : null}
     </article>
   );
 };
