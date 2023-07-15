@@ -34,10 +34,7 @@ let state = {
         {
           title: "Ta`lim tizimi",
           url: "/edu-sys",
-          submenu: [
-            { title: "O'quv tizimi", url: "/edu-sys", submenu: null },
-            { title: "Qo'shimcha imkoniyatlar", url: "/smth", submenu: null },
-          ],
+          submenu: [{ title: "O'quv tizimi", url: "/edu-sys", submenu: null }],
         },
       ],
     },
