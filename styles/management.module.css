@@ -1,0 +1,12 @@
+.header_title {
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 370px;
+  margin-left: 70px;
+}
+.management {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 60px;
+}

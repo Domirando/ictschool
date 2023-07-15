@@ -29,7 +29,7 @@ let state = {
         {
           title: "Tuzilma",
           url: "/smth",
-          submenu: [{ title: "Rahbariyat", url: "/smth", submenu: null }],
+          submenu: [{ title: "Rahbariyat", url: "/management", submenu: null }],
         },
         {
           title: "Ta`lim tizimi",
