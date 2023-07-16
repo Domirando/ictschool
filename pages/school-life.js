@@ -3,7 +3,6 @@ import Button from "../components/Button";
 import CardImage from "../components/Card/CardImage";
 import CardDescription from "../components/Card/CardDescription";
 import { Item } from "../components/IconText";
-import Link from "next/link";
 import DescriptionList from "../components/Card/DescriptionList";
 import Image from "next/image";
 import styles from "../styles/school-life.module.css";

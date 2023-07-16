@@ -52,7 +52,7 @@ function SteamSubjects(props) {
             sohalardan biri hisoblanadi. Al-Xorazmiy nomidagi IT maktabda ham bu
             sohaga alohida e’tibor qaratilgan.
           </p>
-          <p>
+          <span>
             Robototexnika darslari orqali o’quvchilar quyidagi bilim va
             ko’nikmalarga ega bo’lib kelmoqdalar:
             <li key={"s1"}> – C dasturlash tili </li>
@@ -70,7 +70,7 @@ function SteamSubjects(props) {
               {" "}
               – Mustaqil ravishda turli xildagi Arduino proyektlar yasash
             </li>
-          </p>
+          </span>
           <p>
             <br />
             Barcha sinf o’quvchilarining robototexnika faniga katta qiziqish

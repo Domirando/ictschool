@@ -10,6 +10,15 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+@media (max-width: 1000px) {
+  .law_documents {
+    flex-direction: column;
+  }
+  .law_documents > article {
+    width: 100% !important;
+    margin-bottom: 60px;
+  }
+}
 .law_documents > article {
   width: 30%;
 }
