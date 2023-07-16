@@ -55,35 +55,6 @@ let state = {
       url: "/smth",
       submenu: [
         {
-          title: "Tanlov & Konkurslar",
-          url: "/smth",
-          submenu: [
-            {
-              title: "Al-Xorazmiy izdoshlari",
-              url: "/smth",
-              submenu: [{ title: "Kirish", url: "/smth", submenu: null }],
-            },
-            {
-              title: "Digital Camp",
-              url: "/",
-              submenu: null,
-            },
-            {
-              title: "GG Girls",
-              url: "/",
-              submenu: null,
-            },
-            { title: "E'lonlar", url: "/smth", submenu: null },
-            { title: "Tadbirlar", url: "/smth", submenu: null },
-            { title: "Olimpiadalar", url: "/smth", submenu: null },
-            {
-              title: "Startup Weekend",
-              url: "/",
-              submenu: null,
-            },
-          ],
-        },
-        {
           title: "Loyihalar",
           url: "/smth",
           submenu: [
@@ -113,7 +84,6 @@ let state = {
           ],
         },
         { title: "Onlayn darslar", url: "/smth", submenu: null },
-        { title: "O'quvchilar yotoqxonasi", url: "/smth", submenu: null },
       ],
     },
     {

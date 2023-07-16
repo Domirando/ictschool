@@ -9,6 +9,7 @@ const NewsContainer = () => {
       <div className={styles.news}>
         <div className={styles.news_box}>
           <News
+            link="https://t.me/ictschooluz/10109"
             title={
               "Ekologik ta’lim fondining (FEE) ta’lim masalalari bo‘yicha..."
             }
@@ -16,11 +17,13 @@ const NewsContainer = () => {
             date={"07.07.2023"}
           />
           <News
+            link="https://t.me/ictschooluz/10119"
             title={"ZIYO MASKANINING ZUKKO O‘QUVCHISI"}
             image={"/images/grant_golibi.jpg"}
             date={"07.07.2023"}
           />
           <News
+            link="https://t.me/ictschooluz/10122"
             title={"Xalqaro olimpiadadan yana 3 ta medal"}
             image={"/images/olimpiada_g.jpg"}
             date={"11.07.2023"}
@@ -28,16 +31,19 @@ const NewsContainer = () => {
         </div>
         <div className={styles.news_box}>
           <News
+            link="https://t.me/ictschooluz/10096"
             title={"AIDJONOVA GULASAL - XALQARO YOZGI DASTURINING GRANT SOHIBI"}
             image={"/images/portland_uni.jpg"}
             date={"03.07.2023"}
           />
           <News
+            link="https://t.me/ictschooluz/10099"
             title={"G‘ALABALAR MEHNATLAR SAMARASI"}
             image={"/images/xitoy_bejing.jpg"}
             date={"06.07.2023"}
           />
           <News
+            link="https://t.me/ictschooluz/10107"
             title={
               "Butunjahon ekologik ta'lim fondi direktori Pramond Kumar Sharma..."
             }
@@ -46,7 +52,6 @@ const NewsContainer = () => {
           />
         </div>
       </div>
-      <CardFooter text={"Barcha yangiliklar"} />
     </div>
   );
 };

@@ -14,7 +14,7 @@
   @apply border-[#212052] bg-[#212052] h-[2px] mb-4;
 }
 .news {
-  @apply flex gap-24;
+  @apply flex gap-24 mb-4;
 }
 .news_box {
   @apply flex flex-col  gap-8;
