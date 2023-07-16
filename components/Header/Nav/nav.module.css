@@ -3,6 +3,7 @@
 }
 .nav {
   margin: 50px 100px;
+  /* z-index: 9999; */
   @apply flex items-center justify-evenly relative;
 }
 @media screen and (max-width: 1360px) {

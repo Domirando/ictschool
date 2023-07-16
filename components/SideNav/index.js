@@ -2,6 +2,7 @@ import styles from "./styles.module.css";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
+import Link from "next/link";
 
 const SideNav = ({ open = false, state = ["no data on menu"], depth = 0 }) => {
   let [data, setData] = useState(false);
@@ -27,7 +28,9 @@ const SideNav = ({ open = false, state = ["no data on menu"], depth = 0 }) => {
     } else {
       return (
         <li key={index} className={styles.sidenav_item}>
-          <span>{item.title}</span>
+          <Link href={item.url} legacyBehavior>
+            <span>{item.title}</span>
+          </Link>
           <hr className={"w-full"} />
         </li>
       );
