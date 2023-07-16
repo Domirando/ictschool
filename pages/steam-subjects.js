@@ -18,7 +18,7 @@ function SteamSubjects(props) {
     <div className={styles.steam_steam_subjects_container}>
       <Page
         headerHeight={"90vh"}
-        headerBg={"/images/img.png"}
+        headerBg={"/images/img_1.png"}
         gradient="linear-gradient(0deg, hsla(0, 10%, 0%, 0.85), hsla(0, 50%, 0%, 0.87))"
         header={false}
         header__content={header_content}

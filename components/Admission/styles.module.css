@@ -17,9 +17,11 @@
   height: 100%;
   border: none;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
+  object-fit: fill;
+  background-size: cover;
   background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #171748),
-    url("/images/img_9.png");
+    url("/images/school.jpg");
 }
 @media (min-width: 1600px) {
   .leftImage {
