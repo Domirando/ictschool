@@ -23,10 +23,25 @@
   display: flex;
   justify-content: space-between;
   gap: 50px;
+  flex-wrap: wrap;
   margin: 70px 50px;
 }
+@media (max-width: 1000px) {
+  .contact_content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact_zone {
+    margin-bottom: 100px;
+    width: 100% !important;
+  }
+  .address {
+    width: 100% !important;
+  }
+}
 .contact_zone {
-  width: 60% !important;
+  width: 60%;
 }
 .address {
   width: 30%;
