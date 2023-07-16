@@ -5,10 +5,6 @@ import { useRouter } from "next/router";
 import Button from "../Button";
 
 const Admission = () => {
-  const router = useRouter();
-  let redirect = (link) => {
-    router.push(link);
-  };
   return (
     <section className={styles.container}>
       <div className={styles.leftImage}></div>
@@ -24,7 +20,7 @@ const Admission = () => {
             qilinadi.
           </p>
           <Button
-            onClick={() => redirect("https://ariza.piima.uz/")}
+            href="https://ariza.piima.uz/"
             border={"rounded-none"}
             text={"Ro'yxatdan o'tish"}
             bgcolor={"bg-[#3a3a7c]"}

@@ -7,7 +7,7 @@ const Button = ({
   uppercase = true,
   bgcolor,
   py = "py-2",
-  href = "/404",
+  href = "/",
 }) => {
   return (
     <button

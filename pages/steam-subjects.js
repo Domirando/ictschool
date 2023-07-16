@@ -5,13 +5,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function SteamSubjects(props) {
   let header_content = (
-    <h1 className={"flex justify-center items-center text-5xl font-bold px-24"}>
+    <h1
+      className={
+        "flex justify-center items-center text-4xl leading-[55px] font-bold mt-80 px-24"
+      }
+    >
       STEAM-tabiiy fanlar, texnologiya, muhandislik, san’at va matematika
       fanlarini uyg’unlikda o’qitish uslubi.
     </h1>
   );
   return (
-    <div>
+    <div className={styles.steam_steam_subjects_container}>
       <Page
         headerHeight={"90vh"}
         headerBg={"/images/img.png"}

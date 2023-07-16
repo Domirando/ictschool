@@ -49,6 +49,7 @@ const Follow = () => {
           text={"Obuna bo`lish"}
           bgcolor={"bg-[#c50227]"}
           uppercase={false}
+          href="/"
           border={"rounded-none"}
           py={"py-4"}
         />
