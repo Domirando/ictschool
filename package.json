@@ -13,6 +13,7 @@
     "check": "pnpm lint && pnpm fmt:check"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.7.1",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
@@ -20,12 +21,16 @@
     "@supabase/supabase-js": "^2.26.0",
     "@tanem/react-nprogress": "^5.0.44",
     "axios": "^1.4.0",
+    "gray-matter": "^4.0.3",
+    "leaflet": "^1.9.4",
     "next": "13.4.8",
     "next-absolute-url": "^1.2.2",
+    "nodemailer": "^6.9.3",
     "nprogress": "^0.2.0",
     "prop-types": "^15.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-leaflet": "^4.2.1",
     "react-scripts": "5.0.1",
     "swr": "^2.2.0"
   },

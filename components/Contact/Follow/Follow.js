@@ -7,6 +7,7 @@ import {
   faInstagram,
   faTelegram,
 } from "@fortawesome/free-brands-svg-icons";
+
 import Button from "../../Button";
 
 const Follow = () => {

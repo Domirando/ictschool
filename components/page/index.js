@@ -16,6 +16,7 @@ const Page = ({
   headerHeight,
   image,
   children,
+  t_desc,
   header__content = true,
 }) => {
   return (
@@ -27,6 +28,7 @@ const Page = ({
         headerBg={headerBg}
         gradient={gradient}
         image={image}
+        t_desc={t_desc}
         video={"/videos/video.mp4"}
         error_page={error_page}
         header_content={header__content}

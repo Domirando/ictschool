@@ -11,9 +11,6 @@ import * as solidIcons from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 
-const oldPosts = require("./api/old/posts");
-let date = oldPosts.slug;
-console.log(date);
 const SchoolLife = () => {
   return (
     <Page

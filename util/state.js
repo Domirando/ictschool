@@ -127,7 +127,7 @@ let state = {
       submenu: [
         {
           title: "Maktab bilan a'loqa",
-          url: "/smth",
+          url: "/contact",
           submenu: null,
         },
       ],

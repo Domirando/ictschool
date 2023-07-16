@@ -19,6 +19,7 @@ const Header = ({
   image,
   gradient,
   btn,
+  t_desc = null,
   headerBg = false,
   headerHeight,
   children,
@@ -114,7 +115,10 @@ const Header = ({
             message={"Sorry, we couldn't find the page you're looking for."}
           />
         ) : (
-          <div>{header_content}</div>
+          <div>
+            <span>{header_content}</span>
+            {t_desc ? <p>{t_desc}</p> : null}
+          </div>
         )}
       </div>
     </div>
