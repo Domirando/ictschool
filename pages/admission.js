@@ -153,8 +153,11 @@ function Admission() {
         <div className={styles.reg_haqida}>
           <h1>Regestratsiyadan O&#39;tish Haqida</h1>
           <p>
-            Muhammad al-Xorazmiy maktabiga imtihon topshirish uchun
-            regestratsiyadan o&#39;tishingiz kerak! <br />
+            Respublikada yagona bo‘lmish mazkur IT maktabga o‘quvchilar
+            Ixtisoslashtirilgan ta’lim muassasalari agentligi tomonidan
+            belgilangan kvota asosida 5-sinfdan qabul qilinadi. Muhammad
+            al-Xorazmiy maktabiga imtihon topshirish uchun regestratsiyadan
+            o&#39;tishingiz kerak! <br />
             Regestratsiyada esa sizdan 3x4 rasm, tu&#39;ilganlik haqida
             guvohnoma, baholar tabeli va ota-ona, topshirayotgan
             o&#39;quvchining ism shartifi kiritiladi. <br />
@@ -163,8 +166,11 @@ function Admission() {
             o&#39;qigan bo&#39;lishingiz kerak ya&#39;ni chorak va yillik 5 baho
             bo&#39;lishi kerak.
             <br />
-            Muhammad al-Xorazmiy maktabining 2022-yil qabuli 2011 yil
-            tug&#39;ilgan yani hozirda 4-sinfni bitirganlar uchun.{" "}
+            Muhammad al-Xorazmiy maktabining 2023-yil qabuli 2012 yil
+            tug&#39;ilgan yani hozirda 4-sinfni bitirganlar uchun. al-Xorazmiy
+            nomidagi ixtisoslashtirilgan maktabga o‘quvchilarni qabul qilish
+            hamda imtihon jarayonlari Vazirlar Mahkamasining 2023-yil 27-mayda
+            qabul qilingan №214-sonli qarori asosida olib boriladi.
           </p>
         </div>
         <div className={styles.cardsContainer}>
