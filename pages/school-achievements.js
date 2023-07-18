@@ -14,6 +14,46 @@ function SchoolAchievements() {
     >
       <div className={styles.achievements_page}>
         <div className={styles.achievement_container}>
+          <p className={styles.about_school}>
+            30 yil ichida O‘zbekiston ta&rsquo;lim tizimida misli ko‘rilmagan
+            islohotlar amalga oshirildi. Akademik litseylar. kasb-hunar
+            kollejlari, hunar maktablari, hamkorlikdagi Oliy O‘quv yurtlari...
+            Bu ro‘yxatni davom ettirish mumkin. Ayniqsa, Prezident ta&rsquo;lim
+            muassasalari agentligi va uning tasarrufidagi Prezident va
+            ixtisoslashtirilgan maktablar faoliyati ta&rsquo;limdagi eng yuqori
+            cho‘qqidir. Muhammad al-Xorazmiy nomidagi axborot texnologiyalariga
+            ixtisoslashtirilgan maktab bu tizimning qimmatbaho yoqut ko‘zi
+            desak, mubolag‘a bo‘lmaydi. Maktab 2019-yildan Sh.M. Mirziyoyev
+            rahnamoligida zamonaviy, hatto xorij ta&rsquo;lim talablariga javob
+            beradigan yangi binoda o‘z faoliyatini davom ettirmoqda. Maktab
+            asosan IT sohasiga yo‘naltirilganligi sababli zamonaviy standartlar 
+             asosida   jihozlangan bo‘lib, o‘quvchilar olgan  nazariy
+            bilimlarini amalda mustahkamlashlari uchun maxsus ishlab chiqilgan
+            uskunalar bilan boyitilgan. Ilmiy laboratoriyalar va namoyish
+            zallari, 500 o‘rinli faollar zali zamonaviy jihozlarga ega. 10 ta
+            so‘nggi modeldagi kompyuterlar bilan jihozlangan IT labaratoriyalari
+            ham mavjud. Robototexnika va sxemotexnika xonalari barcha zaruriy
+            texnika bilan jihozlangan. Maktab va yotoqxona hududida tibbiy
+            markaz va izolyator mavjud. Muassasa sportga katta e’tibor beradi.
+            Maktabning sport majmuasi barcha zarur jihozlar bilan jihozlangan.
+            125 nafar o‘quvchiga mo‘ljallangan,  6000 dan ziyod badiiy
+            adabiyotga ega bo‘lgan kutubxona   faoliyat ko‘rsatadi. Maktabda
+            matematika, ingliz tili, fizika, informatika fanlari
+            chuqurlashtirilib o‘qitiladi. Agentlik tomonidan tashkil etiladigan
+            fan olimpiadalarida maktab o‘quvchilari doimo faol, maktabda dars
+            beradigan pedagogik jamoa ham test, suhbat asosida saralab olingan.
+            Ixtisoslashtirilgan fanlar matematika, fizika, informatika va ingliz
+            tili bo‘yicha   alohida dastur ishlab chiqilgan,    fakultativ
+            darslar  tashkil etilgan. O‘quvchilar uchun  robototexnika va
+            sportning dzyudo turi bo‘yicha to‘garaklar tashkillashtirilgan.
+            Maktab faoliyatini yoritib borish, video darslar ishlab chiqish va
+            loyihalar ustida islash maqsadida, zamonaviy texnika bilan
+            jihozlangan  media markaz tashkil etilgan. Maktab o‘quvchilari 
+            matematika, fizika va informatika fanlaridan olimpiadalarda 
+            muntazam ishtirok etib kelishmoqda. 2020 yil O‘zbekistonda ilk bor
+            o‘tkazilgan  “Roboto-uz.” Musobaqasida Muhammad al-Xorazmiy maktabi
+            o‘quvchilari qatnashib sovrinli birinchi o‘rinni egallashgan.
+          </p>
           {/* goliblar */}
           <Card
             image={null}

@@ -4,6 +4,13 @@
   font-size: 36px;
   margin-top: 24rem;
 }
+.about_school {
+  margin: 35px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  font-family: "Roboto", sans-serif;
+}
 .achievements_page {
   padding: 30px 0;
 }

@@ -88,10 +88,11 @@ const SchoolLife = () => {
                   Jumladan, futbol, tennis va shu kabi mashg’ulotlariga
                   qatnashib bo’sh vaqtlarini unumli o’tkazishlari mumkin.
                   Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabida
-                  o&rsquo;quvchilar   nafaqat yaxshi ta’lim olish shart-sharoitlari,
-                  balki do&rsquo;stlar bilan turli xil seminar treninglarda
-                  qatnashib,  AKT olamininig mashhur brendlari joylashgan bog’da
-                  vaqtlarini maroq bilan o’tkazishlari mumkin. 
+                  o&rsquo;quvchilar   nafaqat yaxshi ta’lim olish
+                  shart-sharoitlari, balki do&rsquo;stlar bilan turli xil
+                  seminar treninglarda qatnashib,  AKT olamininig mashhur
+                  brendlari joylashgan bog’da vaqtlarini maroq bilan
+                  o’tkazishlari mumkin. 
                 </p>
               </div>
             </div>
