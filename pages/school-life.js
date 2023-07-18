@@ -86,7 +86,12 @@ const SchoolLife = () => {
                   Maktabimizda o’quvchilar asosiy darslaridan tashqari ko’plab
                   o’zlarini qiziqtirgan mashg’ulotlarga qatnashishlari mumkin.
                   Jumladan, futbol, tennis va shu kabi mashg’ulotlariga
-                  qatnashib bo’sh vaqtlarini unumli o’tkazishlari mumkin
+                  qatnashib bo’sh vaqtlarini unumli o’tkazishlari mumkin.
+                  Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan maktabida
+                  o&rsquo;quvchilar   nafaqat yaxshi ta’lim olish shart-sharoitlari,
+                  balki do&rsquo;stlar bilan turli xil seminar treninglarda
+                  qatnashib,  AKT olamininig mashhur brendlari joylashgan bog’da
+                  vaqtlarini maroq bilan o’tkazishlari mumkin. 
                 </p>
               </div>
             </div>
@@ -127,7 +132,7 @@ const SchoolLife = () => {
                 <Item
                   iconName={solidIcons.faCarSide}
                   text={"Transport"}
-                  description={`Maktabga olib boruvchi avtobus yoʻnalishlari - 18 23 30 44 95 110 119 129 152`}
+                  description={`Maktabga olib boruvchi avtobus yoʻnalishlari -  18 44 190 72 28 46 1 14 16`}
                 />
                 <Item
                   iconName={solidIcons.faBus}

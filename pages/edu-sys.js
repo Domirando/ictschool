@@ -23,6 +23,23 @@ function EduSys({
           ta asosiy fanlardan chuqur bilim oladilar. Bu o&rsquo;quv tizimi
           oquvchilarda AT, matematika, fizika fanlaridan o&rsquo;z istedodlarini
           va qobiliyatlarini maksimal darajada oshirish imkonini beradi.
+          Al-Xorazmiy nomidagi ixtisoslashtirilgan maktabni bitirgan o‘quvchilar
+          Axborot texnologiyalari sohasi boyicha Oliy ta’lim muassasalariga
+          kontrakt asosida o‘qishga kirish imkoniyatiga ega bo‘ladi.
+          <br />
+          <br />
+          IT maktabda 10-sinfga o‘tgan o‘quvchilar maxsus chuqurlashtirilgan
+          guruhlarga ajratilgan holda quyidagi sohalar bo‘yicha qo‘shimcha
+          ta’lim olishadi va 11-sinfni tamomlagan o‘quvchilar quyidagi sohalar
+          bo‘yicha mutaxassis bo‘lib yetishadi:
+          <br />
+          -Veb dasturlash;
+          <br />
+          -Mobil dasturlash
+          <br />
+          -Kompyuter grafikasi;
+          <br />
+          -Kompyuter tarmoqlari.
         </p>
         <div className={styles.images}>
           <Image

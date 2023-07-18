@@ -51,9 +51,13 @@ function Admission() {
           <div className={styles.praktika_haqida}>
             <h2>YOTOQXONA</h2>
             <p>
-              Muhammad al-Xorazmiy maktabi o&#39;z viloyatdan bo&#39;lgan
-              o&#39;quvchilariga chiroyli, shinam barcha jihozlarga ega
-              bo&#39;lgan zamonaviy yotoqxonalari bilan ham ta&#39;minlaydi!{" "}
+              Maktab yotoqxonasi 250 o‘ringa mo‘ljallangan bo‘lib, o‘quvchilar
+              uchun barcha shart-sharoitlarga ega. Unda faoliyat olib boruvchi
+              oliy ma’lumotli tarbiyachi-pedagoglar darsdan so‘ng
+              o‘quvchilarning uy vazifalarini tayyorlashlarida ko‘maklashadi.
+              O‘quvchilarning bo‘sh vaqtlarini mazmunli tashkil etishda turli
+              madaniy-ma’rifiy tadbirlar, qiziqarli uchrashuvlar, shuningdek,
+              muzey, teatr bo‘ylab turli sayohatlar tashkil etiladi.
             </p>
           </div>
           <div className={styles.img_yotoqxona} />
